@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Govt Jobs & Exams Tracker</title>
+<link rel="alternate" type="application/rss+xml" href="feed.xml">
+<style>
+:root{--bg:#12141a;--card:#1c1f27;--line:#2a2f3a;--text:#e8eaf0;--muted:#9aa3b2;
+--accent:#4da3ff;--red:#ff5c5c;--amber:#ffb24d;--green:#4cd07d}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:14px/1.5 system-ui,Segoe UI,Roboto,sans-serif}
+header{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+h1{font-size:19px}h1 span{color:var(--accent)}
+.sub{color:var(--muted);font-size:12px}
+.wrap{max-width:1180px;margin:0 auto;padding:16px 20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+.stat b{font-size:22px;color:var(--accent);display:block}
+.stat i{color:var(--muted);font-style:normal;font-size:11px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+input,select,button{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px}
+input{flex:1;min-width:200px}
+button{cursor:pointer}button:hover{border-color:var(--accent)}
+button.active{border-color:var(--accent);color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.card h3{font-size:14px;line-height:1.35}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.badge{font-size:10.5px;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--muted)}
+.badge.v{color:var(--green);border-color:var(--green)}
+.badge.u{color:var(--amber);border-color:var(--amber)}
+.badge.p-VeryHigh{color:#fff;background:var(--red);border-color:var(--red)}
+.badge.p-High{color:var(--red);border-color:var(--red)}
+.badge.p-Medium{color:var(--amber);border-color:var(--amber)}
+.meta{color:var(--muted);font-size:12px}
+.count{font-weight:700}
+.count.danger{color:var(--red)}.count.warn{color:var(--amber)}.count.ok{color:var(--green)}
+.actions{display:flex;gap:8px;margin-top:auto;flex-wrap:wrap}
+.actions a{color:var(--accent);text-decoration:none;font-size:12.5px}
+.actions a:hover{text-decoration:underline}
+.star{background:none;border:none;font-size:16px;color:var(--muted);padding:2px 6px}
+.star.on{color:var(--amber)}
+.applied-btn{font-size:11.5px;padding:4px 8px}
+.applied-btn.on{color:var(--green);border-color:var(--green)}
+footer{color:var(--muted);font-size:11.5px;padding:22px 20px;border-top:1px solid var(--line);margin-top:26px;text-align:center}
+.exports{display:flex;gap:8px;flex-wrap:wrap}
+.exports a{color:var(--muted);border:1px solid var(--line);border-radius:8px;padding:6px 10px;text-decoration:none;font-size:12px}
+.exports a:hover{color:var(--accent);border-color:var(--accent)}
+@media(max-width:640px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Govt Jobs & Exams <span>Intelligence Tracker</span></h1>
+    <div class="sub" id="updated">Loading...</div>
+  </div>
+  <div class="exports">
+    <a href="data/latest.csv" download>CSV</a>
+    <a href="data/latest.xlsx" download>Excel</a>
+    <a href="data/latest.pdf" download>PDF</a>
+    <a href="data.json" download>JSON</a>
+    <a href="feed.xml">RSS</a>
+  </div>
+</header>
+<div class="wrap">
+  <div class="stats" id="stats"></div>
+  <div class="controls">
+    <input id="q" placeholder="Search jobs, exams, organizations...">
+    <select id="fCat"><option value="">All categories</option></select>
+    <select id="fVer">
+      <option value="">All verification</option>
+      <option value="verified">Verified only</option>
+      <option value="unverified">Unverified</option>
+      <option value="closed">Closed/Expired</option>
+    </select>
+    <select id="fPri">
+      <option value="">All priorities</option>
+      <option>Very High</option><option>High</option><option>Medium</option><option>Low</option>
+    </select>
+    <button id="fOpen" class="active">Open only</button>
+    <button id="fFav">Bookmarked</button>
+    <button id="fApp">My applications</button>
+  </div>
+  <div class="grid" id="grid"></div>
+</div>
+<footer>
+  Data auto-collected daily from official government sources; aggregator finds are
+  labelled Unverified until an official notification confirms them. Always re-check
+  the official PDF before paying an application fee.
+</footer>
+<script>
+let DATA=[],favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]")),
+applied=new Set(JSON.parse(localStorage.getItem("applied")||"[]"));
+const $=id=>document.getElementById(id);
+const state={q:"",cat:"",ver:"",pri:"",open:true,fav:false,app:false};
+
+fetch("data.json").then(r=>r.json()).then(j=>{
+  DATA=j.notifications||[];
+  $("updated").textContent="Last updated: "+new Date(j.generated_at).toLocaleString("en-IN")
+    +" | "+DATA.length+" notifications tracked";
+  const cats=[...new Set(DATA.map(n=>n.category).filter(Boolean))];
+  cats.forEach(c=>{const o=document.createElement("option");o.textContent=c;$("fCat").appendChild(o)});
+  render();
+});
+
+function daysLabel(n){
+  if(n.days_left===null||n.days_left===undefined)return"";
+  if(n.days_left<0)return'<span class="count danger">closed</span>';
+  const cls=n.days_left<=3?"danger":n.days_left<=7?"warn":"ok";
+  return'<span class="count '+cls+'">'+n.days_left+' day'+(n.days_left===1?"":"s")+' left</span>';
+}
+const APPLIED_STATES=new Set(["Applied","Application Submitted","Already Applied",
+"Fee Pending","Fee Paid","Exam Scheduled","Admit Card Available","Exam Completed","Result Awaited"]);
+function isAppliedStatus(s){return APPLIED_STATES.has(s)}
+function isOpen(n){return n.days_left===null||n.days_left===undefined?
+  !/closed|expired|cancel/i.test(n.verification_status):n.days_left>=0}
+
+function render(){
+  const q=state.q.toLowerCase();
+  let rows=DATA.filter(n=>{
+    if(q&&!(n.job_name+" "+n.organization+" "+n.department+" "+n.tags+" "+n.qualification)
+      .toLowerCase().includes(q))return false;
+    if(state.cat&&n.category!==state.cat)return false;
+    if(state.ver==="verified"&&!/^Verified/.test(n.verification_status))return false;
+    if(state.ver==="unverified"&&n.verification_status!=="Unverified")return false;
+    if(state.ver==="closed"&&!/closed|expired/i.test(n.verification_status))return false;
+    if(state.pri&&n.priority!==state.pri)return false;
+    if(state.open&&!isOpen(n))return false;
+    if(state.fav&&!favs.has(n.notification_id))return false;
+    if(state.app&&!applied.has(n.notification_id)&&!isAppliedStatus(n.status))return false;
+    return true;
+  });
+  rows.sort((a,b)=>(a.days_left??9999)-(b.days_left??9999));
+  const st={total:DATA.length,open:DATA.filter(isOpen).length,
+    ver:DATA.filter(n=>/^Verified/.test(n.verification_status)).length,
+    urgent:DATA.filter(n=>n.days_left!==null&&n.days_left>=0&&n.days_left<=7).length,
+    applied:new Set([...DATA.filter(n=>isAppliedStatus(n.status)).map(n=>n.notification_id),...applied]).size,
+    showing:rows.length};
+  $("stats").innerHTML=
+    '<div class="stat"><b>'+st.total+'</b><i>Tracked</i></div>'+
+    '<div class="stat"><b>'+st.open+'</b><i>Open now</i></div>'+
+    '<div class="stat"><b>'+st.ver+'</b><i>Verified</i></div>'+
+    '<div class="stat"><b style="color:var(--red)">'+st.urgent+'</b><i>Closing in 7 days</i></div>'+
+    '<div class="stat"><b style="color:var(--green)">'+st.applied+'</b><i>Applied</i></div>'+
+    '<div class="stat"><b>'+st.showing+'</b><i>Showing</i></div>';
+  $("grid").innerHTML=rows.map(card).join("")||
+    '<div class="meta">Nothing matches the current filters.</div>';
+}
+
+function card(n){
+  const id=n.notification_id;
+  const ver=/^Verified/.test(n.verification_status);
+  return '<div class="card">'+
+    '<div style="display:flex;justify-content:space-between;gap:6px">'+
+    '<h3>'+esc(n.job_name)+'</h3>'+
+    '<button class="star'+(favs.has(id)?" on":"")+'" onclick="fav(\''+id+'\')">&#9733;</button></div>'+
+    '<div class="badges">'+
+    '<span class="badge '+(ver?"v":"u")+'">'+esc(n.verification_status)+'</span>'+
+    (n.priority&&n.priority!=="Low"?'<span class="badge p-'+n.priority.replace(" ","")+'">'+n.priority+'</span>':"")+
+    (n.category?'<span class="badge">'+esc(n.category)+'</span>':"")+
+    (n.state?'<span class="badge">'+esc(n.state)+'</span>':"")+'</div>'+
+    '<div class="meta">'+esc(n.organization||n.department||"")+
+    (n.vacancies?' | '+esc(String(n.vacancies))+' posts':'')+
+    (n.qualification?' | '+esc(n.qualification.slice(0,80)):'')+'</div>'+
+    '<div class="meta">Last date: <b>'+esc(n.application_end||"TBA")+'</b> '+daysLabel(n)+'</div>'+
+    '<div class="actions">'+
+    (n.apply_link?'<a href="'+esc(n.apply_link)+'" target="_blank" rel="noopener">Apply / details</a>':"")+
+    (n.official_pdf?'<a href="'+esc(n.official_pdf)+'" target="_blank" rel="noopener">Official PDF</a>':"")+
+    (n.official_website?'<a href="'+esc(n.official_website)+'" target="_blank" rel="noopener">Official site</a>':"")+
+    '<button class="applied-btn'+(applied.has(id)||isAppliedStatus(n.status)?" on":"")+
+    '" onclick="markApplied(\''+id+'\')">'+(applied.has(id)||isAppliedStatus(n.status)?"Applied":"Mark applied")+'</button>'+
+    '</div></div>';
+}
+function esc(s){return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function fav(id){favs.has(id)?favs.delete(id):favs.add(id);
+  localStorage.setItem("favs",JSON.stringify([...favs]));render()}
+function markApplied(id){applied.has(id)?applied.delete(id):applied.add(id);
+  localStorage.setItem("applied",JSON.stringify([...applied]));render()}
+
+$("q").oninput=e=>{state.q=e.target.value;render()};
+$("fCat").onchange=e=>{state.cat=e.target.value;render()};
+$("fVer").onchange=e=>{state.ver=e.target.value;render()};
+$("fPri").onchange=e=>{state.pri=e.target.value;render()};
+$("fOpen").onclick=e=>{state.open=!state.open;e.target.classList.toggle("active");render()};
+$("fFav").onclick=e=>{state.fav=!state.fav;e.target.classList.toggle("active");render()};
+$("fApp").onclick=e=>{state.app=!state.app;e.target.classList.toggle("active");render()};
+</script>
+</body>
+</html>

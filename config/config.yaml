@@ -1,0 +1,167 @@
+﻿# Government Jobs & Exams Intelligence Tracker - configuration
+# Secrets never go in this file. They come from environment variables
+# (or a .env file loaded by main.py). See docs-src/CONFIGURATION.md.
+
+owner:
+  name: Fairoz Khan
+  email: fairozkhanofficial@gmail.com
+  github: Darkweb2024
+  state: Karnataka
+  country: India
+
+paths:
+  database: data/tracker.db
+  reports: Reports
+  site: docs          # GitHub Pages serves from /docs on main branch
+  logs: logs
+
+schedule:
+  run_time_ist: "23:40"
+
+filters:
+  qualifications:
+    - 10th
+    - sslc
+    - 12th
+    - puc
+    - diploma
+    - iti
+    - b.e
+    - btech
+    - b.tech
+    - graduate
+    - engineering
+    - bca
+    - bsc
+    - mca
+    - any degree
+  branches:
+    - artificial intelligence
+    - machine learning
+    - computer science
+    - cse
+    - ise
+    - information science
+    - ece
+    - eee
+    - electronics
+    - mechanical
+    - civil
+    - data science
+    - cyber security
+    - cloud
+    - it
+  exclude_keywords:
+    - walk-in
+    - walkin
+    - consultancy
+    - consultant hiring
+    - training program fee
+    - paid course
+    - course admission
+    - franchise
+    - mlm
+  max_experience_years: 2
+  allowed_states:
+    - karnataka
+    - all india
+    - central
+  # central govt / PSU / banks / defence are always allowed regardless of state
+  track_keywords:
+    - ssc
+    - upsc
+    - kpsc
+    - kea
+    - ksp
+    - rrb
+    - rrc
+    - railway
+    - isro
+    - drdo
+    - bel
+    - hal
+    - bhel
+    - nal
+    - nhai
+    - nielit
+    - nic
+    - cdac
+    - ecil
+    - bsnl
+    - npcil
+    - barc
+    - sail
+    - gail
+    - iocl
+    - ongc
+    - hpcl
+    - bpcl
+    - army
+    - navy
+    - air force
+    - coast guard
+    - agniveer
+    - gate
+    - ugc net
+    - csir net
+    - ibps
+    - sbi
+    - rbi
+    - lic
+    - nabard
+    - fci
+    - bank
+    - teacher
+    - assistant
+    - scientist
+    - technician
+    - apprentice
+    - research
+    - project engineer
+    - data entry
+    - computer operator
+    - programmer
+    - software
+    - internship
+    - clerk
+    - constable
+    - stenographer
+    - junior engineer
+    - high court
+
+email:
+  enabled: true
+  to: fairozkhanofficial@gmail.com
+  # SMTP creds from env: TRACKER_SMTP_USER, TRACKER_SMTP_PASS (Gmail app password)
+  smtp_host: smtp.gmail.com
+  smtp_port: 587
+  attach: [pdf, csv, excel]
+
+mstodo:
+  enabled: true
+  # Azure app registration (free): set TRACKER_MS_CLIENT_ID in env.
+  # Device-code flow; token cached in data/ms_token_cache.json
+  lists:
+    verified_jobs: Verified Jobs
+    verified_exams: Verified Exams
+    applied_jobs: Applied Jobs
+    applied_exams: Applied Exams
+    deadlines: Deadlines
+
+whatsapp:
+  enabled: false
+  # Free option: CallMeBot (self-message). Set TRACKER_CALLMEBOT_PHONE and
+  # TRACKER_CALLMEBOT_APIKEY in env after one-time setup (docs-src/CONFIGURATION.md).
+  provider: callmebot
+
+sources:
+  isro: true
+  karnataka_high_court: true
+  kea: true
+  upsc: true
+  rrb: true
+  ibps: true
+  ssc: true
+  agnipath_vayu: true
+  employment_news: true
+  freejobalert: true
