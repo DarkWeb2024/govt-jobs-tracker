@@ -1,4 +1,6 @@
 """Verification: only official government domains can mark a record verified."""
+import json
+import os
 from datetime import datetime
 from urllib.parse import urlparse
 
@@ -11,6 +13,29 @@ OFFICIAL_DOMAINS = {
     "agnipathvayu.cdac.in", "joinindiannavy.gov.in", "joinindianarmy.nic.in",
     "rrbapply.gov.in",
 }
+
+ORG_REGISTRY = "data/organizations.json"
+
+
+def _load_registry_domains():
+    """Every domain in the master organization registry counts as official."""
+    if not os.path.exists(ORG_REGISTRY):
+        return
+    try:
+        with open(ORG_REGISTRY, encoding="utf-8") as f:
+            orgs = json.load(f).get("organizations", [])
+    except (OSError, ValueError):
+        return
+    for org in orgs:
+        for url in (org.get("website"), org.get("careers")):
+            if url:
+                host = urlparse(url).netloc.lower()
+                if host:
+                    OFFICIAL_DOMAINS.add(host)
+                    OFFICIAL_DOMAINS.add(host.removeprefix("www."))
+
+
+_load_registry_domains()
 
 
 def is_official(url):

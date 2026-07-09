@@ -1,0 +1,1389 @@
+{
+  "_comment": "Master registry of government recruiting organizations. Domains listed here extend the official-verification allowlist. New organizations discovered by scrapers are appended automatically by the pipeline.",
+  "organizations": [
+    {
+      "name": "Staff Selection Commission",
+      "short": "SSC",
+      "type": "central",
+      "state": "All India",
+      "website": "https://ssc.gov.in/",
+      "careers": "https://ssc.gov.in/candidate-portal"
+    },
+    {
+      "name": "Union Public Service Commission",
+      "short": "UPSC",
+      "type": "central",
+      "state": "All India",
+      "website": "https://upsc.gov.in/",
+      "careers": "https://upsconline.nic.in/"
+    },
+    {
+      "name": "Railway Recruitment Boards",
+      "short": "RRB",
+      "type": "central",
+      "state": "All India",
+      "website": "https://rrb.indianrailways.gov.in/",
+      "careers": "https://rrbapply.gov.in/"
+    },
+    {
+      "name": "RRB Bangalore",
+      "short": "RRB-BNC",
+      "type": "central",
+      "state": "Karnataka",
+      "website": "https://rrbbnc.gov.in/",
+      "careers": "https://rrbapply.gov.in/"
+    },
+    {
+      "name": "Railway Recruitment Cell South Western Railway",
+      "short": "RRC-SWR",
+      "type": "central",
+      "state": "Karnataka",
+      "website": "https://swr.indianrailways.gov.in/",
+      "careers": "https://rrchubli.in/"
+    },
+    {
+      "name": "Institute of Banking Personnel Selection",
+      "short": "IBPS",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.ibps.in/",
+      "careers": "https://www.ibps.in/index.php/crp-updates/"
+    },
+    {
+      "name": "State Bank of India",
+      "short": "SBI",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://sbi.co.in/",
+      "careers": "https://sbi.co.in/web/careers"
+    },
+    {
+      "name": "Reserve Bank of India",
+      "short": "RBI",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.rbi.org.in/",
+      "careers": "https://opportunities.rbi.org.in/"
+    },
+    {
+      "name": "NABARD",
+      "short": "NABARD",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.nabard.org/",
+      "careers": "https://www.nabard.org/careernotices.aspx"
+    },
+    {
+      "name": "Canara Bank",
+      "short": "CANARA",
+      "type": "bank",
+      "state": "Karnataka",
+      "website": "https://canarabank.com/",
+      "careers": "https://canarabank.com/careers"
+    },
+    {
+      "name": "Union Bank of India",
+      "short": "UBI",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.unionbankofindia.co.in/",
+      "careers": "https://www.unionbankofindia.co.in/english/recruitments.aspx"
+    },
+    {
+      "name": "Bank of Baroda",
+      "short": "BOB",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.bankofbaroda.in/",
+      "careers": "https://www.bankofbaroda.in/career"
+    },
+    {
+      "name": "Punjab National Bank",
+      "short": "PNB",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.pnbindia.in/",
+      "careers": "https://www.pnbindia.in/recruitments.aspx"
+    },
+    {
+      "name": "Bank of India",
+      "short": "BOI",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://bankofindia.co.in/",
+      "careers": "https://bankofindia.co.in/career"
+    },
+    {
+      "name": "Indian Bank",
+      "short": "INDIANBANK",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.indianbank.in/",
+      "careers": "https://www.indianbank.in/careers/"
+    },
+    {
+      "name": "Central Bank of India",
+      "short": "CBI-BANK",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.centralbankofindia.co.in/",
+      "careers": "https://www.centralbankofindia.co.in/en/recruitments"
+    },
+    {
+      "name": "UCO Bank",
+      "short": "UCO",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.ucobank.com/",
+      "careers": "https://www.ucobank.com/en/recruitment"
+    },
+    {
+      "name": "Bank of Maharashtra",
+      "short": "BOM",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://bankofmaharashtra.in/",
+      "careers": "https://bankofmaharashtra.in/current-openings"
+    },
+    {
+      "name": "Life Insurance Corporation of India",
+      "short": "LIC",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://licindia.in/",
+      "careers": "https://licindia.in/careers"
+    },
+    {
+      "name": "New India Assurance",
+      "short": "NIACL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.newindia.co.in/",
+      "careers": "https://www.newindia.co.in/portal/readMore/Recruitments"
+    },
+    {
+      "name": "United India Insurance",
+      "short": "UIIC",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://uiic.co.in/",
+      "careers": "https://uiic.co.in/en/recruitment"
+    },
+    {
+      "name": "National Insurance Company",
+      "short": "NICL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://nationalinsurance.nic.co.in/",
+      "careers": "https://nationalinsurance.nic.co.in/en/about-us/recruitment"
+    },
+    {
+      "name": "GIC Re",
+      "short": "GIC",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.gicre.in/",
+      "careers": "https://www.gicre.in/en/careers/"
+    },
+    {
+      "name": "Indian Space Research Organisation",
+      "short": "ISRO",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.isro.gov.in/",
+      "careers": "https://www.isro.gov.in/Careers.html"
+    },
+    {
+      "name": "U R Rao Satellite Centre",
+      "short": "URSC",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.ursc.gov.in/",
+      "careers": "https://www.isro.gov.in/Careers.html"
+    },
+    {
+      "name": "Defence Research and Development Organisation",
+      "short": "DRDO",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://www.drdo.gov.in/",
+      "careers": "https://rac.gov.in/"
+    },
+    {
+      "name": "Recruitment and Assessment Centre DRDO",
+      "short": "RAC",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://rac.gov.in/",
+      "careers": "https://rac.gov.in/"
+    },
+    {
+      "name": "Bharat Electronics Limited",
+      "short": "BEL",
+      "type": "psu",
+      "state": "Karnataka",
+      "website": "https://bel-india.in/",
+      "careers": "https://bel-india.in/career/"
+    },
+    {
+      "name": "Hindustan Aeronautics Limited",
+      "short": "HAL",
+      "type": "psu",
+      "state": "Karnataka",
+      "website": "https://hal-india.co.in/",
+      "careers": "https://hal-india.co.in/Career"
+    },
+    {
+      "name": "Bharat Heavy Electricals Limited",
+      "short": "BHEL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.bhel.com/",
+      "careers": "https://careers.bhel.in/"
+    },
+    {
+      "name": "Bharat Earth Movers Limited",
+      "short": "BEML",
+      "type": "psu",
+      "state": "Karnataka",
+      "website": "https://www.bemlindia.in/",
+      "careers": "https://www.bemlindia.in/career/"
+    },
+    {
+      "name": "Bharat Dynamics Limited",
+      "short": "BDL",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://bdl-india.in/",
+      "careers": "https://bdl-india.in/career"
+    },
+    {
+      "name": "Mishra Dhatu Nigam",
+      "short": "MIDHANI",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://midhani-india.in/",
+      "careers": "https://midhani-india.in/careers/"
+    },
+    {
+      "name": "Mazagon Dock Shipbuilders",
+      "short": "MDL",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://mazagondock.in/",
+      "careers": "https://mazagondock.in/Current-Openings"
+    },
+    {
+      "name": "Garden Reach Shipbuilders",
+      "short": "GRSE",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://grse.in/",
+      "careers": "https://grse.in/careers/"
+    },
+    {
+      "name": "Cochin Shipyard",
+      "short": "CSL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://cochinshipyard.in/",
+      "careers": "https://cochinshipyard.in/careers"
+    },
+    {
+      "name": "National Aerospace Laboratories",
+      "short": "NAL",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.nal.res.in/",
+      "careers": "https://www.nal.res.in/en/careers"
+    },
+    {
+      "name": "NIELIT",
+      "short": "NIELIT",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.nielit.gov.in/",
+      "careers": "https://www.nielit.gov.in/content/recruitment"
+    },
+    {
+      "name": "National Informatics Centre",
+      "short": "NIC",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.nic.in/",
+      "careers": "https://www.nic.in/careers/"
+    },
+    {
+      "name": "Centre for Development of Advanced Computing",
+      "short": "CDAC",
+      "type": "research",
+      "state": "All India",
+      "website": "https://www.cdac.in/",
+      "careers": "https://www.cdac.in/index.aspx?id=ca_current_jobs"
+    },
+    {
+      "name": "Bhabha Atomic Research Centre",
+      "short": "BARC",
+      "type": "research",
+      "state": "All India",
+      "website": "https://www.barc.gov.in/",
+      "careers": "https://recruit.barc.gov.in/"
+    },
+    {
+      "name": "Nuclear Power Corporation of India",
+      "short": "NPCIL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://npcil.nic.in/",
+      "careers": "https://npcilcareers.co.in/"
+    },
+    {
+      "name": "Uranium Corporation of India",
+      "short": "UCIL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.ucil.gov.in/",
+      "careers": "https://www.ucil.gov.in/"
+    },
+    {
+      "name": "GAIL India",
+      "short": "GAIL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://gailonline.com/",
+      "careers": "https://gailonline.com/CRcurrentopenings.html"
+    },
+    {
+      "name": "Steel Authority of India",
+      "short": "SAIL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://sail.co.in/",
+      "careers": "https://sail.co.in/en/careers"
+    },
+    {
+      "name": "Oil and Natural Gas Corporation",
+      "short": "ONGC",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://ongcindia.com/",
+      "careers": "https://ongcindia.com/web/eng/career"
+    },
+    {
+      "name": "Indian Oil Corporation",
+      "short": "IOCL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://iocl.com/",
+      "careers": "https://iocl.com/latest-job-opening"
+    },
+    {
+      "name": "Hindustan Petroleum",
+      "short": "HPCL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.hindustanpetroleum.com/",
+      "careers": "https://www.hindustanpetroleum.com/pages/Job-Opportunities"
+    },
+    {
+      "name": "Bharat Petroleum",
+      "short": "BPCL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.bharatpetroleum.in/",
+      "careers": "https://www.bharatpetroleum.in/careers/current-openings.aspx"
+    },
+    {
+      "name": "NTPC Limited",
+      "short": "NTPC",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.ntpc.co.in/",
+      "careers": "https://careers.ntpc.co.in/"
+    },
+    {
+      "name": "Power Grid Corporation",
+      "short": "POWERGRID",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.powergrid.in/",
+      "careers": "https://www.powergrid.in/career-section"
+    },
+    {
+      "name": "NHPC Limited",
+      "short": "NHPC",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.nhpcindia.com/",
+      "careers": "https://www.nhpcindia.com/en/career"
+    },
+    {
+      "name": "NLC India",
+      "short": "NLC",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.nlcindia.in/",
+      "careers": "https://www.nlcindia.in/index.php/careers/"
+    },
+    {
+      "name": "Coal India Limited",
+      "short": "CIL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.coalindia.in/",
+      "careers": "https://www.coalindia.in/careers/"
+    },
+    {
+      "name": "Bharat Sanchar Nigam Limited",
+      "short": "BSNL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.bsnl.co.in/",
+      "careers": "https://www.bsnl.co.in/careers"
+    },
+    {
+      "name": "RailTel Corporation",
+      "short": "RAILTEL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.railtelindia.com/",
+      "careers": "https://www.railtelindia.com/careers/"
+    },
+    {
+      "name": "RITES Limited",
+      "short": "RITES",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://rites.com/",
+      "careers": "https://rites.com/career"
+    },
+    {
+      "name": "IRCON International",
+      "short": "IRCON",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.ircon.org/",
+      "careers": "https://www.ircon.org/index.php/careers"
+    },
+    {
+      "name": "Rail Vikas Nigam Limited",
+      "short": "RVNL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://rvnl.org/",
+      "careers": "https://rvnl.org/career"
+    },
+    {
+      "name": "Container Corporation of India",
+      "short": "CONCOR",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://concorindia.co.in/",
+      "careers": "https://concorindia.co.in/career.aspx"
+    },
+    {
+      "name": "DFCCIL",
+      "short": "DFCCIL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://dfccil.com/",
+      "careers": "https://dfccil.com/Home/DynemicPages?MenuId=87"
+    },
+    {
+      "name": "Centre for Railway Information Systems",
+      "short": "CRIS",
+      "type": "central",
+      "state": "All India",
+      "website": "https://cris.org.in/",
+      "careers": "https://cris.org.in/CRIS/careers"
+    },
+    {
+      "name": "National Highways Authority of India",
+      "short": "NHAI",
+      "type": "central",
+      "state": "All India",
+      "website": "https://nhai.gov.in/",
+      "careers": "https://nhai.gov.in/#/vacancies"
+    },
+    {
+      "name": "Airports Authority of India",
+      "short": "AAI",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.aai.aero/",
+      "careers": "https://www.aai.aero/en/careers/recruitment"
+    },
+    {
+      "name": "Food Corporation of India",
+      "short": "FCI",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://fci.gov.in/",
+      "careers": "https://fci.gov.in/category-jobs.php"
+    },
+    {
+      "name": "Electronics Corporation of India",
+      "short": "ECIL",
+      "type": "psu",
+      "state": "All India",
+      "website": "https://www.ecil.co.in/",
+      "careers": "https://careers.ecil.co.in/"
+    },
+    {
+      "name": "Employees Provident Fund Organisation",
+      "short": "EPFO",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.epfindia.gov.in/",
+      "careers": "https://www.epfindia.gov.in/site_en/Recruitments.php"
+    },
+    {
+      "name": "Employees State Insurance Corporation",
+      "short": "ESIC",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.esic.gov.in/",
+      "careers": "https://www.esic.gov.in/recruitments"
+    },
+    {
+      "name": "India Post",
+      "short": "INDIAPOST",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.indiapost.gov.in/",
+      "careers": "https://indiapostgdsonline.gov.in/"
+    },
+    {
+      "name": "Intelligence Bureau (MHA)",
+      "short": "IB",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.mha.gov.in/",
+      "careers": "https://www.ncs.gov.in/"
+    },
+    {
+      "name": "Indian Army",
+      "short": "ARMY",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://joinindianarmy.nic.in/",
+      "careers": "https://joinindianarmy.nic.in/"
+    },
+    {
+      "name": "Indian Navy",
+      "short": "NAVY",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://www.joinindiannavy.gov.in/",
+      "careers": "https://www.joinindiannavy.gov.in/"
+    },
+    {
+      "name": "Indian Air Force",
+      "short": "IAF",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://indianairforce.nic.in/",
+      "careers": "https://agnipathvayu.cdac.in/"
+    },
+    {
+      "name": "Indian Coast Guard",
+      "short": "ICG",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://joinindiancoastguard.cdac.in/",
+      "careers": "https://joinindiancoastguard.cdac.in/"
+    },
+    {
+      "name": "Kendriya Vidyalaya Sangathan",
+      "short": "KVS",
+      "type": "central",
+      "state": "All India",
+      "website": "https://kvsangathan.nic.in/",
+      "careers": "https://kvsangathan.nic.in/vacancy-details"
+    },
+    {
+      "name": "Navodaya Vidyalaya Samiti",
+      "short": "NVS",
+      "type": "central",
+      "state": "All India",
+      "website": "https://navodaya.gov.in/",
+      "careers": "https://navodaya.gov.in/nvs/en/Recruitment/Notification/"
+    },
+    {
+      "name": "CSIR",
+      "short": "CSIR",
+      "type": "research",
+      "state": "All India",
+      "website": "https://www.csir.res.in/",
+      "careers": "https://www.csir.res.in/careers"
+    },
+    {
+      "name": "Central Food Technological Research Institute",
+      "short": "CFTRI",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.cftri.res.in/",
+      "careers": "https://www.cftri.res.in/opportunities"
+    },
+    {
+      "name": "Central Power Research Institute",
+      "short": "CPRI",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.cpri.res.in/",
+      "careers": "https://www.cpri.res.in/careers"
+    },
+    {
+      "name": "Central Manufacturing Technology Institute",
+      "short": "CMTI",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://cmti.res.in/",
+      "careers": "https://cmti.res.in/careers/"
+    },
+    {
+      "name": "Raman Research Institute",
+      "short": "RRI",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.rri.res.in/",
+      "careers": "https://www.rri.res.in/opportunities"
+    },
+    {
+      "name": "Indian Institute of Astrophysics",
+      "short": "IIA",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.iiap.res.in/",
+      "careers": "https://www.iiap.res.in/opportunities/"
+    },
+    {
+      "name": "Jawaharlal Nehru Centre for Advanced Scientific Research",
+      "short": "JNCASR",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.jncasr.ac.in/",
+      "careers": "https://www.jncasr.ac.in/positions"
+    },
+    {
+      "name": "National Centre for Biological Sciences",
+      "short": "NCBS",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.ncbs.res.in/",
+      "careers": "https://www.ncbs.res.in/careers"
+    },
+    {
+      "name": "Institute for Stem Cell Science and Regenerative Medicine",
+      "short": "InStem",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://instem.res.in/",
+      "careers": "https://instem.res.in/careers"
+    },
+    {
+      "name": "Indian Institute of Science",
+      "short": "IISc",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://iisc.ac.in/",
+      "careers": "https://iisc.ac.in/positions-open/"
+    },
+    {
+      "name": "Indian Statistical Institute Bangalore",
+      "short": "ISI-B",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://www.isibang.ac.in/",
+      "careers": "https://www.isibang.ac.in/~admin/jobs.html"
+    },
+    {
+      "name": "IIM Bangalore",
+      "short": "IIMB",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://www.iimb.ac.in/",
+      "careers": "https://www.iimb.ac.in/careers-iimb"
+    },
+    {
+      "name": "IIIT Bangalore",
+      "short": "IIITB",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://www.iiitb.ac.in/",
+      "careers": "https://www.iiitb.ac.in/careers"
+    },
+    {
+      "name": "NIT Karnataka Surathkal",
+      "short": "NITK",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://www.nitk.ac.in/",
+      "careers": "https://www.nitk.ac.in/careers"
+    },
+    {
+      "name": "IIT Dharwad",
+      "short": "IITDH",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://www.iitdh.ac.in/",
+      "careers": "https://www.iitdh.ac.in/careers"
+    },
+    {
+      "name": "NIMHANS",
+      "short": "NIMHANS",
+      "type": "medical",
+      "state": "Karnataka",
+      "website": "https://nimhans.ac.in/",
+      "careers": "https://nimhans.ac.in/recruitment-2/"
+    },
+    {
+      "name": "AIIMS New Delhi",
+      "short": "AIIMS",
+      "type": "medical",
+      "state": "All India",
+      "website": "https://www.aiims.edu/",
+      "careers": "https://www.aiimsexams.ac.in/"
+    },
+    {
+      "name": "ICMR",
+      "short": "ICMR",
+      "type": "medical",
+      "state": "All India",
+      "website": "https://www.icmr.gov.in/",
+      "careers": "https://www.icmr.gov.in/vacancies"
+    },
+    {
+      "name": "ICAR",
+      "short": "ICAR",
+      "type": "research",
+      "state": "All India",
+      "website": "https://icar.org.in/",
+      "careers": "https://icar.org.in/vacancies"
+    },
+    {
+      "name": "Indian Institute of Horticultural Research",
+      "short": "IIHR",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://iihr.res.in/",
+      "careers": "https://iihr.res.in/recruitment"
+    },
+    {
+      "name": "Coffee Board of India",
+      "short": "COFFEEBOARD",
+      "type": "central",
+      "state": "Karnataka",
+      "website": "https://coffeeboard.gov.in/",
+      "careers": "https://coffeeboard.gov.in/career.html"
+    },
+    {
+      "name": "Karnataka Public Service Commission",
+      "short": "KPSC",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://kpsc.kar.nic.in/",
+      "careers": "https://kpsc.kar.nic.in/"
+    },
+    {
+      "name": "Karnataka Examinations Authority",
+      "short": "KEA",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://cetonline.karnataka.gov.in/kea/",
+      "careers": "https://cetonline.karnataka.gov.in/kea/"
+    },
+    {
+      "name": "Karnataka State Police",
+      "short": "KSP",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://ksp.karnataka.gov.in/",
+      "careers": "https://ksp-recruitment.in/"
+    },
+    {
+      "name": "High Court of Karnataka",
+      "short": "KHC",
+      "type": "court",
+      "state": "Karnataka",
+      "website": "https://judiciary.karnataka.gov.in/",
+      "careers": "https://judiciary.karnataka.gov.in/recruitment.php"
+    },
+    {
+      "name": "Karnataka District Courts",
+      "short": "KDC",
+      "type": "court",
+      "state": "Karnataka",
+      "website": "https://districts.ecourts.gov.in/",
+      "careers": "https://districts.ecourts.gov.in/"
+    },
+    {
+      "name": "Bangalore Metro Rail Corporation",
+      "short": "BMRCL",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://english.bmrc.co.in/",
+      "careers": "https://english.bmrc.co.in/careers/"
+    },
+    {
+      "name": "Karnataka Rural Infrastructure Development",
+      "short": "KRIDL",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://kridl.karnataka.gov.in/",
+      "careers": "https://kridl.karnataka.gov.in/"
+    },
+    {
+      "name": "Bruhat Bengaluru Mahanagara Palike",
+      "short": "BBMP",
+      "type": "municipal",
+      "state": "Karnataka",
+      "website": "https://bbmp.gov.in/",
+      "careers": "https://bbmp.gov.in/"
+    },
+    {
+      "name": "Bangalore Development Authority",
+      "short": "BDA",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://bdabangalore.org/",
+      "careers": "https://bdabangalore.org/"
+    },
+    {
+      "name": "Bangalore Water Supply and Sewerage Board",
+      "short": "BWSSB",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://bwssb.karnataka.gov.in/",
+      "careers": "https://bwssb.karnataka.gov.in/"
+    },
+    {
+      "name": "Karnataka Power Corporation",
+      "short": "KPCL",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://kpcl.karnataka.gov.in/",
+      "careers": "https://kpcl.karnataka.gov.in/"
+    },
+    {
+      "name": "Karnataka Power Transmission Corporation",
+      "short": "KPTCL",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://kptcl.karnataka.gov.in/",
+      "careers": "https://kptcl.karnataka.gov.in/"
+    },
+    {
+      "name": "Bangalore Electricity Supply Company",
+      "short": "BESCOM",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://bescom.karnataka.gov.in/",
+      "careers": "https://bescom.karnataka.gov.in/"
+    },
+    {
+      "name": "Karnataka State Road Transport Corporation",
+      "short": "KSRTC",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://ksrtc.karnataka.gov.in/",
+      "careers": "https://ksrtc.karnataka.gov.in/"
+    },
+    {
+      "name": "Bangalore Metropolitan Transport Corporation",
+      "short": "BMTC",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://mybmtc.karnataka.gov.in/",
+      "careers": "https://mybmtc.karnataka.gov.in/"
+    },
+    {
+      "name": "Karnataka Milk Federation",
+      "short": "KMF",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://kmfnandini.coop/",
+      "careers": "https://kmfnandini.coop/en/careers"
+    },
+    {
+      "name": "Karnataka Forest Department",
+      "short": "KFD",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://aranya.gov.in/",
+      "careers": "https://aranya.gov.in/"
+    },
+    {
+      "name": "Rural Development and Panchayat Raj Karnataka",
+      "short": "RDPR",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://rdpr.karnataka.gov.in/",
+      "careers": "https://rdpr.karnataka.gov.in/"
+    },
+    {
+      "name": "Department of School Education Karnataka",
+      "short": "DSEK",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://schooleducation.karnataka.gov.in/",
+      "careers": "https://schooleducation.karnataka.gov.in/"
+    },
+    {
+      "name": "Department of Collegiate Education Karnataka",
+      "short": "DCE-K",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://dce.karnataka.gov.in/",
+      "careers": "https://dce.karnataka.gov.in/"
+    },
+    {
+      "name": "Visvesvaraya Technological University",
+      "short": "VTU",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://vtu.ac.in/",
+      "careers": "https://vtu.ac.in/en/category/careers/"
+    },
+    {
+      "name": "Bangalore University",
+      "short": "BU",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://bangaloreuniversity.karnataka.gov.in/",
+      "careers": "https://bangaloreuniversity.karnataka.gov.in/"
+    },
+    {
+      "name": "University of Mysore",
+      "short": "UOM",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://uni-mysore.ac.in/",
+      "careers": "https://uni-mysore.ac.in/english-version/recruitment"
+    },
+    {
+      "name": "Rajiv Gandhi University of Health Sciences",
+      "short": "RGUHS",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://www.rguhs.ac.in/",
+      "careers": "https://www.rguhs.ac.in/"
+    },
+    {
+      "name": "University of Agricultural Sciences Bangalore",
+      "short": "UASB",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://www.uasbangalore.edu.in/",
+      "careers": "https://www.uasbangalore.edu.in/index.php/careers"
+    },
+    {
+      "name": "Karnataka State Open University",
+      "short": "KSOU",
+      "type": "university",
+      "state": "Karnataka",
+      "website": "https://ksoumysuru.ac.in/",
+      "careers": "https://ksoumysuru.ac.in/"
+    },
+    {
+      "name": "Karnataka Industrial Area Development Board",
+      "short": "KIADB",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://kiadb.karnataka.gov.in/",
+      "careers": "https://kiadb.karnataka.gov.in/"
+    },
+    {
+      "name": "Karnataka Soaps and Detergents",
+      "short": "KSDL",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://www.mysoresandal.co.in/",
+      "careers": "https://www.mysoresandal.co.in/"
+    },
+    {
+      "name": "Mysore Sales International",
+      "short": "MSIL",
+      "type": "state-psu",
+      "state": "Karnataka",
+      "website": "https://www.msilonline.com/",
+      "careers": "https://www.msilonline.com/careers.aspx"
+    },
+    {
+      "name": "Karnataka State Pollution Control Board",
+      "short": "KSPCB",
+      "type": "state",
+      "state": "Karnataka",
+      "website": "https://kspcb.karnataka.gov.in/",
+      "careers": "https://kspcb.karnataka.gov.in/"
+    },
+    {
+      "name": "Gas Turbine Research Establishment DRDO",
+      "short": "GTRE",
+      "type": "defence",
+      "state": "Karnataka",
+      "website": "https://www.drdo.gov.in/labs-and-establishments/gas-turbine-research-establishment-gtre",
+      "careers": "https://rac.gov.in/"
+    },
+    {
+      "name": "Aeronautical Development Establishment DRDO",
+      "short": "ADE",
+      "type": "defence",
+      "state": "Karnataka",
+      "website": "https://www.drdo.gov.in/labs-and-establishments/aeronautical-development-establishment-ade",
+      "careers": "https://rac.gov.in/"
+    },
+    {
+      "name": "Centre for Artificial Intelligence and Robotics DRDO",
+      "short": "CAIR",
+      "type": "defence",
+      "state": "Karnataka",
+      "website": "https://www.drdo.gov.in/labs-and-establishments/centre-artificial-intelligence-robotics-cair",
+      "careers": "https://rac.gov.in/"
+    },
+    {
+      "name": "LRDE DRDO",
+      "short": "LRDE",
+      "type": "defence",
+      "state": "Karnataka",
+      "website": "https://www.drdo.gov.in/labs-and-establishments/electronics-radar-development-establishment-lrde",
+      "careers": "https://rac.gov.in/"
+    },
+    {
+      "name": "Semi-Conductor Laboratory",
+      "short": "SCL",
+      "type": "research",
+      "state": "All India",
+      "website": "https://www.scl.gov.in/",
+      "careers": "https://www.scl.gov.in/"
+    },
+    {
+      "name": "Unique Identification Authority of India",
+      "short": "UIDAI",
+      "type": "central",
+      "state": "All India",
+      "website": "https://uidai.gov.in/",
+      "careers": "https://uidai.gov.in/en/about-uidai/vacancies.html"
+    },
+    {
+      "name": "National Payments Corporation of India",
+      "short": "NPCI",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.npci.org.in/",
+      "careers": "https://www.npci.org.in/who-we-are/careers"
+    },
+    {
+      "name": "SIDBI",
+      "short": "SIDBI",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.sidbi.in/",
+      "careers": "https://www.sidbi.in/careers"
+    },
+    {
+      "name": "EXIM Bank",
+      "short": "EXIM",
+      "type": "bank",
+      "state": "All India",
+      "website": "https://www.eximbankindia.in/",
+      "careers": "https://www.eximbankindia.in/careers"
+    },
+    {
+      "name": "Securities and Exchange Board of India",
+      "short": "SEBI",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.sebi.gov.in/",
+      "careers": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecruitment=yes"
+    },
+    {
+      "name": "Insurance Regulatory Authority",
+      "short": "IRDAI",
+      "type": "central",
+      "state": "All India",
+      "website": "https://irdai.gov.in/",
+      "careers": "https://irdai.gov.in/careers"
+    },
+    {
+      "name": "Ministry of Electronics and IT",
+      "short": "MEITY",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.meity.gov.in/",
+      "careers": "https://www.meity.gov.in/vacancies"
+    },
+    {
+      "name": "Department of Science and Technology",
+      "short": "DST",
+      "type": "central",
+      "state": "All India",
+      "website": "https://dst.gov.in/",
+      "careers": "https://dst.gov.in/whatsnew/vacancies"
+    },
+    {
+      "name": "Department of Space",
+      "short": "DOS",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.isro.gov.in/",
+      "careers": "https://www.isro.gov.in/Careers.html"
+    },
+    {
+      "name": "IN-SPACe",
+      "short": "INSPACE",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.inspace.gov.in/",
+      "careers": "https://www.inspace.gov.in/inspace?id=inspace_careers"
+    },
+    {
+      "name": "NewSpace India Limited",
+      "short": "NSIL",
+      "type": "psu",
+      "state": "Karnataka",
+      "website": "https://www.nsilindia.co.in/",
+      "careers": "https://www.nsilindia.co.in/careers"
+    },
+    {
+      "name": "Antrix Corporation",
+      "short": "ANTRIX",
+      "type": "psu",
+      "state": "Karnataka",
+      "website": "https://www.antrix.co.in/",
+      "careers": "https://www.antrix.co.in/career"
+    },
+    {
+      "name": "Survey of India",
+      "short": "SOI",
+      "type": "central",
+      "state": "All India",
+      "website": "https://surveyofindia.gov.in/",
+      "careers": "https://surveyofindia.gov.in/pages/vacancy-circulars"
+    },
+    {
+      "name": "India Meteorological Department",
+      "short": "IMD",
+      "type": "central",
+      "state": "All India",
+      "website": "https://mausam.imd.gov.in/",
+      "careers": "https://mausam.imd.gov.in/"
+    },
+    {
+      "name": "Geological Survey of India",
+      "short": "GSI",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.gsi.gov.in/",
+      "careers": "https://www.gsi.gov.in/webcenter/portal/OCBIS/pageCareers"
+    },
+    {
+      "name": "Central Silk Board",
+      "short": "CSB",
+      "type": "central",
+      "state": "Karnataka",
+      "website": "https://csb.gov.in/",
+      "careers": "https://csb.gov.in/notifications/recruitment-notifications/"
+    },
+    {
+      "name": "National Institute of Animal Nutrition and Physiology",
+      "short": "NIANP",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://nianp.res.in/",
+      "careers": "https://nianp.res.in/"
+    },
+    {
+      "name": "NIVEDI ICAR",
+      "short": "NIVEDI",
+      "type": "research",
+      "state": "Karnataka",
+      "website": "https://www.nivedi.res.in/",
+      "careers": "https://www.nivedi.res.in/"
+    },
+    {
+      "name": "National Testing Agency",
+      "short": "NTA",
+      "type": "central",
+      "state": "All India",
+      "website": "https://nta.ac.in/",
+      "careers": "https://nta.ac.in/"
+    },
+    {
+      "name": "IIT Bombay (GATE office rotates yearly)",
+      "short": "GATE",
+      "type": "exam-body",
+      "state": "All India",
+      "website": "https://gate2027.iitb.ac.in/",
+      "careers": "https://gate2027.iitb.ac.in/"
+    },
+    {
+      "name": "National Council of Educational Research and Training",
+      "short": "NCERT",
+      "type": "central",
+      "state": "All India",
+      "website": "https://ncert.nic.in/",
+      "careers": "https://ncert.nic.in/vacancies.php"
+    },
+    {
+      "name": "University Grants Commission",
+      "short": "UGC",
+      "type": "central",
+      "state": "All India",
+      "website": "https://www.ugc.gov.in/",
+      "careers": "https://www.ugc.gov.in/jobs"
+    },
+    {
+      "name": "Central Reserve Police Force",
+      "short": "CRPF",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://crpf.gov.in/",
+      "careers": "https://rct.crpf.gov.in/"
+    },
+    {
+      "name": "Border Security Force",
+      "short": "BSF",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://www.bsf.gov.in/",
+      "careers": "https://rectt.bsf.gov.in/"
+    },
+    {
+      "name": "Central Industrial Security Force",
+      "short": "CISF",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://www.cisf.gov.in/",
+      "careers": "https://cisfrectt.cisf.gov.in/"
+    },
+    {
+      "name": "Indo-Tibetan Border Police",
+      "short": "ITBP",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://www.itbpolice.nic.in/",
+      "careers": "https://recruitment.itbpolice.nic.in/"
+    },
+    {
+      "name": "Sashastra Seema Bal",
+      "short": "SSB",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://ssb.nic.in/",
+      "careers": "https://ssbrectt.gov.in/"
+    },
+    {
+      "name": "Ordnance Factory Board successors (Yantra India etc.)",
+      "short": "OFB",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://ddpmod.gov.in/",
+      "careers": "https://ddpmod.gov.in/"
+    },
+    {
+      "name": "Hindustan Shipyard",
+      "short": "HSL",
+      "type": "defence",
+      "state": "All India",
+      "website": "https://www.hslvizag.in/",
+      "careers": "https://www.hslvizag.in/"
+    },
+    {
+      "name": "Karnataka Antibiotics and Pharmaceuticals",
+      "short": "KAPL",
+      "type": "psu",
+      "state": "Karnataka",
+      "website": "https://www.kaplindia.com/",
+      "careers": "https://www.kaplindia.com/careers.aspx"
+    },
+    {
+      "name": "HMT Limited",
+      "short": "HMT",
+      "type": "psu",
+      "state": "Karnataka",
+      "website": "https://www.hmtindia.com/",
+      "careers": "https://www.hmtindia.com/careers/"
+    },
+    {
+      "name": "ITI Limited",
+      "short": "ITI",
+      "type": "psu",
+      "state": "Karnataka",
+      "website": "https://www.itiltd.in/",
+      "careers": "https://www.itiltd.in/careers"
+    },
+    {
+      "name": "Karnataka Vikas Grameena Bank",
+      "short": "KVGB",
+      "type": "bank",
+      "state": "Karnataka",
+      "website": "https://www.kvgbank.com/",
+      "careers": "https://www.kvgbank.com/"
+    },
+    {
+      "name": "Karnataka Gramin Bank",
+      "short": "KGB",
+      "type": "bank",
+      "state": "Karnataka",
+      "website": "https://karnatakagraminbank.com/",
+      "careers": "https://karnatakagraminbank.com/"
+    },
+    {
+      "name": "Karnataka State Police via KEA",
+      "short": "KARNATAKA-STATE-POLI",
+      "type": "auto-discovered",
+      "state": "Karnataka",
+      "website": "https://cetonline.karnataka.gov.in/kea/",
+      "careers": "https://cetonline.karnataka.gov.in/kea/"
+    },
+    {
+      "name": "Indian Air Force (CASB)",
+      "short": "INDIAN-AIR-FORCE-(CA",
+      "type": "auto-discovered",
+      "state": "All India",
+      "website": "https://agnipathvayu.cdac.in/AV/",
+      "careers": "https://agnipathvayu.cdac.in/AV/"
+    },
+    {
+      "name": "Indian Oil Corporation Ltd",
+      "short": "INDIAN-OIL-CORPORATI",
+      "type": "auto-discovered",
+      "state": "All India",
+      "website": "https://iocl.com/apprenticeships",
+      "careers": "https://iocl.com/apprenticeships"
+    },
+    {
+      "name": "Department of Posts",
+      "short": "DEPARTMENT-OF-POSTS",
+      "type": "auto-discovered",
+      "state": "All India",
+      "website": "https://www.indiapost.gov.in/vacancies/online-gds",
+      "careers": "https://indiapostgdsonline.gov.in"
+    },
+    {
+      "name": "IIT (organizing institute)",
+      "short": "IIT-(ORGANIZING-INST",
+      "type": "auto-discovered",
+      "state": "All India",
+      "website": "https://gate2027.iitm.ac.in",
+      "careers": "https://gate2027.iitm.ac.in"
+    },
+    {
+      "name": "UPSC / EPFO",
+      "short": "UPSC-/-EPFO",
+      "type": "auto-discovered",
+      "state": "All India",
+      "website": "https://upsconline.gov.in/",
+      "careers": "https://upsconline.gov.in/"
+    },
+    {
+      "name": "Intelligence Bureau",
+      "short": "INTELLIGENCE-BUREAU",
+      "type": "auto-discovered",
+      "state": "All India",
+      "website": "https://www.mha.gov.in/en/media/whats-new",
+      "careers": "https://www.ncs.gov.in"
+    }
+  ]
+}

@@ -14,11 +14,12 @@ VERIFICATION_STATES = [
 TRACK_STATES = [
     "Not Applied", "Applied", "Application Submitted", "Fee Pending", "Fee Paid",
     "Exam Scheduled", "Admit Card Available", "Exam Completed", "Answer Key Released",
-    "Result Awaited", "Result Declared", "Interview", "Document Verification",
-    "Offer Released", "Rejected", "Completed", "Already Applied",
+    "Result Awaited", "Result Declared", "Shortlisted", "Interview",
+    "Document Verification", "Offer Released", "Rejected", "Completed",
+    "Already Applied",
 ]
 
-PRIORITIES = ["Very High", "High", "Medium", "Low"]
+PRIORITIES = ["Critical", "High", "Medium", "Low"]
 
 APPLIED_STATES = {
     "Applied", "Application Submitted", "Already Applied", "Fee Pending", "Fee Paid",

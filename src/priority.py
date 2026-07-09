@@ -13,7 +13,7 @@ def assign(n, today=None):
     if dl is None:
         n.priority = "Low"
     elif dl <= 3:
-        n.priority = "Very High"
+        n.priority = "Critical"
     elif dl <= 7:
         n.priority = "High"
     elif dl <= 30:

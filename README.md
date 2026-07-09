@@ -40,6 +40,22 @@ official domains -> dedup + change history (SQLite) -> priority engine ->
 outputs (site, CSV, Excel, PDF, JSON, MD, RSS) -> email / To Do / WhatsApp
 ```
 
+## Sources
+
+Official (trusted for verification): isro.gov.in, upsc.gov.in, ssc.gov.in,
+rrb.indianrailways.gov.in, ibps.in, agnipathvayu.cdac.in, employmentnews.gov.in,
+judiciary.karnataka.gov.in, cetonline.karnataka.gov.in/kea - plus every domain
+in the 170+ organization master registry (data/organizations.json), which the
+pipeline grows automatically as new organizations appear.
+
+Discovery aggregators (never trusted alone; their records stay Unverified until
+an official link confirms): freejobalert.com, indgovtjobs.in, ka.indgovtjobs.net,
+sarkariresult.com, karnatakacareers.org.
+
+A master exam registry (data/exams.json, 70+ recurring exams with conducting
+body, eligibility level and typical notification month) complements the live
+scrape for cycle planning.
+
 ## Verification rules
 
 - Official domain + official PDF: "Verified with Official PDF" (confidence 0.9+)

@@ -30,7 +30,7 @@ button.active{border-color:var(--accent);color:var(--accent)}
 .badge{font-size:10.5px;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--muted)}
 .badge.v{color:var(--green);border-color:var(--green)}
 .badge.u{color:var(--amber);border-color:var(--amber)}
-.badge.p-VeryHigh{color:#fff;background:var(--red);border-color:var(--red)}
+.badge.p-Critical{color:#fff;background:var(--red);border-color:var(--red)}
 .badge.p-High{color:var(--red);border-color:var(--red)}
 .badge.p-Medium{color:var(--amber);border-color:var(--amber)}
 .meta{color:var(--muted);font-size:12px}
@@ -47,6 +47,17 @@ footer{color:var(--muted);font-size:11.5px;padding:22px 20px;border-top:1px soli
 .exports{display:flex;gap:8px;flex-wrap:wrap}
 .exports a{color:var(--muted);border:1px solid var(--line);border-radius:8px;padding:6px 10px;text-decoration:none;font-size:12px}
 .exports a:hover{color:var(--accent);border-color:var(--accent)}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px;margin-bottom:14px}
+.chart{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+.chart h4{font-size:12px;color:var(--muted);margin-bottom:8px;font-weight:600}
+.bar-row{display:flex;align-items:center;gap:8px;margin-bottom:5px;font-size:11.5px}
+.bar-row i{width:110px;color:var(--muted);font-style:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-track{flex:1;background:var(--bg);border-radius:4px;height:14px;overflow:hidden}
+.bar-fill{height:100%;background:var(--accent);border-radius:4px}
+.bar-fill.r{background:var(--red)}.bar-fill.a{background:var(--amber)}.bar-fill.g{background:var(--green)}
+.bar-row b{width:34px;text-align:right;font-size:11.5px}
+.month-head{grid-column:1/-1;font-size:13px;font-weight:700;color:var(--accent);
+border-bottom:1px solid var(--line);padding:10px 2px 6px}
 @media(max-width:640px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
@@ -77,12 +88,20 @@ footer{color:var(--muted);font-size:11.5px;padding:22px 20px;border-top:1px soli
     </select>
     <select id="fPri">
       <option value="">All priorities</option>
-      <option>Very High</option><option>High</option><option>Medium</option><option>Low</option>
+      <option>Critical</option><option>High</option><option>Medium</option><option>Low</option>
+    </select>
+    <select id="fSort">
+      <option value="deadline">Sort: deadline</option>
+      <option value="newest">Sort: newest first</option>
+      <option value="priority">Sort: priority</option>
+      <option value="name">Sort: name A-Z</option>
     </select>
     <button id="fOpen" class="active">Open only</button>
     <button id="fFav">Bookmarked</button>
     <button id="fApp">My applications</button>
+    <button id="fCal">Calendar</button>
   </div>
+  <div class="charts" id="charts"></div>
   <div class="grid" id="grid"></div>
 </div>
 <footer>
@@ -94,7 +113,8 @@ footer{color:var(--muted);font-size:11.5px;padding:22px 20px;border-top:1px soli
 let DATA=[],favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]")),
 applied=new Set(JSON.parse(localStorage.getItem("applied")||"[]"));
 const $=id=>document.getElementById(id);
-const state={q:"",cat:"",ver:"",pri:"",open:true,fav:false,app:false};
+const state={q:"",cat:"",ver:"",pri:"",sort:"deadline",open:true,fav:false,app:false,cal:false};
+const PRI_ORDER={Critical:0,High:1,Medium:2,Low:3};
 
 fetch("data.json").then(r=>r.json()).then(j=>{
   DATA=j.notifications||[];
@@ -132,7 +152,11 @@ function render(){
     if(state.app&&!applied.has(n.notification_id)&&!isAppliedStatus(n.status))return false;
     return true;
   });
-  rows.sort((a,b)=>(a.days_left??9999)-(b.days_left??9999));
+  if(state.sort==="deadline")rows.sort((a,b)=>(a.days_left??9999)-(b.days_left??9999));
+  else if(state.sort==="newest")rows.sort((a,b)=>(b.first_seen||"").localeCompare(a.first_seen||""));
+  else if(state.sort==="priority")rows.sort((a,b)=>(PRI_ORDER[a.priority]??9)-(PRI_ORDER[b.priority]??9)
+    ||(a.days_left??9999)-(b.days_left??9999));
+  else if(state.sort==="name")rows.sort((a,b)=>a.job_name.localeCompare(b.job_name));
   const st={total:DATA.length,open:DATA.filter(isOpen).length,
     ver:DATA.filter(n=>/^Verified/.test(n.verification_status)).length,
     urgent:DATA.filter(n=>n.days_left!==null&&n.days_left>=0&&n.days_left<=7).length,
@@ -145,8 +169,49 @@ function render(){
     '<div class="stat"><b style="color:var(--red)">'+st.urgent+'</b><i>Closing in 7 days</i></div>'+
     '<div class="stat"><b style="color:var(--green)">'+st.applied+'</b><i>Applied</i></div>'+
     '<div class="stat"><b>'+st.showing+'</b><i>Showing</i></div>';
-  $("grid").innerHTML=rows.map(card).join("")||
-    '<div class="meta">Nothing matches the current filters.</div>';
+  charts();
+  if(state.cal){
+    const withDate=rows.filter(n=>/^\d{4}-\d{2}-\d{2}$/.test(n.application_end||""));
+    withDate.sort((a,b)=>a.application_end.localeCompare(b.application_end));
+    const noDate=rows.filter(n=>!/^\d{4}-\d{2}-\d{2}$/.test(n.application_end||""));
+    let html="",month="";
+    for(const n of withDate){
+      const m=new Date(n.application_end+"T00:00:00")
+        .toLocaleString("en-IN",{month:"long",year:"numeric"});
+      if(m!==month){month=m;html+='<div class="month-head">'+m+'</div>'}
+      html+=card(n);
+    }
+    if(noDate.length){html+='<div class="month-head">Date to be announced</div>'
+      +noDate.map(card).join("")}
+    $("grid").innerHTML=html||'<div class="meta">Nothing matches the current filters.</div>';
+  }else{
+    $("grid").innerHTML=rows.map(card).join("")||
+      '<div class="meta">Nothing matches the current filters.</div>';
+  }
+}
+
+function barRows(counts,cls){
+  const max=Math.max(...Object.values(counts),1);
+  return Object.entries(counts).map(([k,v])=>
+    '<div class="bar-row"><i>'+esc(k)+'</i><div class="bar-track">'+
+    '<div class="bar-fill '+(cls[k]||"")+'" style="width:'+Math.round(v/max*100)+'%"></div>'+
+    '</div><b>'+v+'</b></div>').join("");
+}
+function charts(){
+  const open=DATA.filter(isOpen);
+  const pri={Critical:0,High:0,Medium:0,Low:0};
+  open.forEach(n=>{if(n.priority in pri)pri[n.priority]++});
+  const org={};
+  open.forEach(n=>{const o=n.organization||"Other";org[o]=(org[o]||0)+1});
+  const topOrg=Object.fromEntries(Object.entries(org)
+    .sort((a,b)=>b[1]-a[1]).slice(0,6));
+  const cat={};
+  open.forEach(n=>{const c=n.category||"Other";cat[c]=(cat[c]||0)+1});
+  $("charts").innerHTML=
+    '<div class="chart"><h4>Open by priority</h4>'+
+    barRows(pri,{Critical:"r",High:"a",Medium:"",Low:"g"})+'</div>'+
+    '<div class="chart"><h4>Open by organization (top 6)</h4>'+barRows(topOrg,{})+'</div>'+
+    '<div class="chart"><h4>Open by category</h4>'+barRows(cat,{})+'</div>';
 }
 
 function card(n){
@@ -186,6 +251,8 @@ $("fPri").onchange=e=>{state.pri=e.target.value;render()};
 $("fOpen").onclick=e=>{state.open=!state.open;e.target.classList.toggle("active");render()};
 $("fFav").onclick=e=>{state.fav=!state.fav;e.target.classList.toggle("active");render()};
 $("fApp").onclick=e=>{state.app=!state.app;e.target.classList.toggle("active");render()};
+$("fSort").onchange=e=>{state.sort=e.target.value;render()};
+$("fCal").onclick=e=>{state.cal=!state.cal;e.target.classList.toggle("active");render()};
 </script>
 </body>
 </html>

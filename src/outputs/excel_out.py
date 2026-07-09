@@ -12,7 +12,7 @@ HDR_FONT = Font(name="Arial", bold=True, color="FFFFFF", size=10)
 BODY = Font(name="Arial", size=10)
 THIN = Border(*[Side(style="thin", color="BFBFBF")]*4)
 STATUS_FILLS = {
-    "Very High": PatternFill("solid", start_color="FFC7CE"),
+    "Critical": PatternFill("solid", start_color="FFC7CE"),
     "High": PatternFill("solid", start_color="FFE2C7"),
     "Medium": PatternFill("solid", start_color="FFF2CC"),
 }
@@ -50,7 +50,20 @@ def _sheet(wb, title, items):
     ws.column_dimensions["C"].width = 42
 
 
-def write_excel(notifications, path):
+def _history_sheet(wb, history):
+    ws = wb.create_sheet("History")
+    ws.append(["changed_at", "notification_id", "field", "old_value", "new_value"])
+    for c in ws[1]:
+        c.fill, c.font, c.border = HDR_FILL, HDR_FONT, THIN
+    for nid, ts, field, old, new in history:
+        ws.append([ts, nid, field, str(old)[:120], str(new)[:120]])
+    for col, w in zip("ABCDE", (20, 16, 22, 40, 40)):
+        ws.column_dimensions[col].width = w
+    ws.freeze_panes = "A2"
+    ws.auto_filter.ref = f"A1:E{max(ws.max_row, 2)}"
+
+
+def write_excel(notifications, path, history=None):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     wb = Workbook()
     wb.remove(wb.active)
@@ -73,6 +86,8 @@ def write_excel(notifications, path):
                          ("Expired", expired), ("Upcoming", upcoming),
                          ("Calendar", upcoming)]:
         _sheet(wb, title, items)
+    if history:
+        _history_sheet(wb, history)
 
     stats = wb.create_sheet("Statistics", 0)
     stats["A1"] = "Statistics"
@@ -82,7 +97,7 @@ def write_excel(notifications, path):
         ("Verified", len(verified)), ("Unverified", len(unverified)),
         ("Applied", len(applied)), ("Open now", len(open_now)),
         ("Expired/Closed", len(expired)),
-        ("Very High priority", sum(1 for n in notifications if n.priority == "Very High")),
+        ("Critical priority", sum(1 for n in notifications if n.priority == "Critical")),
         ("High priority", sum(1 for n in notifications if n.priority == "High")),
     ]
     for i, (k, v) in enumerate(rows, start=3):

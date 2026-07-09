@@ -39,6 +39,38 @@ def seed_if_empty(store, seed_path="data/seed.json"):
     return len(records)
 
 
+def update_org_registry(notifications, path="data/organizations.json"):
+    """Append organizations seen in notifications but missing from the master
+    registry, so the registry grows on its own. Only records that carry an
+    official website are added (aggregator noise stays out)."""
+    if not os.path.exists(path):
+        return 0
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    orgs = data.get("organizations", [])
+    known = {o["name"].lower() for o in orgs} | {o.get("short", "").lower() for o in orgs}
+    added = 0
+    for n in notifications:
+        name = (n.organization or "").strip()
+        if not name or len(name) < 3 or name.lower() in known:
+            continue
+        if not n.official_website or not verify.is_official(n.official_website):
+            continue
+        orgs.append({"name": name, "short": name[:20].upper().replace(" ", "-"),
+                     "type": "auto-discovered", "state": n.state or "All India",
+                     "website": n.official_website,
+                     "careers": n.apply_link or n.official_website})
+        known.add(name.lower())
+        added += 1
+    if added:
+        data["organizations"] = orgs
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        log.info("organization registry: %d new organizations added (total %d)",
+                 added, len(orgs))
+    return added
+
+
 def collect(cfg):
     found, errors = [], 0
     for name, fn in enabled_scrapers(cfg).items():
@@ -88,9 +120,11 @@ def run(cfg_path="config/config.yaml"):
     rep = cfg["paths"]["reports"]
     daily = os.path.join(rep, "Daily")
     csv_p = write_csv(everything, os.path.join(rep, "CSV", f"tracker_{stamp}.csv"))
-    xlsx_p = excel_out.write_excel(everything, os.path.join(rep, "Excel", f"tracker_{stamp}.xlsx"))
     yesterday = (datetime.now() - timedelta(days=1)).isoformat(timespec="seconds")
     changes = store.changes_since(yesterday)
+    history = store.changes_since("1970-01-01")[:500]
+    xlsx_p = excel_out.write_excel(everything, os.path.join(rep, "Excel", f"tracker_{stamp}.xlsx"),
+                                   history=history)
     pdf_p = pdf_out.write_pdf(everything, os.path.join(rep, "PDF", f"report_{stamp}.pdf"),
                               changes=changes)
     write_json(everything, os.path.join(daily, f"data_{stamp}.json"))
@@ -100,7 +134,12 @@ def run(cfg_path="config/config.yaml"):
         shutil.copy(pdf_p, os.path.join(_mk(rep, "Weekly"), f"week_ending_{stamp}.pdf"))
     if datetime.now().day == 1:
         shutil.copy(pdf_p, os.path.join(_mk(rep, "Monthly"), f"month_{stamp}.pdf"))
+    if datetime.now().month == 1 and datetime.now().day == 1:
+        shutil.copy(pdf_p, os.path.join(_mk(rep, "Yearly"), f"year_{stamp}.pdf"))
+        shutil.copy(csv_p, os.path.join(_mk(rep, "Yearly"), f"year_{stamp}.csv"))
     shutil.copy(csv_p, os.path.join(_mk(rep, "Archive"), f"tracker_{stamp}.csv"))
+
+    update_org_registry(everything)
 
     # website (docs/ for GitHub Pages) with latest export copies
     site_dir = website.build_site(everything, cfg["paths"]["site"])

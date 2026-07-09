@@ -1,5 +1,5 @@
 """Maps config source flags to scraper callables."""
-from . import isro, karnataka_hc, kea, central, aggregator
+from . import isro, karnataka_hc, kea, central, aggregator, discovery
 
 
 def enabled_scrapers(cfg):
@@ -15,5 +15,8 @@ def enabled_scrapers(cfg):
         "agnipath_vayu": central.agnipath_vayu,
         "employment_news": central.employment_news,
         "freejobalert": aggregator.scrape,
+        "indgovtjobs": discovery.indgovtjobs,
+        "sarkariresult": discovery.sarkariresult,
+        "karnatakacareers": discovery.karnatakacareers,
     }
     return {name: fn for name, fn in table.items() if s.get(name)}
