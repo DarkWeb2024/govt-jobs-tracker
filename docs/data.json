@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-13T20:20:27",
- "count": 312,
+ "generated_at": "2026-07-13T19:50:27",
+ "count": 316,
  "notifications": [
   {
    "notification_id": "234ddbc42df5",
@@ -28,13 +28,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Critical",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,it jobs,nabard,scientist jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 0
   },
   {
@@ -63,13 +63,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Critical",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,medical jobs,officer jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 1
   },
   {
@@ -98,13 +98,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Critical",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,law,officer jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 1
   },
   {
@@ -133,13 +133,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Critical",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,faculty jobs,himachal pradesh jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 1
   },
   {
@@ -168,13 +168,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Critical",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,new,railway jobs",
    "first_seen": "2026-07-13T20:20:19",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 1
   },
   {
@@ -203,13 +203,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Critical",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,railway jobs",
    "first_seen": "2026-07-13T20:20:19",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 1
   },
   {
@@ -238,13 +238,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Critical",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,assistants,data entry jobs,delhi jobs,iti jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 2
   },
   {
@@ -279,7 +279,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,aiims,jharkhand jobs,officer jobs,scientist jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 2
   },
   {
@@ -308,13 +308,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "High",
    "notes": "Advertisement SDSC SHAR/RMT/02/2026",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 4
   },
   {
@@ -349,7 +349,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,faculty jobs,law,medical jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 4
   },
   {
@@ -378,13 +378,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "High",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,clerk jobs,maharashtra jobs,manager jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 5
   },
   {
@@ -413,13 +413,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "High",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,accountant,west bengal jobs",
    "first_seen": "2026-07-13T20:20:19",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 6
   },
   {
@@ -448,13 +448,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "High",
    "notes": "",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 7
   },
   {
@@ -483,13 +483,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "High",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,diploma jobs,fire and safety,hpcl,new",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 7
   },
   {
@@ -518,13 +518,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "High",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,apprenticeship training,bank jobs,new",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 7
   },
   {
@@ -559,7 +559,7 @@
    "notes": "",
    "tags": "ibps,banking,po",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 8
   },
   {
@@ -588,13 +588,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,ibps,management trainees,new",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 8
   },
   {
@@ -623,13 +623,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,agriculture,ibps,it jobs,law",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 8
   },
   {
@@ -664,7 +664,7 @@
    "notes": "",
    "tags": "kea,ksp,karnataka,constable,10th pass",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 9
   },
   {
@@ -693,13 +693,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,agriculture,delhi jobs,young professionals",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 9
   },
   {
@@ -728,13 +728,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,it jobs,nabard",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 10
   },
   {
@@ -763,13 +763,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,assistants,management trainees,manager jobs,new",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 11
   },
   {
@@ -804,7 +804,7 @@
    "notes": "",
    "tags": "defence,air force,agniveer,12th pass",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 13
   },
   {
@@ -833,13 +833,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,new,officer jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 13
   },
   {
@@ -868,13 +868,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,indian air force jobs,medical jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 13
   },
   {
@@ -909,7 +909,7 @@
    "notes": "",
    "tags": "karnataka,high court,data entry,graduate",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 15
   },
   {
@@ -944,7 +944,7 @@
    "notes": "",
    "tags": "iocl,apprentice,psu",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 15
   },
   {
@@ -973,13 +973,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,apprenticeship training,diploma jobs,iocl,iti jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 15
   },
   {
@@ -1008,13 +1008,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,aai,apprenticeship training,diploma jobs,engineer jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 15
   },
   {
@@ -1049,7 +1049,7 @@
    "notes": "",
    "tags": "rrb,railway,technician,cs eligible",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 16
   },
   {
@@ -1078,13 +1078,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,diploma jobs,iti jobs,new,railway jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 16
   },
   {
@@ -1119,7 +1119,7 @@
    "notes": "",
    "tags": "karnataka,high court,graduate,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 17
   },
   {
@@ -1148,13 +1148,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Medium",
    "notes": "",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1189,7 +1189,7 @@
    "notes": "",
    "tags": "ssc,mts,10th pass",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1224,7 +1224,7 @@
    "notes": "",
    "tags": "karnataka,high court,group d,10th pass",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1253,13 +1253,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,clerk jobs,delhi jobs,new,nurse jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1288,13 +1288,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,manager jobs,new",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1323,13 +1323,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,faculty jobs,institute and university jobs,manipur jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1358,13 +1358,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,faculty jobs,institute and university jobs,uttar pradesh jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1393,13 +1393,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,sail jobs,young professionals",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1428,13 +1428,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,accountant,assistants,it jobs,medical jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1469,7 +1469,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,assistants,faculty jobs,manipur jobs,nurse jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1498,13 +1498,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,diploma jobs,engineer jobs,it jobs,iti jobs",
    "first_seen": "2026-07-13T20:20:19",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 18
   },
   {
@@ -1539,7 +1539,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,gate 2026 vacancies,new",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 20
   },
   {
@@ -1568,13 +1568,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,iti jobs,npcil,tamil nadu jobs,technician jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 22
   },
   {
@@ -1609,7 +1609,7 @@
    "notes": "",
    "tags": "india post,gds,10th pass,karnataka",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 23
   },
   {
@@ -1638,13 +1638,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,iti jobs,technician jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 23
   },
   {
@@ -1673,13 +1673,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,himachal pradesh jobs,police jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 24
   },
   {
@@ -1708,13 +1708,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,indian army,technical jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 24
   },
   {
@@ -1749,7 +1749,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,assistants,institute and university jobs,jharkhand jobs,technician jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 24
   },
   {
@@ -1784,7 +1784,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,diploma jobs,engineer jobs,institute and university jobs,it jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 24
   },
   {
@@ -1813,13 +1813,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,indian army,new,technical jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 25
   },
   {
@@ -1848,14 +1848,49 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,apprenticeship training,iti jobs,new,railway jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 25
+  },
+  {
+   "notification_id": "d66068250c78",
+   "job_name": "BRIC Scientist Recruitment 2026 – Notification, Online Form | Last Date 09-08-2026",
+   "exam_name": "",
+   "department": "",
+   "organization": "BRIC Scientist",
+   "qualification": "",
+   "age": "",
+   "salary": "",
+   "pay_level": "",
+   "vacancies": "",
+   "state": "Odisha",
+   "location": "Odisha",
+   "category": "Job",
+   "application_start": "",
+   "application_end": "2026-08-09",
+   "exam_date": "",
+   "result_date": "",
+   "official_website": "",
+   "official_pdf": "",
+   "apply_link": "https://www.indgovtjobs.in/2026/07/bric-scientist-recruitment-2026.html",
+   "selection_process": "",
+   "application_fee": "",
+   "status": "Not Applied",
+   "verification_status": "Unverified",
+   "verification_source": "aggregator:indgovtjobs.in",
+   "verification_timestamp": "2026-07-13T19:50:24",
+   "confidence": 0.3,
+   "priority": "Medium",
+   "notes": "Found via aggregator - needs official confirmation",
+   "tags": "aggregator,indgovtjobs.in,odisha jobs,scientist jobs",
+   "first_seen": "2026-07-13T19:50:07",
+   "last_checked": "2026-07-13T19:50:25",
+   "days_left": 27
   },
   {
    "notification_id": "6c6e3c7d205d",
@@ -1883,13 +1918,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Medium",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,maharashtra jobs,railway jobs",
    "first_seen": "2026-07-13T20:20:19",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 30
   },
   {
@@ -1918,13 +1953,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,railway jobs,upcoming",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 32
   },
   {
@@ -1953,13 +1988,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,maharashtra jobs,railway jobs,sports vacancies",
    "first_seen": "2026-07-13T20:20:19",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 32
   },
   {
@@ -1988,13 +2023,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,andhra pradesh,assistants,diploma jobs,faculty jobs",
    "first_seen": "2026-07-13T20:20:19",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 42
   },
   {
@@ -2023,13 +2058,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,chennai jobs,clerk jobs,siddha jobs",
    "first_seen": "2026-07-13T20:20:19",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": 58
   },
   {
@@ -2064,7 +2099,7 @@
    "notes": "Applied on 07-Jul-2026, one day before deadline",
    "tags": "sbi,banking,po,applied",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -5
   },
   {
@@ -2099,7 +2134,7 @@
    "notes": "Application window closed 25-Jun-2026; marked Applied per owner. Next milestone: Tier-1 exam city slip and admit card",
    "tags": "ssc,cgl,exam,applied",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -18
   },
   {
@@ -2128,13 +2163,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -2
   },
   {
@@ -2169,7 +2204,7 @@
    "notes": "UNVERIFIED until notification releases - complete SSC OTR in advance",
    "tags": "ssc,chsl,12th pass,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2204,7 +2239,7 @@
    "notes": "Choose Karnataka state for Bengaluru-region posting; Kannada proficiency applies",
    "tags": "ibps,clerk,banking,upcoming,karnataka",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2239,7 +2274,7 @@
    "notes": "UNVERIFIED schedule - based on annual cycle. Unlocks PSU recruitment and M.Tech",
    "tags": "gate,exam,psu gateway,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2274,7 +2309,7 @@
    "notes": "UNVERIFIED - expected window; EO/AO not notified in 2026",
    "tags": "upsc,epfo,graduate,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2309,7 +2344,7 @@
    "notes": "UNVERIFIED - based on 2025 cycle timing (16 Aug-08 Sep)",
    "tags": "lic,aao,insurance,graduate,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2344,7 +2379,7 @@
    "notes": "UNVERIFIED - RRB annual calendar indication",
    "tags": "rrb,ntpc,railway,graduate,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2379,7 +2414,7 @@
    "notes": "UNVERIFIED - calendar indication",
    "tags": "rrb,je,railway,engineering,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2414,7 +2449,7 @@
    "notes": "UNVERIFIED - expected cycle, may fall after Aug",
    "tags": "ib,acio,intelligence,graduate,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2449,7 +2484,7 @@
    "notes": "UNVERIFIED - aggregators report ~100-182 posts; typical window May-Aug. Check weekly",
    "tags": "hal,defence psu,bengaluru,engineering,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2484,7 +2519,7 @@
    "notes": "UNVERIFIED timing. Branch restriction excludes CS/AI-ML - kept for completeness",
    "tags": "ssc,je,engineering,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2513,13 +2548,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement IIST/Admin/RMT/14-2026 (1)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -89
   },
   {
@@ -2548,13 +2583,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC:01:2026",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -92
   },
   {
@@ -2583,13 +2618,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2026",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2618,13 +2653,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC/RMT/4/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -225
   },
   {
@@ -2653,13 +2688,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:04:2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2688,13 +2723,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/01/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -241
   },
   {
@@ -2723,13 +2758,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement PRL:02/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -255
   },
   {
@@ -2758,13 +2793,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:03:2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2793,13 +2828,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:02:2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2828,13 +2863,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2863,13 +2898,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC/RMT/03/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -305
   },
   {
@@ -2898,13 +2933,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/01/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -321
   },
   {
@@ -2933,13 +2968,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NESAC/RMT-TEMP/WI-01/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -2968,13 +3003,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:03(CEPO):2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -364
   },
   {
@@ -3003,13 +3038,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-335 DATED 31.05.2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -390
   },
   {
@@ -3038,13 +3073,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-334 DATED 31.05.2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -392
   },
   {
@@ -3073,13 +3108,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:02(EMC):2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -392
   },
   {
@@ -3108,13 +3143,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-1-2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -409
   },
   {
@@ -3143,13 +3178,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:01(EMC):2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -420
   },
   {
@@ -3178,13 +3213,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-332 DATED 29.03.2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -3213,13 +3248,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISTRAC/APPRMT/2025",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -448
   },
   {
@@ -3248,13 +3283,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC – 333 Dated 20.03.2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -3283,13 +3318,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC:01:2025",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -3318,13 +3353,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/02/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -557
   },
   {
@@ -3353,13 +3388,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement HSFC:01:RMT:2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -3388,13 +3423,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -3423,13 +3458,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/01/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -675
   },
   {
@@ -3458,13 +3493,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/01/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -671
   },
   {
@@ -3493,13 +3528,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NESAC/RMT-TEMP/WI-01/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -3528,13 +3563,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-330 DATED 20.04.2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -799
   },
   {
@@ -3563,13 +3598,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-2-2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -826
   },
   {
@@ -3598,13 +3633,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement PRL:05/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -834
   },
   {
@@ -3633,13 +3668,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC:ISTRAC:01:2024",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -864
   },
   {
@@ -3668,13 +3703,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-1-2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -882
   },
   {
@@ -3703,13 +3738,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-329 Dated 16.01.2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -895
   },
   {
@@ -3738,13 +3773,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:04:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -910
   },
   {
@@ -3773,13 +3808,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement DS_8C-12011/11/2023-Sec.VIII",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -903
   },
   {
@@ -3808,13 +3843,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC/RMT/4/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -925
   },
   {
@@ -3843,13 +3878,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-328 DATED 11.11.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -959
   },
   {
@@ -3878,13 +3913,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/05/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -983
   },
   {
@@ -3913,13 +3948,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/04/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1054
   },
   {
@@ -3948,13 +3983,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-326 Dated 29.07.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1064
   },
   {
@@ -3983,13 +4018,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-325 Dated 29.07.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1064
   },
   {
@@ -4018,13 +4053,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:03:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1057
   },
   {
@@ -4053,13 +4088,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement IN-SPACe:01:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1071
   },
   {
@@ -4088,13 +4123,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/03/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1084
   },
   {
@@ -4123,13 +4158,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-327 DATED 01.07.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1088
   },
   {
@@ -4158,13 +4193,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:02:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1098
   },
   {
@@ -4193,13 +4228,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement PRL:01/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1109
   },
   {
@@ -4228,13 +4263,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1123
   },
   {
@@ -4263,13 +4298,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:02(EMC):2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1125
   },
   {
@@ -4298,13 +4333,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/02/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1140
   },
   {
@@ -4333,13 +4368,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/01/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1140
   },
   {
@@ -4368,13 +4403,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC/RMT/02/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1137
   },
   {
@@ -4403,13 +4438,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/02/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1154
   },
   {
@@ -4438,13 +4473,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:01(CEPO):2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1146
   },
   {
@@ -4473,13 +4508,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-324 dated 29.04.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1152
   },
   {
@@ -4508,13 +4543,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-323 dated 29.04.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1154
   },
   {
@@ -4543,13 +4578,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement IPRC/RMT/2023/01",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4578,13 +4613,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-1-2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4613,13 +4648,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-322 DATED 31.12.2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4648,13 +4683,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISROHQ/APP/2022-23",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4683,13 +4718,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4718,13 +4753,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:02(A-JPA):2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4753,13 +4788,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO HQ:RMT:01:2022",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4788,13 +4823,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:23",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:01(1)(EMC):2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4823,13 +4858,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NESAC/RMT-TEMP/02/2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1321
   },
   {
@@ -4858,13 +4893,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement 09(1)/2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1367
   },
   {
@@ -4893,13 +4928,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:01(Officer):2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4928,13 +4963,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:03:2019",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -4963,13 +4998,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement E.28011/1/2015-V(VIII) (Vol.II)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1438
   },
   {
@@ -4998,13 +5033,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement No.E.28011/1/2015-V(VIII) (Vol.II)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5033,13 +5068,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement B.27011/13/2012-VIII(Vol.III)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1892
   },
   {
@@ -5068,13 +5103,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement A.13011/1/2014-1",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5103,13 +5138,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement B.28011/1/2015-V/I(Vol.l)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5138,13 +5173,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement IN-SPACe:01:2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1504
   },
   {
@@ -5173,13 +5208,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement HSFC/02/RMT/2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5208,13 +5243,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement HSFC/01/RMT/2019",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5243,13 +5278,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC:01:2020",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5278,13 +5313,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC: 01 :2021",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5313,13 +5348,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/02/2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5348,13 +5383,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/01/2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5383,13 +5418,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-1-2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1527
   },
   {
@@ -5418,13 +5453,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NESAC/RMT-TEMP/01/2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5453,13 +5488,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/01/2020",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5488,13 +5523,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:02:2020",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5523,13 +5558,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-320 Dated 25.07.2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5564,7 +5599,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5599,7 +5634,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5634,7 +5669,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5669,7 +5704,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5704,7 +5739,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5739,7 +5774,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5774,7 +5809,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5809,7 +5844,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5844,7 +5879,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5879,7 +5914,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5914,7 +5949,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5949,7 +5984,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -5984,7 +6019,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6019,7 +6054,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6054,7 +6089,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6089,7 +6124,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6124,7 +6159,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6159,7 +6194,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6194,7 +6229,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6229,7 +6264,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6264,7 +6299,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6299,7 +6334,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6334,7 +6369,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6369,7 +6404,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6404,7 +6439,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6439,7 +6474,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6474,7 +6509,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6509,7 +6544,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6544,7 +6579,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6579,7 +6614,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6614,7 +6649,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6649,7 +6684,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6684,7 +6719,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6719,7 +6754,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6754,7 +6789,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6789,7 +6824,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6824,7 +6859,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6859,7 +6894,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6894,7 +6929,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6929,7 +6964,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6964,7 +6999,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -6999,7 +7034,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7034,7 +7069,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7069,7 +7104,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7104,7 +7139,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7139,7 +7174,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7174,7 +7209,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7209,7 +7244,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7244,7 +7279,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7279,7 +7314,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7314,7 +7349,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7349,7 +7384,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7378,13 +7413,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official PDF",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.95,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7413,13 +7448,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7448,13 +7483,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official PDF",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.95,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7483,13 +7518,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7518,13 +7553,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7553,13 +7588,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7588,13 +7623,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7623,13 +7658,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7658,13 +7693,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7693,13 +7728,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7728,13 +7763,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7769,7 +7804,7 @@
    "notes": "",
    "tags": "defence,air force,agniveer,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7804,7 +7839,7 @@
    "notes": "",
    "tags": "defence,air force,agniveer,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7833,13 +7868,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:freejobalert.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator",
    "first_seen": "2026-07-09T19:38:24",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7874,7 +7909,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator",
    "first_seen": "2026-07-09T19:38:24",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7909,7 +7944,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-09T21:15:11",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7944,7 +7979,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-09T21:15:11",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -7979,7 +8014,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-09T21:15:11",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8008,13 +8043,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8043,13 +8078,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8078,13 +8113,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8113,13 +8148,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8148,13 +8183,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8183,13 +8218,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8218,13 +8253,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8253,13 +8288,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8288,13 +8323,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8323,13 +8358,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8358,13 +8393,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8393,13 +8428,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8428,13 +8463,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8463,13 +8498,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8498,13 +8533,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8533,13 +8568,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8568,13 +8603,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8609,7 +8644,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8644,7 +8679,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8679,7 +8714,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8714,7 +8749,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8749,7 +8784,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,karnatakacareers.org",
    "first_seen": "2026-07-09T21:15:15",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8784,7 +8819,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-10T23:40:08",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8819,7 +8854,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-10T23:40:08",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8854,7 +8889,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-10T23:40:08",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8883,13 +8918,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-10T23:40:34",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8918,13 +8953,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:sarkariresult.com",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-10T23:40:34",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8959,7 +8994,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-12T15:27:37",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -8994,7 +9029,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-12T15:27:37",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9029,7 +9064,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-12T15:27:37",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9064,7 +9099,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-12T15:27:37",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9099,7 +9134,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-12T15:27:37",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9134,7 +9169,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-13T11:31:29",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9169,7 +9204,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-13T11:31:29",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9204,7 +9239,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-13T11:31:29",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9233,13 +9268,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-13T11:44:40",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9268,13 +9303,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-13T11:44:40",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9303,13 +9338,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-13T11:44:40",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9338,13 +9373,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-13T11:44:40",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9373,13 +9408,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-13T11:44:40",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9408,13 +9443,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-13T11:44:40",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9443,13 +9478,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-13T11:44:40",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9478,13 +9513,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,hpcl",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9513,13 +9548,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,chennai jobs,faculty jobs,institute and university jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9548,13 +9583,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,apprenticeship training,top pages",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9583,13 +9618,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,delhi jobs,law,officer jobs,young professionals",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1
   },
   {
@@ -9618,13 +9653,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,cabinet secretariat,delhi jobs,gate 2026 vacancies,officer jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -1
   },
   {
@@ -9653,13 +9688,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,faculty jobs,medical jobs,new,officer jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9688,13 +9723,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,data entry jobs,meghalaya jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9723,13 +9758,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,top pages",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9758,13 +9793,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,haryana jobs,medical jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9793,13 +9828,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,engineer jobs,gate 2026 vacancies,ongc jobs,upcoming",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9828,13 +9863,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,institute and university jobs,mizoram jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9863,13 +9898,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,icar,uttar pradesh jobs,young professionals",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -9898,13 +9933,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,data entry jobs,delhi jobs,driver jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -2
   },
   {
@@ -9933,13 +9968,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,assistants,computer jobs,delhi jobs,institute and university jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -2
   },
   {
@@ -9968,13 +10003,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,it jobs,top level jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -3
   },
   {
@@ -10003,13 +10038,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,clerk jobs,institute and university jobs,uttar pradesh jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:24",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -3
   },
   {
@@ -10038,13 +10073,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,apprenticeship training,haryana jobs,iti jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -3
   },
   {
@@ -10073,13 +10108,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,assistants,faculty jobs,hyderabad jobs,telangana jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -4
   },
   {
@@ -10108,13 +10143,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,assistants,institute and university jobs,manager jobs,mumbai jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -4
   },
   {
@@ -10143,13 +10178,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,uttar pradesh jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -4
   },
   {
@@ -10178,13 +10213,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,chennai jobs,manager jobs,scientist jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10213,13 +10248,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,clerk jobs,mumbai jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10248,13 +10283,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bel jobs,chennai jobs,engineer jobs,technician jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -5
   },
   {
@@ -10283,13 +10318,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,defence jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -5
   },
   {
@@ -10318,13 +10353,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,it jobs,maharashtra jobs,officer jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -5
   },
   {
@@ -10353,13 +10388,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,maharashtra jobs,officer jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -5
   },
   {
@@ -10388,13 +10423,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,apprenticeship training,iti jobs,mumbai jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -5
   },
   {
@@ -10423,13 +10458,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,clerk jobs,maharashtra jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -5
   },
   {
@@ -10458,13 +10493,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs,officer jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -5
   },
   {
@@ -10493,13 +10528,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bihar jobs,faculty jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10528,13 +10563,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,police jobs,telangana jobs,upcoming",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10563,13 +10598,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,clerk jobs,haryana jobs,high court vacancies,punjab jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -4
   },
   {
@@ -10598,13 +10633,13 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:25",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,cisf,para medical jobs,pharmacist jobs,police jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -6
   },
   {
@@ -10639,7 +10674,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,accountant,assistants,karnataka jobs,medical jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10674,7 +10709,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bangalore jobs,bel jobs,teacher jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -6
   },
   {
@@ -10709,7 +10744,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,andhra pradesh,isro jobs,teacher jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": -6
   },
   {
@@ -10744,7 +10779,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,bank jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10779,7 +10814,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,delhi jobs,young professionals",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10814,7 +10849,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,agneepath jobs,indian air force jobs",
    "first_seen": "2026-07-13T11:44:56",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10849,7 +10884,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-13T20:19:43",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10884,7 +10919,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-13T20:19:43",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   },
   {
@@ -10913,13 +10948,118 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:indgovtjobs.in",
-   "verification_timestamp": "2026-07-13T20:20:24",
+   "verification_timestamp": "2026-07-13T19:50:24",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in,rajasthan jobs,young professionals",
    "first_seen": "2026-07-13T20:20:19",
-   "last_checked": "2026-07-13T20:20:25",
+   "last_checked": "2026-07-13T19:50:25",
+   "days_left": null
+  },
+  {
+   "notification_id": "8617acf5161b",
+   "job_name": "Ordnance Factory Nalanda Recruitment 2026: Apply Offline for 12 Project Engineer Posts",
+   "exam_name": "",
+   "department": "",
+   "organization": "Ordnance Factory Nalanda",
+   "qualification": "",
+   "age": "",
+   "salary": "",
+   "pay_level": "",
+   "vacancies": "",
+   "state": "Bihar",
+   "location": "Bihar",
+   "category": "Job",
+   "application_start": "",
+   "application_end": "",
+   "exam_date": "",
+   "result_date": "",
+   "official_website": "",
+   "official_pdf": "",
+   "apply_link": "https://www.indgovtjobs.in/2026/07/ordnance-factory-nalanda-recruitment.html",
+   "selection_process": "",
+   "application_fee": "",
+   "status": "Not Applied",
+   "verification_status": "Unverified",
+   "verification_source": "aggregator:indgovtjobs.in",
+   "verification_timestamp": "2026-07-13T19:50:24",
+   "confidence": 0.3,
+   "priority": "Low",
+   "notes": "Found via aggregator - needs official confirmation",
+   "tags": "aggregator,indgovtjobs.in,bihar jobs,engineer jobs,ordnance factory",
+   "first_seen": "2026-07-13T19:50:07",
+   "last_checked": "2026-07-13T19:50:25",
+   "days_left": null
+  },
+  {
+   "notification_id": "4870d12cb923",
+   "job_name": "Indian Army SSC Technical 68th Online Form 2026 | Last Date : 06/08/2026",
+   "exam_name": "",
+   "department": "",
+   "organization": "Indian",
+   "qualification": "",
+   "age": "",
+   "salary": "",
+   "pay_level": "",
+   "vacancies": "",
+   "state": "All India",
+   "location": "All India",
+   "category": "Job",
+   "application_start": "",
+   "application_end": "",
+   "exam_date": "",
+   "result_date": "",
+   "official_website": "",
+   "official_pdf": "",
+   "apply_link": "https://www.sarkariresult.com/2026/join-indian-army-july26/",
+   "selection_process": "",
+   "application_fee": "",
+   "status": "Not Applied",
+   "verification_status": "Unverified",
+   "verification_source": "aggregator:sarkariresult.com",
+   "verification_timestamp": "2026-07-13T19:50:25",
+   "confidence": 0.3,
+   "priority": "Low",
+   "notes": "Found via aggregator - needs official confirmation",
+   "tags": "aggregator,sarkariresult.com",
+   "first_seen": "2026-07-13T19:50:21",
+   "last_checked": "2026-07-13T19:50:25",
+   "days_left": null
+  },
+  {
+   "notification_id": "63c77e552a77",
+   "job_name": "UPSC IFS Mains Online Form 2026 | Last Date : 22/07/2026",
+   "exam_name": "",
+   "department": "",
+   "organization": "UPSC",
+   "qualification": "",
+   "age": "",
+   "salary": "",
+   "pay_level": "",
+   "vacancies": "",
+   "state": "All India",
+   "location": "All India",
+   "category": "Job",
+   "application_start": "",
+   "application_end": "",
+   "exam_date": "",
+   "result_date": "",
+   "official_website": "",
+   "official_pdf": "",
+   "apply_link": "https://www.sarkariresult.com/upsc/upsc-ias-ifs-pre-2026/",
+   "selection_process": "",
+   "application_fee": "",
+   "status": "Not Applied",
+   "verification_status": "Unverified",
+   "verification_source": "aggregator:sarkariresult.com",
+   "verification_timestamp": "2026-07-13T19:50:25",
+   "confidence": 0.3,
+   "priority": "Low",
+   "notes": "Found via aggregator - needs official confirmation",
+   "tags": "aggregator,sarkariresult.com",
+   "first_seen": "2026-07-13T19:50:21",
+   "last_checked": "2026-07-13T19:50:25",
    "days_left": null
   }
  ]
