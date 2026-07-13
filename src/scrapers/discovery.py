@@ -142,8 +142,10 @@ def indgovtjobs():
                 continue   # listicle hub pages ("Govt Jobs for Diploma Holders")
             if not any(k in low for k in TITLE_HINTS):
                 continue
-            if any(k in low for k in ("admit card", "result", "answer key", "syllabus")):
-                continue   # tracked separately once the record exists
+            if "syllabus" in low:
+                continue
+            # admit card / result / answer key posts pass through - the
+            # pipeline routes them to the applied-updates watcher
             link = next((l["href"] for l in e.get("link", [])
                          if l.get("rel") == "alternate"), "")
             end, vac = _title_meta(title)

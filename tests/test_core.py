@@ -158,6 +158,61 @@ class TestStore(unittest.TestCase):
         self.store.upsert(note())          # fresh scrape, status default Not Applied
         self.assertEqual(self.store.get(n.notification_id).status, "Applied")
 
+    def test_merge_keeps_official_and_blocks_resurrection(self):
+        keep = note(job_name="SSC CGL 2026 Combined Graduate Level Examination",
+                    official_website="https://ssc.gov.in/",
+                    verification_source="official:ssc.gov.in")
+        dup = note(job_name="SSC CGL Online Form 2026 12000 Posts Sarkari",
+                   organization="Staff Selection Comm",
+                   vacancies="12256",
+                   verification_source="aggregator:sarkariresult.com")
+        self.store.upsert(keep)
+        self.store.upsert(dup)
+        self.store.set_status(dup.notification_id, "Applied")
+        self.assertTrue(self.store.merge(keep.notification_id, dup.notification_id))
+        merged = self.store.get(keep.notification_id)
+        self.assertEqual(merged.vacancies, "12256")      # gap filled from dup
+        self.assertEqual(merged.status, "Applied")       # applied status carried
+        self.assertIsNone(self.store.get(dup.notification_id))
+        # re-scraping the duplicate updates the keeper instead of reviving it
+        again = note(job_name="SSC CGL Online Form 2026 12000 Posts Sarkari",
+                     organization="Staff Selection Comm", vacancies="12300",
+                     verification_source="aggregator:sarkariresult.com")
+        self.store.upsert(again)
+        self.assertEqual(len(self.store.all()), 1)
+        self.assertEqual(self.store.get(keep.notification_id).vacancies, "12300")
+
+
+class TestAppliedUpdates(unittest.TestCase):
+    def test_admit_card_matches_applied_record(self):
+        from src.pipeline import track_applied_updates, UPDATE_PAT
+        tmp = tempfile.mkdtemp()
+        store = Store(os.path.join(tmp, "t.db"))
+        a = note(job_name="SBI PO 2026 Probationary Officer Recruitment",
+                 organization="State Bank of India")
+        store.upsert(a)
+        store.set_status(a.notification_id, "Applied")
+        upd = note(job_name="SBI PO 2026 Probationary Officer Prelims Admit Card Released",
+                   organization="SBI",
+                   apply_link="https://sbi.co.in/web/careers")
+        self.assertTrue(UPDATE_PAT.search(upd.job_name))
+        self.assertEqual(track_applied_updates(store, [upd]), 1)
+        self.assertIn("Admit Card", store.get(a.notification_id).notes)
+        # second run must not duplicate the note
+        self.assertEqual(track_applied_updates(store, [upd]), 0)
+
+    def test_unrelated_update_ignored(self):
+        from src.pipeline import track_applied_updates
+        tmp = tempfile.mkdtemp()
+        store = Store(os.path.join(tmp, "t.db"))
+        a = note(job_name="SBI PO 2026 Probationary Officer Recruitment",
+                 organization="State Bank of India")
+        store.upsert(a)
+        store.set_status(a.notification_id, "Applied")
+        upd = note(job_name="UPSC Civil Services Prelims Result 2026 Declared",
+                   organization="UPSC")
+        self.assertEqual(track_applied_updates(store, [upd]), 0)
+
 
 if __name__ == "__main__":
     unittest.main()

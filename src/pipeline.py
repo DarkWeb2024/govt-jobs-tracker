@@ -1,6 +1,7 @@
 """Daily pipeline: scrape -> filter -> verify -> store -> outputs -> notify."""
 import json
 import os
+import re
 import shutil
 from datetime import datetime, timedelta
 
@@ -37,6 +38,47 @@ def seed_if_empty(store, seed_path="data/seed.json"):
             store.set_status(n.notification_id, rec["status"])
     log.info("seeded %d curated notifications", len(records))
     return len(records)
+
+
+# announcements about an existing recruitment rather than a new one
+UPDATE_PAT = re.compile(
+    r"admit card|hall ticket|result|answer key|merit list|score ?card|"
+    r"correction window|corrigendum|exam (?:date|city|schedule)|interview (?:schedule|list)|"
+    r"document verification|cut ?off", re.I)
+
+
+def track_applied_updates(store, update_items):
+    """Match admit-card/result/answer-key announcements from any source
+    against the records the user has applied to. A hit is appended to the
+    record's notes (history-logged), so it lands in the daily changes email."""
+    from .models import is_applied
+    applied = [n for n in store.all() if is_applied(n.status)]
+    if not applied or not update_items:
+        return 0
+    matched = 0
+    today = datetime.now().strftime("%Y-%m-%d")
+    for item in update_items:
+        low = (item.job_name + " " + item.organization).lower()
+        low_tokens = set(re.split(r"\W+", low))
+        for a in applied:
+            org_words = [w for w in re.split(r"\W+", a.organization) if w]
+            org_tokens = {w.lower() for w in org_words if len(w) > 2}
+            if len(org_words) > 1:      # "State Bank of India" also matches "SBI"
+                org_tokens.add("".join(w[0] for w in org_words if w[0].isupper()).lower())
+            name_tokens = {t for t in re.split(r"\W+", a.job_name.lower())
+                           if len(t) > 3 and not t.isdigit()}
+            if not org_tokens & low_tokens:
+                continue
+            overlap = sum(1 for t in name_tokens if t in low)
+            if overlap < 2:
+                continue
+            note = f"Update {today}: {item.job_name[:120]} -> {item.apply_link or item.official_website}"
+            if item.job_name[:60].lower() in (a.notes or "").lower():
+                continue    # already recorded on a previous run
+            store.append_note(a.notification_id, note)
+            log.info("applied-update matched: %s <- %s", a.job_name[:50], item.job_name[:60])
+            matched += 1
+    return matched
 
 
 def update_org_registry(notifications, path="data/organizations.json"):
@@ -91,6 +133,12 @@ def run(cfg_path="config/config.yaml"):
     seed_if_empty(store)
 
     raw, errors = collect(cfg)
+    # announcements about existing recruitments (results, admit cards, keys)
+    # feed the applied-updates watcher instead of becoming new records
+    update_items = [n for n in raw if UPDATE_PAT.search(n.job_name)]
+    raw = [n for n in raw if not UPDATE_PAT.search(n.job_name)]
+    matched_updates = track_applied_updates(store, update_items)
+
     new = updated = 0
     for n in raw:
         if not filters.passes(n, cfg):
@@ -154,7 +202,8 @@ def run(cfg_path="config/config.yaml"):
     whatsapp.send(cfg, visible)
 
     summary = (f"new={new} updated={updated} total={len(everything)} "
-               f"errors={errors} changes24h={len(changes)}")
+               f"errors={errors} changes24h={len(changes)} "
+               f"applied_updates={matched_updates}")
     store.record_run(started, new, updated, errors, summary)
     log.info("run complete: %s", summary)
     return summary

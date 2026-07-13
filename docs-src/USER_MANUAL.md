@@ -41,6 +41,40 @@ Offer Released, Rejected, Completed, Already Applied.
 Status changes are protected - the nightly scrape never overwrites them - and
 they flow into the email, PDF, Excel Applied sheet and Microsoft To Do.
 
+## Merging duplicates (official vs aggregator naming)
+
+The same recruitment sometimes arrives twice - once from the official site,
+once from a job portal with a different headline. When you have manually
+confirmed both are the same, keep the official one:
+
+```
+python main.py --merge <official_id> <duplicate_id>
+```
+
+What happens: the official record absorbs anything the duplicate knew that it
+did not (vacancies, dates, links), an Applied status carries over, the
+duplicate is deleted, and its id is remembered as an alias - so tomorrow's
+scrape of the portal updates the official record instead of resurrecting the
+duplicate. Find both ids in the CSV export or docs/data.json (the site's
+search box helps locate the pair).
+
+For records that are simply noise (not duplicates), use the site's
+"Not interested" button or `--status <id> "Not Interested"` instead.
+
+## Updates on applied jobs and exams
+
+Every nightly run watches all sources for announcements that mention your
+applied records - admit cards, hall tickets, results, answer keys, merit
+lists, correction windows, exam dates, interview schedules, cut-offs. A match
+is stamped into the record's notes with the date and link, appears in the
+site card, in the Excel History sheet, and in the "changes" section of the
+daily email. Nothing is overwritten automatically - when you actually download
+an admit card, promote the status yourself:
+
+```
+python main.py --status <id> "Admit Card Available"
+```
+
 ## The daily email
 
 Arrives after the 23:40 run: counts, deadlines within 7 days, newest finds,

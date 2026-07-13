@@ -30,6 +30,10 @@ CREATE TABLE IF NOT EXISTS runs (
     new_count INTEGER, updated_count INTEGER, error_count INTEGER,
     summary TEXT
 );
+CREATE TABLE IF NOT EXISTS aliases (
+    alias_id TEXT PRIMARY KEY,
+    canonical_id TEXT NOT NULL
+);
 """
 
 # fields the pipeline may not overwrite once a human set them
@@ -51,9 +55,18 @@ class Store:
             "SELECT data FROM notifications WHERE notification_id=?", (nid,)).fetchone()
         return Notification(**json.loads(row[0])) if row else None
 
+    def resolve(self, nid):
+        """Follow a merge alias: a scraped duplicate's id maps to the record
+        the user chose to keep, so re-scrapes update the keeper instead of
+        resurrecting the duplicate."""
+        row = self.conn.execute(
+            "SELECT canonical_id FROM aliases WHERE alias_id=?", (nid,)).fetchone()
+        return row[0] if row else nid
+
     def upsert(self, n: Notification):
         """Insert or merge. Returns 'new', 'updated' or 'unchanged'."""
         now = datetime.now().isoformat(timespec="seconds")
+        n.notification_id = self.resolve(n.notification_id)
         existing = self.get(n.notification_id)
         if existing is None:
             self.conn.execute(
@@ -94,6 +107,57 @@ class Store:
         d["status"] = status
         if note:
             d["notes"] = (d["notes"] + " | " if d["notes"] else "") + note
+        self.conn.execute(
+            "UPDATE notifications SET data=?, updated_at=? WHERE notification_id=?",
+            (json.dumps(d, ensure_ascii=False), now, nid))
+        self.conn.commit()
+        return True
+
+    def merge(self, keep_id, dup_id):
+        """Merge dup into keep: fill keep's empty fields from dup, carry over
+        an applied status, delete dup, and remember the mapping so future
+        scrapes of the duplicate update the keeper. Returns False if either
+        id is missing."""
+        keep, dup = self.get(keep_id), self.get(dup_id)
+        if keep is None or dup is None or keep_id == dup_id:
+            return False
+        now = datetime.now().isoformat(timespec="seconds")
+        kd, dd = keep.to_dict(), dup.to_dict()
+        for k, v in dd.items():
+            if k in ("notification_id", "first_seen"):
+                continue
+            if v and not kd.get(k):
+                kd[k] = v
+        if kd.get("status") in (None, "", "Not Applied") and dd.get("status") not in (None, "", "Not Applied"):
+            kd["status"] = dd["status"]
+        kd["notes"] = ((kd.get("notes") or "") + f" | merged duplicate {dup_id} on {now[:10]}").strip(" |")
+        self.conn.execute(
+            "UPDATE notifications SET data=?, updated_at=? WHERE notification_id=?",
+            (json.dumps(kd, ensure_ascii=False), now, keep_id))
+        self.conn.execute("DELETE FROM notifications WHERE notification_id=?", (dup_id,))
+        self.conn.execute("INSERT OR REPLACE INTO aliases VALUES (?,?)", (dup_id, keep_id))
+        # any older aliases pointing at the deleted duplicate follow the keeper
+        self.conn.execute("UPDATE aliases SET canonical_id=? WHERE canonical_id=?",
+                          (keep_id, dup_id))
+        self.conn.execute(
+            "INSERT INTO history (notification_id, changed_at, field, old_value, new_value)"
+            " VALUES (?,?,?,?,?)", (keep_id, now, "merged", dup_id, dup.job_name[:120]))
+        self.conn.commit()
+        log.info("merged %s into %s", dup_id, keep_id)
+        return True
+
+    def append_note(self, nid, note):
+        """Add a dated note line (history-logged); used by the applied-updates
+        watcher. Returns False if the id is unknown."""
+        n = self.get(nid)
+        if not n:
+            return False
+        now = datetime.now().isoformat(timespec="seconds")
+        d = n.to_dict()
+        d["notes"] = ((d.get("notes") or "") + " | " + note).strip(" |")
+        self.conn.execute(
+            "INSERT INTO history (notification_id, changed_at, field, old_value, new_value)"
+            " VALUES (?,?,?,?,?)", (nid, now, "update_spotted", "", note[:200]))
         self.conn.execute(
             "UPDATE notifications SET data=?, updated_at=? WHERE notification_id=?",
             (json.dumps(d, ensure_ascii=False), now, nid))

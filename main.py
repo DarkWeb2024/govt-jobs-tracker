@@ -4,6 +4,7 @@ Usage:
   python main.py                  run the full daily pipeline
   python main.py --login-mstodo   one-time Microsoft To Do device login
   python main.py --status ID "Applied"   update tracked status for a record
+  python main.py --merge KEEP_ID DUP_ID  merge a duplicate into the record to keep
   python main.py --list-urgent    print deadlines within 7 days and exit
 """
 import argparse
@@ -28,6 +29,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--login-mstodo", action="store_true")
     ap.add_argument("--status", nargs=2, metavar=("ID", "STATUS"))
+    ap.add_argument("--merge", nargs=2, metavar=("KEEP_ID", "DUP_ID"))
     ap.add_argument("--list-urgent", action="store_true")
     args = ap.parse_args()
 
@@ -43,6 +45,19 @@ def main():
         store = Store(cfg["paths"]["database"])
         ok = store.set_status(args.status[0], args.status[1])
         print("updated" if ok else "notification id not found")
+        sys.exit(0 if ok else 1)
+
+    if args.merge:
+        cfg = load_config()
+        store = Store(cfg["paths"]["database"])
+        keep, dup = args.merge
+        ok = store.merge(keep, dup)
+        if ok:
+            n = store.get(keep)
+            print(f"merged. keeping: {n.job_name} [{keep}]")
+            print("future scrapes of the duplicate will update this record.")
+        else:
+            print("merge failed - check both ids exist (see docs/data.json or the CSV)")
         sys.exit(0 if ok else 1)
 
     if args.list_urgent:
