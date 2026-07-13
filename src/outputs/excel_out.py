@@ -81,8 +81,17 @@ def write_excel(notifications, path, history=None):
     jobs = [n for n in notifications if n.category != "Exam"]
     exams = [n for n in notifications if n.category == "Exam"]
 
+    def _is_karnataka(n):
+        return "karnataka" in f"{n.state} {n.location}".lower()
+    karnataka = [n for n in notifications if _is_karnataka(n)]
+    central = [n for n in notifications if not _is_karnataka(n)]
+    from ..models import HIDDEN_STATES
+    not_interested = [n for n in notifications if n.status in HIDDEN_STATES]
+
     for title, items in [("Verified", verified), ("Unverified", unverified),
                          ("Applied", applied), ("Jobs", jobs), ("Exams", exams),
+                         ("Central", central), ("Karnataka", karnataka),
+                         ("Not Interested", not_interested),
                          ("Expired", expired), ("Upcoming", upcoming),
                          ("Calendar", upcoming)]:
         _sheet(wb, title, items)

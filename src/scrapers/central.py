@@ -92,28 +92,33 @@ def rrb():
 
 
 def ibps():
-    page = soup("https://www.ibps.in/")
-    if page is None:
-        return []
-    out = []
-    for a in page.select("a[href]"):
-        t = clean(a.get_text())
-        low = t.lower()
-        if len(t) < 12:
+    # homepage carries CRP updates; /index.php/recruitment/ lists client-bank
+    # recruitments (SBI SCO, RBI, cooperative banks, ...) that never reach the
+    # homepage ticker
+    out, seen = [], set()
+    for page_url in ("https://www.ibps.in/", "https://www.ibps.in/index.php/recruitment/"):
+        page = soup(page_url)
+        if page is None:
             continue
-        if not any(k in low for k in ("crp", "recruitment", "notification", "vacanc")):
-            continue
-        href = a["href"]
-        url = href if href.startswith("http") else "https://www.ibps.in/" + href.lstrip("/")
-        out.append(Notification(
-            job_name=f"IBPS: {t}"[:180], organization="IBPS",
-            department="Institute of Banking Personnel Selection", category="Exam",
-            state="All India", location="All India",
-            official_website="https://www.ibps.in/",
-            apply_link=url,
-            official_pdf=url if url.lower().endswith(".pdf") else "",
-            verification_source="official:ibps.in",
-            tags="ibps,banking,central"))
+        for a in page.select("a[href]"):
+            t = clean(a.get_text())
+            low = t.lower()
+            if len(t) < 12 or low in seen:
+                continue
+            if not any(k in low for k in ("crp", "recruitment", "notification", "vacanc")):
+                continue
+            seen.add(low)
+            href = a["href"]
+            url = href if href.startswith("http") else "https://www.ibps.in/" + href.lstrip("/")
+            out.append(Notification(
+                job_name=f"IBPS: {t}"[:180], organization="IBPS",
+                department="Institute of Banking Personnel Selection", category="Exam",
+                state="All India", location="All India",
+                official_website="https://www.ibps.in/index.php/recruitment/",
+                apply_link=url,
+                official_pdf=url if url.lower().endswith(".pdf") else "",
+                verification_source="official:ibps.in",
+                tags="ibps,banking,central"))
     return out
 
 

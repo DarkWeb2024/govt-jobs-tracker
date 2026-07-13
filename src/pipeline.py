@@ -146,10 +146,12 @@ def run(cfg_path="config/config.yaml"):
     for src, name in [(csv_p, "latest.csv"), (xlsx_p, "latest.xlsx"), (pdf_p, "latest.pdf")]:
         shutil.copy(src, os.path.join(site_dir, "data", name))
 
-    # notifications
-    emailer.send_daily(cfg, everything, changes, [pdf_p, csv_p, xlsx_p])
-    mstodo.sync(cfg, everything)
-    whatsapp.send(cfg, everything)
+    # notifications - records the user hid stay out of every alert channel
+    from .models import HIDDEN_STATES
+    visible = [n for n in everything if n.status not in HIDDEN_STATES]
+    emailer.send_daily(cfg, visible, changes, [pdf_p, csv_p, xlsx_p])
+    mstodo.sync(cfg, visible)
+    whatsapp.send(cfg, visible)
 
     summary = (f"new={new} updated={updated} total={len(everything)} "
                f"errors={errors} changes24h={len(changes)}")

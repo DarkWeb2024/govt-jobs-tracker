@@ -16,8 +16,11 @@ TRACK_STATES = [
     "Exam Scheduled", "Admit Card Available", "Exam Completed", "Answer Key Released",
     "Result Awaited", "Result Declared", "Shortlisted", "Interview",
     "Document Verification", "Offer Released", "Rejected", "Completed",
-    "Already Applied",
+    "Already Applied", "Not Interested", "Not Eligible",
 ]
+
+# statuses that remove a record from default views without deleting it
+HIDDEN_STATES = {"Not Interested", "Not Eligible"}
 
 PRIORITIES = ["Critical", "High", "Medium", "Low"]
 
