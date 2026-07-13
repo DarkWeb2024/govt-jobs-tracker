@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-09T20:07:46",
- "count": 205,
+ "generated_at": "2026-07-11T19:28:50",
+ "count": 210,
  "notifications": [
   {
    "notification_id": "d3fc6c6dc095",
@@ -28,14 +28,14 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Critical",
    "notes": "",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 2
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 0
   },
   {
    "notification_id": "8f0a7d9e4c32",
@@ -63,14 +63,14 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
-   "priority": "Medium",
+   "priority": "High",
    "notes": "Advertisement SDSC SHAR/RMT/02/2026",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 8
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 6
   },
   {
    "notification_id": "20ce9957b1ad",
@@ -98,14 +98,14 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Medium",
    "notes": "",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 11
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 9
   },
   {
    "notification_id": "7dad31edacce",
@@ -139,8 +139,8 @@
    "notes": "",
    "tags": "ibps,banking,po",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 12
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 10
   },
   {
    "notification_id": "f47eec778e67",
@@ -174,8 +174,8 @@
    "notes": "",
    "tags": "kea,ksp,karnataka,constable,10th pass",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 13
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 11
   },
   {
    "notification_id": "0eaccdaa75d8",
@@ -209,8 +209,8 @@
    "notes": "",
    "tags": "defence,air force,agniveer,12th pass",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 17
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 15
   },
   {
    "notification_id": "4180e90cf82e",
@@ -244,8 +244,8 @@
    "notes": "",
    "tags": "karnataka,high court,data entry,graduate",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 19
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 17
   },
   {
    "notification_id": "9b522ef833ed",
@@ -279,8 +279,8 @@
    "notes": "",
    "tags": "iocl,apprentice,psu",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 19
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 17
   },
   {
    "notification_id": "1a5b8cc9c6c0",
@@ -314,8 +314,8 @@
    "notes": "",
    "tags": "rrb,railway,technician,cs eligible",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 20
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 18
   },
   {
    "notification_id": "5b55eb7f7496",
@@ -349,8 +349,8 @@
    "notes": "",
    "tags": "karnataka,high court,graduate,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 21
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 19
   },
   {
    "notification_id": "f38847e85b8a",
@@ -378,14 +378,14 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Medium",
    "notes": "",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 22
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 20
   },
   {
    "notification_id": "a0351205e25c",
@@ -419,8 +419,8 @@
    "notes": "",
    "tags": "ssc,mts,10th pass",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 22
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 20
   },
   {
    "notification_id": "68c882b5d374",
@@ -454,8 +454,8 @@
    "notes": "",
    "tags": "karnataka,high court,group d,10th pass",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 22
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 20
   },
   {
    "notification_id": "b1b9a0c16528",
@@ -489,8 +489,8 @@
    "notes": "",
    "tags": "india post,gds,10th pass,karnataka",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": 27
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": 25
   },
   {
    "notification_id": "95999fe15290",
@@ -524,8 +524,8 @@
    "notes": "Applied on 07-Jul-2026, one day before deadline",
    "tags": "sbi,banking,po,applied",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -3
   },
   {
    "notification_id": "97971372922f",
@@ -559,8 +559,8 @@
    "notes": "Application window closed 25-Jun-2026; marked Applied per owner. Next milestone: Tier-1 exam city slip and admit card",
    "tags": "ssc,cgl,exam,applied",
    "first_seen": "2026-07-09T19:37:59",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -14
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -16
   },
   {
    "notification_id": "db7f2859aab5",
@@ -594,7 +594,7 @@
    "notes": "UNVERIFIED until notification releases - complete SSC OTR in advance",
    "tags": "ssc,chsl,12th pass,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -629,7 +629,7 @@
    "notes": "Choose Karnataka state for Bengaluru-region posting; Kannada proficiency applies",
    "tags": "ibps,clerk,banking,upcoming,karnataka",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -664,7 +664,7 @@
    "notes": "UNVERIFIED schedule - based on annual cycle. Unlocks PSU recruitment and M.Tech",
    "tags": "gate,exam,psu gateway,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -699,7 +699,7 @@
    "notes": "UNVERIFIED - expected window; EO/AO not notified in 2026",
    "tags": "upsc,epfo,graduate,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -734,7 +734,7 @@
    "notes": "UNVERIFIED - based on 2025 cycle timing (16 Aug-08 Sep)",
    "tags": "lic,aao,insurance,graduate,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -769,7 +769,7 @@
    "notes": "UNVERIFIED - RRB annual calendar indication",
    "tags": "rrb,ntpc,railway,graduate,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -804,7 +804,7 @@
    "notes": "UNVERIFIED - calendar indication",
    "tags": "rrb,je,railway,engineering,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -839,7 +839,7 @@
    "notes": "UNVERIFIED - expected cycle, may fall after Aug",
    "tags": "ib,acio,intelligence,graduate,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -874,7 +874,7 @@
    "notes": "UNVERIFIED - aggregators report ~100-182 posts; typical window May-Aug. Check weekly",
    "tags": "hal,defence psu,bengaluru,engineering,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -909,7 +909,7 @@
    "notes": "UNVERIFIED timing. Branch restriction excludes CS/AI-ML - kept for completeness",
    "tags": "ssc,je,engineering,upcoming",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -938,14 +938,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement IIST/Admin/RMT/14-2026 (1)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -85
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -87
   },
   {
    "notification_id": "4de01320d5c2",
@@ -973,14 +973,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC:01:2026",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -88
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -90
   },
   {
    "notification_id": "08e8618085b3",
@@ -1008,13 +1008,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2026",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1043,14 +1043,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC/RMT/4/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -221
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -223
   },
   {
    "notification_id": "0c8ea4334e02",
@@ -1078,13 +1078,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:04:2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1113,14 +1113,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/01/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -237
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -239
   },
   {
    "notification_id": "17626a2c978b",
@@ -1148,14 +1148,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement PRL:02/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -251
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -253
   },
   {
    "notification_id": "7001efc2b162",
@@ -1183,13 +1183,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:03:2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1218,13 +1218,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:02:2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1253,13 +1253,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1288,14 +1288,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC/RMT/03/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -301
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -303
   },
   {
    "notification_id": "3ff84b4e7123",
@@ -1323,14 +1323,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/01/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -317
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -319
   },
   {
    "notification_id": "57a200e19328",
@@ -1358,13 +1358,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NESAC/RMT-TEMP/WI-01/2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1393,14 +1393,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:03(CEPO):2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -360
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -362
   },
   {
    "notification_id": "b7d81dd93d71",
@@ -1428,14 +1428,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-335 DATED 31.05.2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -386
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -388
   },
   {
    "notification_id": "cb151a0e48f8",
@@ -1463,14 +1463,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-334 DATED 31.05.2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -388
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -390
   },
   {
    "notification_id": "af2630addb70",
@@ -1498,14 +1498,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:02(EMC):2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -388
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -390
   },
   {
    "notification_id": "1c4bc32ab34f",
@@ -1533,14 +1533,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-1-2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -405
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -407
   },
   {
    "notification_id": "b1694a9500c1",
@@ -1568,14 +1568,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:01(EMC):2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -416
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -418
   },
   {
    "notification_id": "7bd733e818b9",
@@ -1603,13 +1603,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-332 DATED 29.03.2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1638,14 +1638,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISTRAC/APPRMT/2025",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -444
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -446
   },
   {
    "notification_id": "3a36ceba0867",
@@ -1673,13 +1673,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC – 333 Dated 20.03.2025",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1708,13 +1708,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC:01:2025",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1743,14 +1743,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/02/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -553
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -555
   },
   {
    "notification_id": "717881bc815f",
@@ -1778,13 +1778,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement HSFC:01:RMT:2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1813,13 +1813,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1848,14 +1848,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/01/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -671
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -673
   },
   {
    "notification_id": "26af2a5deb36",
@@ -1883,14 +1883,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/01/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -667
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -669
   },
   {
    "notification_id": "2caf7010bfe8",
@@ -1918,13 +1918,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NESAC/RMT-TEMP/WI-01/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -1953,14 +1953,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-330 DATED 20.04.2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -795
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -797
   },
   {
    "notification_id": "117a603c4cd5",
@@ -1988,14 +1988,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-2-2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -822
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -824
   },
   {
    "notification_id": "7c096f94f7ec",
@@ -2023,14 +2023,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement PRL:05/2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -830
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -832
   },
   {
    "notification_id": "deecbd5d85c9",
@@ -2058,14 +2058,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC:ISTRAC:01:2024",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -860
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -862
   },
   {
    "notification_id": "8a0b21198503",
@@ -2093,14 +2093,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-1-2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -878
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -880
   },
   {
    "notification_id": "978c27c3b3a2",
@@ -2128,14 +2128,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-329 Dated 16.01.2024",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -891
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -893
   },
   {
    "notification_id": "3b0c1f3af544",
@@ -2163,14 +2163,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:04:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -906
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -908
   },
   {
    "notification_id": "85865c15faa0",
@@ -2198,14 +2198,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement DS_8C-12011/11/2023-Sec.VIII",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -899
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -901
   },
   {
    "notification_id": "2fbc29783aa3",
@@ -2233,14 +2233,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC/RMT/4/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -921
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -923
   },
   {
    "notification_id": "bfb3ee045202",
@@ -2268,14 +2268,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-328 DATED 11.11.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -955
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -957
   },
   {
    "notification_id": "668d929856c2",
@@ -2303,14 +2303,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/05/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -979
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -981
   },
   {
    "notification_id": "748ca9ca8a8c",
@@ -2338,14 +2338,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/04/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1050
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1052
   },
   {
    "notification_id": "0583ecf7e94a",
@@ -2373,14 +2373,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-326 Dated 29.07.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1060
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1062
   },
   {
    "notification_id": "d34106ce649b",
@@ -2408,14 +2408,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-325 Dated 29.07.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1060
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1062
   },
   {
    "notification_id": "a118d71078ce",
@@ -2443,14 +2443,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:03:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1053
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1055
   },
   {
    "notification_id": "2009f682b697",
@@ -2478,14 +2478,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement IN-SPACe:01:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1067
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1069
   },
   {
    "notification_id": "e4f58040975b",
@@ -2513,14 +2513,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/03/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1080
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1082
   },
   {
    "notification_id": "1a14f7bcf117",
@@ -2548,14 +2548,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-327 DATED 01.07.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1084
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1086
   },
   {
    "notification_id": "e2ad34d954b6",
@@ -2583,14 +2583,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:02:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1094
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1096
   },
   {
    "notification_id": "05d457c2646a",
@@ -2618,14 +2618,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement PRL:01/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1105
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1107
   },
   {
    "notification_id": "901cb485b14d",
@@ -2653,14 +2653,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1119
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1121
   },
   {
    "notification_id": "542110585a25",
@@ -2688,14 +2688,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:02(EMC):2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1121
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1123
   },
   {
    "notification_id": "4af7909e5cc5",
@@ -2723,14 +2723,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/02/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1136
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1138
   },
   {
    "notification_id": "04483f7bba5b",
@@ -2758,14 +2758,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/01/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1136
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1138
   },
   {
    "notification_id": "a9925fb49174",
@@ -2793,14 +2793,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC/RMT/02/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1133
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1135
   },
   {
    "notification_id": "c88a3a7915f3",
@@ -2828,14 +2828,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/02/2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1150
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1152
   },
   {
    "notification_id": "f542551ab771",
@@ -2863,14 +2863,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:01(CEPO):2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1142
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1144
   },
   {
    "notification_id": "067b94e61898",
@@ -2898,14 +2898,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-324 dated 29.04.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1148
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1150
   },
   {
    "notification_id": "07196ca2a434",
@@ -2933,14 +2933,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-323 dated 29.04.2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1150
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1152
   },
   {
    "notification_id": "b563a333eea7",
@@ -2968,13 +2968,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement IPRC/RMT/2023/01",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3003,13 +3003,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-1-2023",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3038,13 +3038,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-322 DATED 31.12.2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3073,13 +3073,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISROHQ/APP/2022-23",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3108,13 +3108,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:01:2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3143,13 +3143,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:02(A-JPA):2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3178,13 +3178,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO HQ:RMT:01:2022",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3213,13 +3213,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:01(1)(EMC):2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3248,14 +3248,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NESAC/RMT-TEMP/02/2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1317
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1319
   },
   {
    "notification_id": "661c5b133106",
@@ -3283,14 +3283,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement 09(1)/2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1363
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1365
   },
   {
    "notification_id": "57ba3a50d373",
@@ -3318,13 +3318,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:01(Officer):2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3353,13 +3353,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement ISRO:ICRB:03:2019",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3388,14 +3388,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement E.28011/1/2015-V(VIII) (Vol.II)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1434
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1436
   },
   {
    "notification_id": "86e6d2078291",
@@ -3423,13 +3423,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement No.E.28011/1/2015-V(VIII) (Vol.II)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3458,14 +3458,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement B.27011/13/2012-VIII(Vol.III)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1888
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1890
   },
   {
    "notification_id": "b0d59286db4e",
@@ -3493,13 +3493,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement A.13011/1/2014-1",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3528,13 +3528,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement B.28011/1/2015-V/I(Vol.l)",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3563,14 +3563,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement IN-SPACe:01:2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1500
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1502
   },
   {
    "notification_id": "0832e070b04e",
@@ -3598,13 +3598,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement HSFC/02/RMT/2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3633,13 +3633,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement HSFC/01/RMT/2019",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3668,13 +3668,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC:01:2020",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3703,13 +3703,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement URSC: 01 :2021",
    "tags": "isro,space,central,bengaluru",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3738,13 +3738,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/02/2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3773,13 +3773,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement LPSC/01/2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3808,14 +3808,14 @@
    "status": "Not Applied",
    "verification_status": "Application Closed",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NRSC-RMT-1-2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
-   "days_left": -1523
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": -1525
   },
   {
    "notification_id": "7008451b6823",
@@ -3843,13 +3843,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement NESAC/RMT-TEMP/01/2021",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3878,13 +3878,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SDSC SHAR/RMT/01/2020",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3913,13 +3913,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement SAC:02:2020",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3948,13 +3948,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:isro.gov.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "Advertisement VSSC-320 Dated 25.07.2022",
    "tags": "isro,space,central",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -3989,7 +3989,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4024,7 +4024,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4059,7 +4059,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4094,7 +4094,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4129,7 +4129,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4164,7 +4164,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4199,7 +4199,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4234,7 +4234,7 @@
    "notes": "",
    "tags": "karnataka,high court,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4269,7 +4269,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4304,7 +4304,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4339,7 +4339,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4374,7 +4374,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4409,7 +4409,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4444,7 +4444,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4479,7 +4479,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4514,7 +4514,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4549,7 +4549,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4584,7 +4584,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4619,7 +4619,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4654,7 +4654,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4689,7 +4689,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4724,7 +4724,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4759,7 +4759,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4794,7 +4794,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4829,7 +4829,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4864,7 +4864,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4899,7 +4899,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4934,7 +4934,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -4969,7 +4969,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5004,7 +5004,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5039,7 +5039,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5074,7 +5074,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5109,7 +5109,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5144,7 +5144,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5179,7 +5179,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5214,7 +5214,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5249,7 +5249,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5284,7 +5284,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5319,7 +5319,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5354,7 +5354,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5389,7 +5389,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5424,7 +5424,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5459,7 +5459,7 @@
    "notes": "",
    "tags": "karnataka,kea,state",
    "first_seen": "2026-07-09T19:38:00",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5494,7 +5494,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5529,7 +5529,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5564,7 +5564,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5599,7 +5599,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5634,7 +5634,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5669,7 +5669,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5704,7 +5704,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5739,7 +5739,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5774,7 +5774,7 @@
    "notes": "",
    "tags": "upsc,central,exam",
    "first_seen": "2026-07-09T19:38:01",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5803,13 +5803,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official PDF",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.95,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5838,13 +5838,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5873,13 +5873,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official PDF",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.95,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5908,13 +5908,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5943,13 +5943,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -5978,13 +5978,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6013,13 +6013,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6048,13 +6048,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6083,13 +6083,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6118,13 +6118,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6153,13 +6153,13 @@
    "status": "Not Applied",
    "verification_status": "Verified with Official Website",
    "verification_source": "official:ibps.in",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.85,
    "priority": "Low",
    "notes": "",
    "tags": "ibps,banking,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6194,7 +6194,7 @@
    "notes": "",
    "tags": "defence,air force,agniveer,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6229,7 +6229,7 @@
    "notes": "",
    "tags": "defence,air force,agniveer,central",
    "first_seen": "2026-07-09T19:38:04",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6258,13 +6258,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:freejobalert.com",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:48",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator",
    "first_seen": "2026-07-09T19:38:24",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6293,13 +6293,13 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:freejobalert.com",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-11T19:28:49",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator",
    "first_seen": "2026-07-09T19:38:24",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6334,7 +6334,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-09T21:15:11",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6369,7 +6369,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-09T21:15:11",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6404,7 +6404,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,indgovtjobs.in",
    "first_seen": "2026-07-09T21:15:11",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6439,7 +6439,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6474,7 +6474,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6509,7 +6509,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6544,7 +6544,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6579,7 +6579,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6614,7 +6614,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6649,7 +6649,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6684,7 +6684,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6719,7 +6719,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6754,7 +6754,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6789,7 +6789,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6824,7 +6824,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6859,7 +6859,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6894,7 +6894,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6929,7 +6929,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6964,7 +6964,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -6999,7 +6999,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -7034,7 +7034,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -7069,7 +7069,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -7104,7 +7104,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -7139,7 +7139,7 @@
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,sarkariresult.com",
    "first_seen": "2026-07-09T21:15:13",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   },
   {
@@ -7168,13 +7168,188 @@
    "status": "Not Applied",
    "verification_status": "Unverified",
    "verification_source": "aggregator:karnatakacareers.org",
-   "verification_timestamp": "2026-07-09T20:07:45",
+   "verification_timestamp": "2026-07-10T19:54:41",
    "confidence": 0.3,
    "priority": "Low",
    "notes": "Found via aggregator - needs official confirmation",
    "tags": "aggregator,karnatakacareers.org",
    "first_seen": "2026-07-09T21:15:15",
-   "last_checked": "2026-07-09T20:07:45",
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": null
+  },
+  {
+   "notification_id": "08ddbe24b90c",
+   "job_name": "IBPS PO MT XVI Recruitment 2026 – Apply Online for 6715+ Posts | Last Date 21-07-2026",
+   "exam_name": "",
+   "department": "",
+   "organization": "IBPS",
+   "qualification": "",
+   "age": "",
+   "salary": "",
+   "pay_level": "",
+   "vacancies": "",
+   "state": "All India",
+   "location": "All India",
+   "category": "Job",
+   "application_start": "",
+   "application_end": "",
+   "exam_date": "",
+   "result_date": "",
+   "official_website": "",
+   "official_pdf": "",
+   "apply_link": "https://www.indgovtjobs.in/2026/07/IBPS-PO-MT-XVI.html",
+   "selection_process": "",
+   "application_fee": "",
+   "status": "Not Applied",
+   "verification_status": "Unverified",
+   "verification_source": "aggregator:indgovtjobs.in",
+   "verification_timestamp": "2026-07-11T19:28:49",
+   "confidence": 0.3,
+   "priority": "Low",
+   "notes": "Found via aggregator - needs official confirmation",
+   "tags": "aggregator,indgovtjobs.in",
+   "first_seen": "2026-07-11T19:27:56",
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": null
+  },
+  {
+   "notification_id": "9423b9f8c2ba",
+   "job_name": "IBPS PO MT XVI Official Notification 2026 Pdf",
+   "exam_name": "",
+   "department": "",
+   "organization": "IBPS",
+   "qualification": "",
+   "age": "",
+   "salary": "",
+   "pay_level": "",
+   "vacancies": "",
+   "state": "All India",
+   "location": "All India",
+   "category": "Job",
+   "application_start": "",
+   "application_end": "",
+   "exam_date": "",
+   "result_date": "",
+   "official_website": "",
+   "official_pdf": "",
+   "apply_link": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+   "selection_process": "",
+   "application_fee": "",
+   "status": "Not Applied",
+   "verification_status": "Verified with Official Notification",
+   "verification_source": "aggregator:indgovtjobs.in",
+   "verification_timestamp": "2026-07-11T19:28:49",
+   "confidence": 0.7,
+   "priority": "Low",
+   "notes": "Found via aggregator - needs official confirmation",
+   "tags": "aggregator,indgovtjobs.in",
+   "first_seen": "2026-07-11T19:27:56",
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": null
+  },
+  {
+   "notification_id": "4d3d756383fe",
+   "job_name": "IBPS SO Notification 2026 - Apply Online for 745+ Posts | Last Date 21-07-2026",
+   "exam_name": "",
+   "department": "",
+   "organization": "IBPS",
+   "qualification": "",
+   "age": "",
+   "salary": "",
+   "pay_level": "",
+   "vacancies": "",
+   "state": "All India",
+   "location": "All India",
+   "category": "Job",
+   "application_start": "",
+   "application_end": "",
+   "exam_date": "",
+   "result_date": "",
+   "official_website": "",
+   "official_pdf": "",
+   "apply_link": "https://www.indgovtjobs.in/2026/07/IBPS-SO-Notification.html",
+   "selection_process": "",
+   "application_fee": "",
+   "status": "Not Applied",
+   "verification_status": "Unverified",
+   "verification_source": "aggregator:indgovtjobs.in",
+   "verification_timestamp": "2026-07-11T19:28:49",
+   "confidence": 0.3,
+   "priority": "Low",
+   "notes": "Found via aggregator - needs official confirmation",
+   "tags": "aggregator,indgovtjobs.in",
+   "first_seen": "2026-07-11T19:27:56",
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": null
+  },
+  {
+   "notification_id": "d59bffad5a1b",
+   "job_name": "IBPS SO XVI Notification 2026 Pdf",
+   "exam_name": "",
+   "department": "",
+   "organization": "IBPS",
+   "qualification": "",
+   "age": "",
+   "salary": "",
+   "pay_level": "",
+   "vacancies": "",
+   "state": "All India",
+   "location": "All India",
+   "category": "Job",
+   "application_start": "",
+   "application_end": "",
+   "exam_date": "",
+   "result_date": "",
+   "official_website": "",
+   "official_pdf": "",
+   "apply_link": "https://drive.google.com/file/d/1_9-SxCam84nI4enDqOJim0NgKZyAa757/view?usp=sharing",
+   "selection_process": "",
+   "application_fee": "",
+   "status": "Not Applied",
+   "verification_status": "Unverified",
+   "verification_source": "aggregator:indgovtjobs.in",
+   "verification_timestamp": "2026-07-11T19:28:49",
+   "confidence": 0.3,
+   "priority": "Low",
+   "notes": "Found via aggregator - needs official confirmation",
+   "tags": "aggregator,indgovtjobs.in",
+   "first_seen": "2026-07-11T19:27:56",
+   "last_checked": "2026-07-11T19:28:49",
+   "days_left": null
+  },
+  {
+   "notification_id": "546215143e26",
+   "job_name": "RRB Technician Recruitment 2026 –Apply Online for 6557 Posts | Last Date 29-07-2026",
+   "exam_name": "",
+   "department": "",
+   "organization": "RRB",
+   "qualification": "",
+   "age": "",
+   "salary": "",
+   "pay_level": "",
+   "vacancies": "",
+   "state": "All India",
+   "location": "All India",
+   "category": "Job",
+   "application_start": "",
+   "application_end": "",
+   "exam_date": "",
+   "result_date": "",
+   "official_website": "",
+   "official_pdf": "",
+   "apply_link": "https://www.indgovtjobs.in/2026/05/rrb-technician-recruitment.html",
+   "selection_process": "",
+   "application_fee": "",
+   "status": "Not Applied",
+   "verification_status": "Unverified",
+   "verification_source": "aggregator:indgovtjobs.in",
+   "verification_timestamp": "2026-07-11T19:28:49",
+   "confidence": 0.3,
+   "priority": "Low",
+   "notes": "Found via aggregator - needs official confirmation",
+   "tags": "aggregator,indgovtjobs.in",
+   "first_seen": "2026-07-11T19:27:56",
+   "last_checked": "2026-07-11T19:28:49",
    "days_left": null
   }
  ]
