@@ -3,3 +3,7 @@ __pycache__/
 .env
 logs/
 data/ms_token_cache.json
+# regenerated every run and never read back - keeping it out of git avoids
+# constant merge churn from the 4x-daily bot commits. The live site (docs/)
+# and the database (data/tracker.db) stay tracked.
+Reports/
