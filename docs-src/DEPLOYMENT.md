@@ -9,7 +9,8 @@ The site URL becomes https://darkweb2024.github.io/govt-jobs-tracker/
 
 ## GitHub Actions (cloud automation, free)
 
-`.github/workflows/daily.yml` runs at 18:10 UTC (= 23:40 IST) every day:
+`.github/workflows/daily.yml` runs four times a day at 00:30 / 06:30 / 12:30 /
+16:30 UTC (= 06:00 / 12:00 / 18:00 / 22:00 IST):
 1. installs Python + dependencies
 2. runs `python main.py` (scrape, verify, outputs, notifications)
 3. commits the refreshed `docs/`, `Reports/` and `data/tracker.db` back to main

@@ -10,7 +10,7 @@ from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.models import Notification, is_applied
+from src.models import Notification, is_applied, stage
 from src import filters, priority, verify
 from src.database import Store
 
@@ -132,6 +132,47 @@ class TestPriority(unittest.TestCase):
         self.check("2026-08-01", "Medium")     # 23 days
         self.check("2026-12-01", "Low")
         self.check("", "Low")
+
+
+class TestStage(unittest.TestCase):
+    def s(self, status="Not Applied", end="2026-12-01", ver="Unverified"):
+        n = note(status=status, application_end=end, verification_status=ver)
+        return stage(n, today=date(2026, 7, 9))
+
+    def test_new_by_default(self):
+        self.assertEqual(self.s(), "New")
+
+    def test_eligible(self):
+        self.assertEqual(self.s(status="Eligible"), "Eligible")
+
+    def test_applied_variants_map_to_applied(self):
+        for st in ("Applied", "Fee Paid", "Admit Card Available", "Exam Completed"):
+            self.assertEqual(self.s(status=st), "Applied", st)
+
+    def test_result_folder(self):
+        self.assertEqual(self.s(status="Result Awaited"), "Result")
+        self.assertEqual(self.s(status="Result Declared"), "Result")
+
+    def test_hidden_folders(self):
+        self.assertEqual(self.s(status="Duplicate"), "Duplicate")
+        self.assertEqual(self.s(status="Not Eligible"), "Not Eligible")
+        self.assertEqual(self.s(status="Archived"), "Archived")
+
+    def test_expired_when_deadline_past_and_untouched(self):
+        self.assertEqual(self.s(end="2020-01-01"), "Expired")
+
+    def test_applied_survives_past_deadline(self):
+        # once applied, a passed deadline must NOT drop it back to Expired
+        self.assertEqual(self.s(status="Applied", end="2020-01-01"), "Applied")
+
+    def test_single_active_stage(self):
+        # exactly one stage per record - changing status changes the folder
+        n = note(status="Not Applied", application_end="2026-12-01")
+        self.assertEqual(stage(n, today=date(2026, 7, 9)), "New")
+        n.status = "Applied"
+        self.assertEqual(stage(n, today=date(2026, 7, 9)), "Applied")
+        n.status = "Result Declared"
+        self.assertEqual(stage(n, today=date(2026, 7, 9)), "Result")
 
 
 class TestStore(unittest.TestCase):

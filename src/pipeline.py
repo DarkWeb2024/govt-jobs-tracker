@@ -81,6 +81,41 @@ def track_applied_updates(store, update_items):
     return matched
 
 
+def _event_label(field, old, new):
+    if field == "status":
+        return f"Status set to {new}"
+    if field == "update_spotted":
+        return new
+    if field == "merged":
+        return f"Merged duplicate ({new})"
+    if field == "vacancies":
+        return f"Vacancies: {old or '?'} -> {new}"
+    if field == "application_end":
+        return f"Last date changed: {old or '?'} -> {new}"
+    if field in ("exam_date", "result_date"):
+        return f"{field.replace('_', ' ').title()}: {new}"
+    if field == "official_pdf":
+        return "Official PDF updated"
+    return f"{field.replace('_', ' ').title()} updated"
+
+
+def build_events(store):
+    """Turn the history table into a per-notification timeline: a chronological
+    list of {date, label}. Append-only - nothing is ever overwritten."""
+    events = {}
+    for nid, ts, field, old, new in reversed(store.changes_since("1970-01-01")):
+        events.setdefault(nid, []).append({"date": ts[:10],
+                                           "label": _event_label(field, old, new)})
+    # seed each record's timeline with when it was first seen
+    for n in store.all():
+        first = (n.first_seen or "")[:10]
+        if first:
+            events.setdefault(n.notification_id, [])
+            events[n.notification_id].insert(0, {"date": first, "label": "First seen"})
+        events[n.notification_id] = events.get(n.notification_id, [])[:25]
+    return events
+
+
 def update_org_registry(notifications, path="data/organizations.json"):
     """Append organizations seen in notifications but missing from the master
     registry, so the registry grows on its own. Only records that carry an
@@ -190,7 +225,8 @@ def run(cfg_path="config/config.yaml"):
     update_org_registry(everything)
 
     # website (docs/ for GitHub Pages) with latest export copies
-    site_dir = website.build_site(everything, cfg["paths"]["site"])
+    site_dir = website.build_site(everything, cfg["paths"]["site"],
+                                  events=build_events(store))
     for src, name in [(csv_p, "latest.csv"), (xlsx_p, "latest.xlsx"), (pdf_p, "latest.pdf")]:
         shutil.copy(src, os.path.join(site_dir, "data", name))
 

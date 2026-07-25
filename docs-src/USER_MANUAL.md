@@ -2,16 +2,46 @@
 
 ## The website
 
-https://darkweb2024.github.io/govt-jobs-tracker/ (refreshed nightly)
+https://darkweb2024.github.io/govt-jobs-tracker/ (refreshed four times a day)
 
+- Two sections at the top: **Government Jobs** and **Government Exams**, each
+  with its own counts, folders and charts. "All" shows both.
+- **Workflow folders** (New / Eligible / Applied / Results / Expired /
+  Not eligible / Duplicate / Archived) with live counts. Every notification
+  sits in exactly ONE folder.
+- Each card has a **status dropdown**. Changing it moves the card to the
+  matching folder immediately - one active status, never two at once. Your
+  choices are saved in this browser.
+- **Timeline** button on each card shows the full history (first seen, status
+  changes, date changes, spotted updates) - append-only, nothing overwritten.
 - Search box matches name, organization, qualification and tags.
-- Filters: category (Job/Exam/Apprenticeship), verification, priority.
-- "Open only" hides closed/expired records (on by default).
-- Star icon bookmarks a card (stored in your browser).
-- "Mark applied" tracks your applications in the browser; "My applications"
-  shows them plus anything marked Applied in the database itself.
+- Filters: verification, priority, scope (Central / Karnataka), sort.
+- "Open only" hides closed/expired records; star bookmarks a card.
 - Countdown colors: red = 3 days or less, amber = 7 or less, green = later.
 - Export buttons download the latest CSV/Excel/PDF/JSON; RSS for feed readers.
+
+## Workflow folders
+
+The lifecycle is a single-active-status flow:
+
+```
+New -> Eligible -> Applied -> Result -> Joined
+                \-> Not eligible / Duplicate / Archived (hidden from default)
+                    Expired (deadline passed, never actioned)
+```
+
+Set status from the website dropdown (saved in your browser) or, to make it
+permanent across devices and into the email/database, from the CLI:
+
+```
+python main.py --status <id> "Eligible"
+python main.py --status <id> "Applied"
+python main.py --status <id> "Duplicate"
+```
+
+The website value wins on the website; the database value is what the reports,
+email and To Do use. For anything you want to survive re-scrapes everywhere,
+use the CLI (or --merge for confirmed duplicates).
 
 ## Reading verification labels
 

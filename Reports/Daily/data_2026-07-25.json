@@ -37,16 +37,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 0,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0eaccdaa75d8",
@@ -83,12 +74,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 1,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6a1ba80c0baf",
@@ -125,12 +111,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 1,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a836f0d3d3af",
@@ -167,12 +148,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 1,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9877e82c9c23",
@@ -209,12 +185,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 1,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "187904471510",
@@ -251,12 +222,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 1,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "efe1ee1f388e",
@@ -293,16 +259,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 2,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "28a11715a36e",
@@ -339,16 +296,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 2,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4180e90cf82e",
@@ -385,12 +333,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 3,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9b522ef833ed",
@@ -427,12 +370,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 3,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3ff710bcf65e",
@@ -469,12 +407,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 3,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3dfba88b6b43",
@@ -511,12 +444,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 3,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1a5b8cc9c6c0",
@@ -553,12 +481,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 4,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2440f1ee2500",
@@ -595,16 +518,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 4,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "74f3846a41ea",
@@ -641,12 +555,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 4,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9b8c9e52901f",
@@ -683,12 +592,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 4,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5b55eb7f7496",
@@ -725,12 +629,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 5,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "81fc62bcea08",
@@ -767,12 +666,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 5,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f08d2ed875c8",
@@ -809,12 +703,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 5,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f38847e85b8a",
@@ -851,40 +740,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Tags updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Apply Link updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Job Name updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a0351205e25c",
@@ -921,12 +777,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "68c882b5d374",
@@ -963,12 +814,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2ebba66fb0e3",
@@ -1005,16 +851,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "210ade9e5bf9",
@@ -1051,12 +888,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a27d081b19cd",
@@ -1093,12 +925,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5e61ca17dabf",
@@ -1135,12 +962,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8e156355925a",
@@ -1177,12 +999,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "371975abd197",
@@ -1219,12 +1036,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "07e4761c6750",
@@ -1261,12 +1073,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8907978caea6",
@@ -1303,16 +1110,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2a17154f3309",
@@ -1349,12 +1147,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b9a0fb4e85ef",
@@ -1391,12 +1184,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1a07aca555d6",
@@ -1433,16 +1221,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "37997fa799c2",
@@ -1479,12 +1258,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "30f3e6c371fe",
@@ -1521,12 +1295,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "67f4c483d3d8",
@@ -1563,12 +1332,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0800d9fc359e",
@@ -1605,12 +1369,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3d2ca8bdae1c",
@@ -1647,12 +1406,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 6,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e134cabaa659",
@@ -1689,12 +1443,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 8,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c311855f6402",
@@ -1731,12 +1480,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 8,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "08f756f147d2",
@@ -1773,12 +1517,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 9,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5d581d65f55c",
@@ -1815,12 +1554,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 9,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "af78f272baa3",
@@ -1857,12 +1591,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 10,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b1b9a0c16528",
@@ -1899,12 +1628,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 11,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5fecda24a57c",
@@ -1941,12 +1665,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 11,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "dff4ee1eecc9",
@@ -1983,12 +1702,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 11,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "cef3a64a395c",
@@ -2025,12 +1739,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 11,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1c88e73f0460",
@@ -2067,12 +1776,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 12,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8e1bf2ea55b6",
@@ -2109,12 +1813,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 12,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "dee64234f7b1",
@@ -2151,12 +1850,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 12,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "31c6013ece22",
@@ -2193,12 +1887,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 12,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e1b250da906c",
@@ -2235,12 +1924,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 13,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c377f9d8e757",
@@ -2277,12 +1961,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 13,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "334ab89aef3d",
@@ -2319,12 +1998,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 13,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a2f64acca2f0",
@@ -2361,12 +2035,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 13,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4e267f6cc482",
@@ -2403,12 +2072,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 14,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "fd444b4779a6",
@@ -2445,12 +2109,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 14,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d66068250c78",
@@ -2487,12 +2146,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 15,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1533483d1978",
@@ -2529,12 +2183,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 15,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "dc218a8516c5",
@@ -2571,12 +2220,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 15,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c145c956e397",
@@ -2613,12 +2257,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 16,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a4dc06505bef",
@@ -2655,12 +2294,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 16,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d884cd6b3cb7",
@@ -2697,12 +2331,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 16,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e727e11ab9f6",
@@ -2739,12 +2368,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 16,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6c6e3c7d205d",
@@ -2781,12 +2405,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 18,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3fb86c897911",
@@ -2823,12 +2442,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 18,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "20ba2e709c8b",
@@ -2865,12 +2479,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 18,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a939fc070c2c",
@@ -2907,12 +2516,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 18,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "aa29d07e53a9",
@@ -2949,12 +2553,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 20,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9e6503532995",
@@ -2991,16 +2590,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 20,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ae0da04f4b87",
@@ -3037,16 +2627,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 20,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "cfea1a1d83ad",
@@ -3083,12 +2664,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 20,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a56f14a10674",
@@ -3125,12 +2701,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 20,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "593bd243ab50",
@@ -3167,12 +2738,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 20,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "15d20797edb6",
@@ -3209,12 +2775,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 20,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f212221e6e09",
@@ -3251,12 +2812,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 20,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c8961e595118",
@@ -3293,12 +2849,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 21,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "49710d2fd85f",
@@ -3335,16 +2886,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 22,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "25dfc16ef523",
@@ -3381,12 +2923,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 22,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "cdb366ef6383",
@@ -3423,16 +2960,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 23,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9db7b1a76ec5",
@@ -3469,12 +2997,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 23,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b830ff06d417",
@@ -3511,12 +3034,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 23,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "47d29809f6b7",
@@ -3553,16 +3071,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 24,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "bd7461514cac",
@@ -3599,16 +3108,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 25,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9046be39cca2",
@@ -3645,16 +3145,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 25,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "086cd08ca6b8",
@@ -3691,12 +3182,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 25,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f146a12815c6",
@@ -3733,12 +3219,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 26,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1b507bb14fa2",
@@ -3775,12 +3256,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 30,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "beda7d77d6bd",
@@ -3817,12 +3293,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 30,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "38721b3be0f0",
@@ -3859,12 +3330,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 36,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e49af786dcf3",
@@ -3901,12 +3367,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 37,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d68adf153509",
@@ -3943,12 +3404,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 37,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "986de7b9214d",
@@ -3985,12 +3441,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": 46,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "95999fe15290",
@@ -4027,16 +3478,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -17,
    "stage": "Applied",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Status set to Applied"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "97971372922f",
@@ -4073,16 +3515,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -30,
    "stage": "Applied",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Status set to Applied"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7dad31edacce",
@@ -4119,12 +3552,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -4,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "20ce9957b1ad",
@@ -4161,52 +3589,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Tags updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Apply Link updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Job Name updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d3fc6c6dc095",
@@ -4243,52 +3626,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -14,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Tags updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Apply Link updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Application Start updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Job Name updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-12",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-12",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f47eec778e67",
@@ -4325,12 +3663,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -3,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "db7f2859aab5",
@@ -4367,12 +3700,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d0a84e5ec287",
@@ -4409,12 +3737,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6a8fe1490bfd",
@@ -4451,12 +3774,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c111ee9f200d",
@@ -4493,12 +3811,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c010ebbce33e",
@@ -4535,12 +3848,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "98cedf3616a7",
@@ -4577,12 +3885,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f4986f7fb3a3",
@@ -4619,12 +3922,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "30fdef969a8b",
@@ -4661,12 +3959,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1b9ab349b3f2",
@@ -4703,12 +3996,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ee723ac58d69",
@@ -4745,12 +4033,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8f0a7d9e4c32",
@@ -4787,32 +4070,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -8,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-14",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9118b7253cd9",
@@ -4849,16 +4107,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -101,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4de01320d5c2",
@@ -4895,16 +4144,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -104,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "08e8618085b3",
@@ -4941,16 +4181,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "88e01056b013",
@@ -4987,16 +4218,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -237,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0c8ea4334e02",
@@ -5033,16 +4255,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3e6f8ac6a05e",
@@ -5079,16 +4292,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -253,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "17626a2c978b",
@@ -5125,16 +4329,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -267,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7001efc2b162",
@@ -5171,16 +4366,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1d75640aef2e",
@@ -5217,16 +4403,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0ea53ef1ddcb",
@@ -5263,16 +4440,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "676b36b21a4e",
@@ -5309,16 +4477,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -317,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3ff84b4e7123",
@@ -5355,16 +4514,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -333,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "57a200e19328",
@@ -5401,16 +4551,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "775183f8cc22",
@@ -5447,16 +4588,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -376,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b7d81dd93d71",
@@ -5493,16 +4625,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -402,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "cb151a0e48f8",
@@ -5539,16 +4662,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -404,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "af2630addb70",
@@ -5585,16 +4699,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -404,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1c4bc32ab34f",
@@ -5631,16 +4736,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -421,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b1694a9500c1",
@@ -5677,16 +4773,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -432,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7bd733e818b9",
@@ -5723,16 +4810,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d3fa5ad79bf5",
@@ -5769,16 +4847,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -460,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3a36ceba0867",
@@ -5815,16 +4884,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "33e2483ac677",
@@ -5861,16 +4921,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ee0a2bf12529",
@@ -5907,16 +4958,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -569,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "717881bc815f",
@@ -5953,16 +4995,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "60d4099fa8e8",
@@ -5999,16 +5032,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "97c33b4867df",
@@ -6045,16 +5069,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -687,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "26af2a5deb36",
@@ -6091,16 +5106,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -683,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2caf7010bfe8",
@@ -6137,16 +5143,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d8a9af92de7e",
@@ -6183,16 +5180,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -811,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "117a603c4cd5",
@@ -6229,16 +5217,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -838,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7c096f94f7ec",
@@ -6275,16 +5254,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -846,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "deecbd5d85c9",
@@ -6321,16 +5291,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -876,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8a0b21198503",
@@ -6367,16 +5328,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -894,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "978c27c3b3a2",
@@ -6413,16 +5365,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -907,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3b0c1f3af544",
@@ -6459,16 +5402,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -922,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "85865c15faa0",
@@ -6505,16 +5439,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -915,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2fbc29783aa3",
@@ -6551,16 +5476,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -937,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "bfb3ee045202",
@@ -6597,16 +5513,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -971,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "668d929856c2",
@@ -6643,16 +5550,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -995,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "748ca9ca8a8c",
@@ -6689,16 +5587,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1066,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0583ecf7e94a",
@@ -6735,16 +5624,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1076,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d34106ce649b",
@@ -6781,16 +5661,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1076,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a118d71078ce",
@@ -6827,16 +5698,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1069,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2009f682b697",
@@ -6873,16 +5735,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1083,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e4f58040975b",
@@ -6919,16 +5772,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1096,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1a14f7bcf117",
@@ -6965,16 +5809,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1100,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e2ad34d954b6",
@@ -7011,16 +5846,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1110,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "05d457c2646a",
@@ -7057,16 +5883,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1121,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "901cb485b14d",
@@ -7103,16 +5920,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1135,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "542110585a25",
@@ -7149,16 +5957,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1137,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4af7909e5cc5",
@@ -7195,16 +5994,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1152,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "04483f7bba5b",
@@ -7241,16 +6031,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1152,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a9925fb49174",
@@ -7287,16 +6068,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1149,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c88a3a7915f3",
@@ -7333,16 +6105,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1166,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f542551ab771",
@@ -7379,16 +6142,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1158,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "067b94e61898",
@@ -7425,16 +6179,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1164,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "07196ca2a434",
@@ -7471,16 +6216,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1166,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b563a333eea7",
@@ -7517,16 +6253,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a61e04f3f5c6",
@@ -7563,16 +6290,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "469c9703b3df",
@@ -7609,16 +6327,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "27140d4c6bde",
@@ -7655,16 +6364,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2d94a5005698",
@@ -7701,16 +6401,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "91b7bc700a69",
@@ -7747,16 +6438,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a5a2b51b231f",
@@ -7793,16 +6475,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5160de3d49db",
@@ -7839,16 +6512,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e447d2d2f86b",
@@ -7885,16 +6549,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1333,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "661c5b133106",
@@ -7931,16 +6586,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1379,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "57ba3a50d373",
@@ -7977,16 +6623,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9acc5fa04c57",
@@ -8023,16 +6660,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5c5e4d5100be",
@@ -8069,108 +6697,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1450,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Status updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Location updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Status updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Location updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Location updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Status updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Location updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Location updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Status updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Location updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Location updated"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "Verification Status updated"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "Location updated"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "Department updated"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "Location updated"
-    },
-    {
-     "date": "2026-07-10",
-     "label": "Department updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "86e6d2078291",
@@ -8207,16 +6734,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "49a6e128d608",
@@ -8253,16 +6771,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1904,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b0d59286db4e",
@@ -8299,16 +6808,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c04af3420d01",
@@ -8345,16 +6845,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "846a1abfd779",
@@ -8391,16 +6882,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1516,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0832e070b04e",
@@ -8437,16 +6919,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "dc447cd2531c",
@@ -8483,16 +6956,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "37c79aae4c5a",
@@ -8529,16 +6993,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "06031f7f400f",
@@ -8575,16 +7030,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6923e12d41c2",
@@ -8621,16 +7067,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b4597beaee47",
@@ -8667,16 +7104,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "68f70c89b2da",
@@ -8713,16 +7141,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1539,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7008451b6823",
@@ -8759,16 +7178,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "933d12e64467",
@@ -8805,16 +7215,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9e2df8658bc1",
@@ -8851,16 +7252,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6cdcca5431ba",
@@ -8897,16 +7289,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "331871284cde",
@@ -8943,16 +7326,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b1a5aa288fa4",
@@ -8989,16 +7363,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1eda9ff9a510",
@@ -9035,16 +7400,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d564ebc0225a",
@@ -9081,16 +7437,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2487ccd94d7e",
@@ -9127,16 +7474,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e0144438670c",
@@ -9173,16 +7511,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4e52839c0ee4",
@@ -9219,16 +7548,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "279a10e59d43",
@@ -9265,16 +7585,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "87c39fd40a57",
@@ -9311,16 +7622,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b66db2d0d2ec",
@@ -9357,16 +7659,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "02d9e5e0ad90",
@@ -9403,16 +7696,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0a30e8722b26",
@@ -9449,16 +7733,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "26443cbd0d0b",
@@ -9495,16 +7770,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "fbea3ca3776a",
@@ -9541,16 +7807,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "54ce956af53b",
@@ -9587,16 +7844,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "df468c72de0f",
@@ -9633,16 +7881,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e04acb52da48",
@@ -9679,16 +7918,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e4c122dce080",
@@ -9725,16 +7955,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b2f664f0544d",
@@ -9771,16 +7992,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6957d7d8c20a",
@@ -9817,16 +8029,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6bc3d38f7b5b",
@@ -9863,16 +8066,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7bb975daeff4",
@@ -9909,16 +8103,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c0eb547bae1c",
@@ -9955,16 +8140,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "965ad437043b",
@@ -10001,16 +8177,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a86501c2e700",
@@ -10047,16 +8214,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "646ab28ec176",
@@ -10093,16 +8251,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "516d962f09b7",
@@ -10139,16 +8288,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "03ddb8215a94",
@@ -10185,16 +8325,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6b52b5b11eff",
@@ -10231,16 +8362,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "85865b3e20b9",
@@ -10277,16 +8399,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "cce3fa39da86",
@@ -10323,16 +8436,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a2ca30a350bc",
@@ -10369,16 +8473,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "bdb59e70824e",
@@ -10415,16 +8510,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "964555e17606",
@@ -10461,16 +8547,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b119f586189d",
@@ -10507,16 +8584,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9da8e5474470",
@@ -10553,16 +8621,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a526278063a8",
@@ -10599,16 +8658,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "64ddfd6c77fa",
@@ -10645,16 +8695,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "aac8b61baf33",
@@ -10691,16 +8732,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "bd78d582c083",
@@ -10737,16 +8769,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "09be33473806",
@@ -10783,16 +8806,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b002565b1c12",
@@ -10829,16 +8843,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "05d054c7ae93",
@@ -10875,16 +8880,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "dd782eb47fcc",
@@ -10921,16 +8917,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7e0736826c66",
@@ -10967,16 +8954,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b38d90158954",
@@ -11013,16 +8991,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6c8510c5d13d",
@@ -11059,16 +9028,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2a55ae762d7f",
@@ -11105,16 +9065,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d8d82ac387aa",
@@ -11151,16 +9102,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e8a602cefe8a",
@@ -11197,16 +9139,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3e597427454a",
@@ -11243,16 +9176,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a0ff1af0d4a3",
@@ -11289,16 +9213,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6d91fcdbba27",
@@ -11335,20 +9250,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "38b1c543df1a",
@@ -11385,20 +9287,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "72ea41d9bf79",
@@ -11435,20 +9324,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "51552f200f09",
@@ -11485,20 +9361,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ec95bd2ff71c",
@@ -11535,20 +9398,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f14420c146b6",
@@ -11585,20 +9435,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ccac08fce58d",
@@ -11635,20 +9472,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "df124ed2dfe8",
@@ -11685,20 +9509,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1f8689d713f5",
@@ -11735,20 +9546,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4110c19d8a82",
@@ -11785,20 +9583,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "14e0b33e3461",
@@ -11835,20 +9620,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    },
-    {
-     "date": "2026-07-13",
-     "label": "Official Website updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "950b24b5dceb",
@@ -11885,16 +9657,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ac346e8065ab",
@@ -11931,16 +9694,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "dce7ed17ece1",
@@ -11977,16 +9731,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "66103b82ca0e",
@@ -12023,16 +9768,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-09",
-     "label": "Verification Timestamp updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5f42cfb4e481",
@@ -12069,12 +9805,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0a1c54b9a367",
@@ -12111,12 +9842,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b2df44ba87ed",
@@ -12153,12 +9879,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a2c09ebe0e2a",
@@ -12195,12 +9916,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a2e6605fd8a3",
@@ -12237,12 +9953,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9911046a1cce",
@@ -12279,12 +9990,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3c2d2db3a63b",
@@ -12321,12 +10027,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "dd393109757d",
@@ -12363,12 +10064,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f01955ef1026",
@@ -12405,12 +10101,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "230cda599704",
@@ -12447,12 +10138,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2cf95773a9a4",
@@ -12489,12 +10175,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "67d323d972b2",
@@ -12531,12 +10212,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "869d9ca09581",
@@ -12573,12 +10249,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "dd8f1cd6695e",
@@ -12615,12 +10286,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "55b4a6b50093",
@@ -12657,12 +10323,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8c608f5402ff",
@@ -12699,12 +10360,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "80b6f8cbfac2",
@@ -12741,12 +10397,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1827b9313bb4",
@@ -12783,12 +10434,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "99b9ebbe0f2e",
@@ -12825,12 +10471,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b2c23975f2c2",
@@ -12867,12 +10508,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4f785fcad022",
@@ -12909,12 +10545,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "59133fdcb0b3",
@@ -12951,12 +10582,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "504b717a8c8a",
@@ -12993,12 +10619,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c21ab6d3031a",
@@ -13035,12 +10656,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e8f4cf2c1860",
@@ -13077,12 +10693,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-09",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ee357bab6e53",
@@ -13119,12 +10730,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-10",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "59a35a75780f",
@@ -13161,12 +10767,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-10",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "be4d2f5c39ea",
@@ -13203,12 +10804,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-10",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d6e98cc1c5e0",
@@ -13245,12 +10841,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-10",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3254dd27f5cd",
@@ -13287,12 +10878,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-10",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "08ddbe24b90c",
@@ -13329,12 +10915,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-12",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9423b9f8c2ba",
@@ -13371,12 +10952,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-12",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4d3d756383fe",
@@ -13413,12 +10989,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-12",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d59bffad5a1b",
@@ -13455,12 +11026,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-12",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "546215143e26",
@@ -13497,12 +11063,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-12",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9c6d54c2fbe8",
@@ -13539,12 +11100,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "613915a278fc",
@@ -13581,12 +11137,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "445a78ffc3fc",
@@ -13623,12 +11174,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6d805bf6147c",
@@ -13665,12 +11211,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "37aea271c395",
@@ -13707,12 +11248,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "64f5fb58370e",
@@ -13749,12 +11285,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "fe74911be5ab",
@@ -13791,12 +11322,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d65e8b41a249",
@@ -13833,12 +11359,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "76e6ea2d4933",
@@ -13875,12 +11396,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e70a65644056",
@@ -13917,12 +11433,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6510c1beeb15",
@@ -13959,16 +11470,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3c0c7a7cf99b",
@@ -14005,12 +11507,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ed95ef05743a",
@@ -14047,12 +11544,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "234ddbc42df5",
@@ -14089,20 +11581,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -12,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-14",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-14",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "facb4744821b",
@@ -14139,20 +11618,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -4,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-14",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8fa1c254d3ec",
@@ -14189,16 +11655,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -4,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-14",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "38ba695460ee",
@@ -14235,12 +11692,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c5cff61d9419",
@@ -14277,12 +11729,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -13,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "759c8c9b2189",
@@ -14319,12 +11766,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -13,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7ba086e4f5b4",
@@ -14361,12 +11803,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5dc6467a8564",
@@ -14403,12 +11840,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -11,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "70ed734b1425",
@@ -14445,20 +11877,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -11,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "16e211681d5c",
@@ -14495,12 +11914,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5610cbbbd65f",
@@ -14537,12 +11951,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "67706a492af4",
@@ -14579,12 +11988,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3af35e47150a",
@@ -14621,12 +12025,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "2fe781298a3c",
@@ -14663,12 +12062,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5bf73b3f6cf1",
@@ -14705,16 +12099,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -2,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "076a22758017",
@@ -14751,16 +12136,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -3,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b721dc7f0673",
@@ -14797,12 +12173,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ca7603e30152",
@@ -14839,12 +12210,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6403debccb6c",
@@ -14881,12 +12247,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -14,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "37111f5708f8",
@@ -14923,12 +12284,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -14,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "5a5f4ed79766",
@@ -14965,12 +12321,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d4b65d22faf6",
@@ -15007,24 +12358,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -7,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "01eb51896806",
@@ -15061,12 +12395,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -15,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "15dbef457743",
@@ -15103,12 +12432,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -15,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "67ad92d39370",
@@ -15145,12 +12469,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -15,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7d6f196ff958",
@@ -15187,12 +12506,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -16,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8bcadde76d3f",
@@ -15229,12 +12543,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -16,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a032c8ad955c",
@@ -15271,12 +12580,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -16,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1cd698f0d673",
@@ -15313,12 +12617,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "32e5883ec885",
@@ -15355,12 +12654,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "63cfe39c3d27",
@@ -15397,12 +12691,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -17,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "874e9f7fbe8d",
@@ -15439,12 +12728,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -17,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "ec9f52fd7a22",
@@ -15481,12 +12765,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -17,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "430df6694551",
@@ -15523,12 +12802,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -17,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1dcfa46a6ae0",
@@ -15565,12 +12839,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -17,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "1af8cfe898ec",
@@ -15607,12 +12876,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -17,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "cf67f483a91e",
@@ -15649,12 +12913,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -17,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "fad1c4d39d67",
@@ -15691,12 +12950,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "729e2b6f635e",
@@ -15733,20 +12987,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -11,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8e3d1b2b73bd",
@@ -15783,12 +13024,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4b6e9f3bd474",
@@ -15825,20 +13061,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -10,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8b10d250db7b",
@@ -15875,12 +13098,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -16,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f2ae7bfa21a7",
@@ -15917,12 +13135,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -18,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7789a2310c2b",
@@ -15959,12 +13172,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d8db074a9257",
@@ -16001,12 +13209,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -18,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d696f689fa56",
@@ -16043,12 +13246,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -18,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d0f0915f56c0",
@@ -16085,20 +13283,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -10,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3e0b7d4bb183",
@@ -16135,20 +13320,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -8,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b0c75c102f0b",
@@ -16185,12 +13357,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "19333051e7e5",
@@ -16227,12 +13394,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3b3dcf0fed9b",
@@ -16269,12 +13431,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a7d9b1fdb306",
@@ -16311,12 +13468,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "cfe8debf535d",
@@ -16353,12 +13505,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "bd37d8521d64",
@@ -16395,20 +13542,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -11,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f9fb83046123",
@@ -16445,20 +13579,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -11,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f83de0932e7f",
@@ -16495,24 +13616,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -6,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "cf5b3f298da2",
@@ -16549,12 +13653,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8617acf5161b",
@@ -16591,12 +13690,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-13",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "809ad6348b3f",
@@ -16633,12 +13727,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "78a2a0b48826",
@@ -16675,20 +13764,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -10,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "72abb4143a1d",
@@ -16725,20 +13801,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -10,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e246948e8777",
@@ -16775,20 +13838,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -10,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-16",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "02f2bcb04281",
@@ -16825,12 +13875,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c3df36d26472",
@@ -16867,12 +13912,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a5ab3a0a6d41",
@@ -16909,12 +13949,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "76bf1f06231d",
@@ -16951,12 +13986,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6c48db07706d",
@@ -16993,12 +14023,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "549d79e1d37a",
@@ -17035,12 +14060,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4870d12cb923",
@@ -17077,12 +14097,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "63c77e552a77",
@@ -17119,12 +14134,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-14",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "105cc58f4b60",
@@ -17161,12 +14171,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "88b352c179b7",
@@ -17203,12 +14208,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c495c2323975",
@@ -17245,12 +14245,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d06cfe7f18f4",
@@ -17287,12 +14282,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "bce1e05e4fdb",
@@ -17329,12 +14319,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4289331e0454",
@@ -17371,12 +14356,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b909c0c688b1",
@@ -17413,24 +14393,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -4,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "86e7f9e035c0",
@@ -17467,20 +14430,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Tags updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c648621c3815",
@@ -17517,12 +14467,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "abc8de3ebb54",
@@ -17559,20 +14504,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -9,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "755845d8da33",
@@ -17609,16 +14541,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -4,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "62979f5513e6",
@@ -17655,32 +14578,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-17",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Tags updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f225ba4927cb",
@@ -17717,12 +14615,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "aad9ebbf479e",
@@ -17759,12 +14652,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-16",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c91f23755bce",
@@ -17801,12 +14689,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "23af97b431f9",
@@ -17843,12 +14726,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "14a36b213468",
@@ -17885,16 +14763,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -2,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Priority updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "abdf576e3051",
@@ -17931,12 +14800,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d8628e4fadd1",
@@ -17973,20 +14837,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -8,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-18",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d34abf0d1b6d",
@@ -18023,12 +14874,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e38d5211cbe5",
@@ -18065,12 +14911,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "319e0c75c5ca",
@@ -18107,24 +14948,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -3,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d1abeb889dbe",
@@ -18161,12 +14985,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-17",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3d4eb96ba097",
@@ -18203,12 +15022,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e61b1564ba88",
@@ -18245,20 +15059,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -6,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-20",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9077bfaa77e8",
@@ -18295,12 +15096,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "00fd7802c21c",
@@ -18337,12 +15133,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a884a99a3e78",
@@ -18379,12 +15170,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "39cdbe4abfe1",
@@ -18421,12 +15207,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "70e76dfbeadc",
@@ -18463,12 +15244,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "40575873192c",
@@ -18505,12 +15281,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "09f917b528f5",
@@ -18547,12 +15318,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "368c1c8a4ec9",
@@ -18589,12 +15355,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f1318958aae9",
@@ -18631,12 +15392,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-18",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b61c1cef68cd",
@@ -18673,12 +15429,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d79b1b996bd4",
@@ -18715,12 +15466,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "bb18117bfd10",
@@ -18757,12 +15503,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "afe06f586307",
@@ -18799,12 +15540,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8b883ffcb366",
@@ -18841,12 +15577,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b9cf41b0e62b",
@@ -18883,12 +15614,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "9170e62afc35",
@@ -18925,12 +15651,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3cfc3f4721f5",
@@ -18967,12 +15688,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "de4a6198aaac",
@@ -19009,12 +15725,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a8db4b4ea99c",
@@ -19051,12 +15762,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "fb3db2ba0bbf",
@@ -19093,20 +15799,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "08f7b358e399",
@@ -19143,20 +15836,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4fdaa522106e",
@@ -19193,20 +15873,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "57174ad2bd1b",
@@ -19243,20 +15910,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "143dff2bb3a6",
@@ -19293,20 +15947,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "51a9ba497ede",
@@ -19343,20 +15984,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "73e36ab7db9d",
@@ -19393,20 +16021,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "dc1c42c9e0b8",
@@ -19443,20 +16058,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -5,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-23",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0543dbbbf925",
@@ -19493,12 +16095,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-20",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4d06d1e8f916",
@@ -19535,12 +16132,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6862b79e91c7",
@@ -19577,12 +16169,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "518c6666f6bb",
@@ -19619,12 +16206,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e247883de37f",
@@ -19661,20 +16243,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -2,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3e63ed18499a",
@@ -19711,20 +16280,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -2,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "a405e748ccd1",
@@ -19761,20 +16317,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "566cfc204c8d",
@@ -19811,12 +16354,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "bf8809f9547a",
@@ -19853,12 +16391,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c52011401359",
@@ -19895,12 +16428,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "7e63a450edd1",
@@ -19937,12 +16465,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -3,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "26862a34d5f4",
@@ -19979,12 +16502,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "68622f0c7142",
@@ -20021,12 +16539,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "89696fc396f7",
@@ -20063,12 +16576,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f5bcfedbc879",
@@ -20105,12 +16613,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e59aea3388ba",
@@ -20147,20 +16650,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": -1,
    "stage": "Expired",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Priority updated"
-    },
-    {
-     "date": "2026-07-25",
-     "label": "Verification Status updated"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4d588e41b03c",
@@ -20197,12 +16687,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "f40d87d65e83",
@@ -20239,12 +16724,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "b03a7dfef654",
@@ -20281,12 +16761,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "25a808c00cbb",
@@ -20323,12 +16798,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0d5ec7cce688",
@@ -20365,12 +16835,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4b4464a8663c",
@@ -20407,12 +16872,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "627a611aa22a",
@@ -20449,12 +16909,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "d22cc99d3e6e",
@@ -20491,12 +16946,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0d84033c3394",
@@ -20533,12 +16983,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8a85e279c0d4",
@@ -20575,12 +17020,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-23",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "35876248b27e",
@@ -20617,12 +17057,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "73b54a9706c9",
@@ -20659,12 +17094,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3e684e9f386f",
@@ -20701,12 +17131,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "c8f72f2759b5",
@@ -20743,12 +17168,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "057ea88c1d94",
@@ -20785,12 +17205,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "6962010dc2d3",
@@ -20827,12 +17242,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "4505f04ae0b2",
@@ -20869,12 +17279,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "0e160d9b01a1",
@@ -20911,12 +17316,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "3d3aa3fd9b24",
@@ -20953,12 +17353,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "e0202df4bf77",
@@ -20995,12 +17390,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   },
   {
    "notification_id": "8496dea83f1b",
@@ -21037,12 +17427,7 @@
    "last_checked": "2026-07-25T16:51:33",
    "days_left": null,
    "stage": "New",
-   "events": [
-    {
-     "date": "2026-07-25",
-     "label": "First seen"
-    }
-   ]
+   "events": []
   }
  ]
 }

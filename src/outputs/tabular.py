@@ -4,6 +4,8 @@ import json
 import os
 from datetime import datetime
 
+from ..models import stage as stage_of
+
 FIELDS = [
     "notification_id", "job_name", "exam_name", "department", "organization",
     "qualification", "age", "salary", "pay_level", "vacancies", "state", "location",
@@ -18,21 +20,27 @@ FIELDS = [
 def write_csv(notifications, path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS + ["days_left"], extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=FIELDS + ["days_left", "stage"],
+                           extrasaction="ignore")
         w.writeheader()
         for n in notifications:
             d = n.to_dict()
             d["days_left"] = n.days_left()
+            d["stage"] = stage_of(n)
             w.writerow(d)
     return path
 
 
-def write_json(notifications, path):
+def write_json(notifications, path, events=None):
+    """events: optional {notification_id: [{date, label}, ...]} timeline map."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    events = events or {}
     payload = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "count": len(notifications),
-        "notifications": [dict(n.to_dict(), days_left=n.days_left())
+        "notifications": [dict(n.to_dict(), days_left=n.days_left(),
+                               stage=stage_of(n),
+                               events=events.get(n.notification_id, []))
                           for n in notifications],
     }
     with open(path, "w", encoding="utf-8") as f:

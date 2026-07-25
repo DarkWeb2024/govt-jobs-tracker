@@ -66,6 +66,24 @@ padding:14px;margin-bottom:14px}
 .mini{font-size:10.5px;padding:3px 7px;color:var(--muted)}
 .mini:hover{color:var(--red);border-color:var(--red)}
 .mini.restore:hover{color:var(--green);border-color:var(--green)}
+.tabs{display:flex;gap:6px;margin-bottom:12px;border-bottom:1px solid var(--line)}
+.tab{background:none;border:none;border-bottom:2px solid transparent;border-radius:0;
+padding:10px 16px;font-size:14px;color:var(--muted)}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+.folders{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.folder{font-size:12px;padding:5px 11px;border-radius:99px}
+.folder.active{background:var(--accent);color:#0b1017;border-color:var(--accent);font-weight:600}
+.folder .fc{opacity:.7;font-size:11px;margin-left:3px}
+.stage-sel{font-size:11px;padding:3px 6px}
+.badge.st{color:var(--accent);border-color:var(--accent)}
+.badge.st-Applied,.badge.st-Result,.badge.st-Joined{color:var(--green);border-color:var(--green)}
+.badge.st-Expired,.badge.st-Not.Eligible,.badge.st-Duplicate,.badge.st-Rejected{color:var(--muted)}
+.tl-btn{font-size:11px;padding:3px 7px}
+.timeline{border-left:2px solid var(--line);margin:2px 0 0 6px;padding:2px 0 2px 12px;
+display:flex;flex-direction:column;gap:6px}
+.tl-ev{font-size:11.5px;color:var(--muted)}
+.tl-ev b{color:var(--text);font-weight:600}
+.tl-date{display:inline-block;min-width:76px;color:var(--accent)}
 @media(max-width:640px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
@@ -84,10 +102,15 @@ padding:14px;margin-bottom:14px}
   </div>
 </header>
 <div class="wrap">
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-sec="">All</button>
+    <button class="tab" data-sec="jobs">Government Jobs</button>
+    <button class="tab" data-sec="exams">Government Exams</button>
+  </div>
+  <div class="folders" id="folders"></div>
   <div class="stats" id="stats"></div>
   <div class="controls">
     <input id="q" placeholder="Search jobs, exams, organizations...">
-    <select id="fCat"><option value="">All categories</option></select>
     <select id="fVer">
       <option value="">All verification</option>
       <option value="verified">Verified only</option>
@@ -109,11 +132,9 @@ padding:14px;margin-bottom:14px}
       <option value="priority">Sort: priority</option>
       <option value="name">Sort: name A-Z</option>
     </select>
-    <button id="fOpen" class="active">Open only</button>
+    <button id="fOpen">Open only</button>
     <button id="fFav">Bookmarked</button>
-    <button id="fApp">My applications</button>
     <button id="fCal">Calendar</button>
-    <button id="fHid">Hidden</button>
     <button id="fSet">Settings</button>
   </div>
   <div class="settings" id="settings" style="display:none">
@@ -138,24 +159,66 @@ padding:14px;margin-bottom:14px}
 </footer>
 <script>
 let DATA=[],favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]")),
-applied=new Set(JSON.parse(localStorage.getItem("applied")||"[]")),
-hidden=JSON.parse(localStorage.getItem("hidden")||"{}"),
+mystat=JSON.parse(localStorage.getItem("mystat")||"{}"),
 prefs=JSON.parse(localStorage.getItem("prefs")||'{"inc":"","exc":""}');
 const $=id=>document.getElementById(id);
-const state={q:"",cat:"",ver:"",pri:"",scope:"",sort:"deadline",
-  open:true,fav:false,app:false,cal:false,hid:false};
+const state={q:"",sec:"",folder:"",ver:"",pri:"",scope:"",sort:"deadline",
+  open:false,fav:false,cal:false};
 const PRI_ORDER={Critical:0,High:1,Medium:2,Low:3};
-const HIDDEN_DB=new Set(["Not Interested","Not Eligible"]);
-function isHidden(n){return hidden[n.notification_id]!==undefined||HIDDEN_DB.has(n.status)}
+const APPLIED_STATES=new Set(["Applied","Application Submitted","Already Applied",
+"Fee Pending","Fee Paid","Exam Scheduled","Admit Card Available","Exam Completed"]);
+const HIDDEN_STAGES=new Set(["Not Eligible","Duplicate","Archived"]);
+const DEFAULT_HIDE=new Set(["Expired","Archived","Not Eligible","Duplicate"]);
+const FOLDERS=[["","All active"],["New","New"],["Eligible","Eligible"],
+  ["Applied","Applied"],["Result","Results"],["Expired","Expired"],
+  ["Not Eligible","Not eligible"],["Duplicate","Duplicate"],["Archived","Archived"]];
+// status set from a card's dropdown; "New" clears the override
+const SET_OPTS=[["New","- set status -"],["Eligible","Eligible"],["Applied","Applied"],
+  ["Result Awaited","Result awaited"],["Result Declared","Result declared"],
+  ["Joined","Joined"],["Rejected","Rejected"],["Not Eligible","Not eligible"],
+  ["Duplicate","Duplicate"],["Archived","Archived"]];
+
+function migrateOld(){
+  // fold the previous applied/hidden localStorage into the single status map
+  const oldApplied=JSON.parse(localStorage.getItem("applied")||"[]");
+  const oldHidden=JSON.parse(localStorage.getItem("hidden")||"{}");
+  let touched=false;
+  oldApplied.forEach(id=>{if(!mystat[id]){mystat[id]="Applied";touched=true}});
+  Object.entries(oldHidden).forEach(([id,r])=>{if(!mystat[id]){
+    mystat[id]=/eligib/i.test(r)?"Not Eligible":"Not Eligible";touched=true}});
+  if(touched)localStorage.setItem("mystat",JSON.stringify(mystat));
+  localStorage.removeItem("applied");localStorage.removeItem("hidden");
+}
+migrateOld();
+
+function effStatus(n){return mystat[n.notification_id]||n.status||"Not Applied"}
 function isKarnataka(n){return((n.state||"")+" "+(n.location||"")).toLowerCase().includes("karnataka")}
 function kwList(s){return s.split(",").map(x=>x.trim().toLowerCase()).filter(Boolean)}
+function inSection(n){return state.sec===""?true:
+  state.sec==="exams"?n.category==="Exam":n.category!=="Exam"}
+
+// mirror of the Python stage() so the site and the reports agree
+function stageOf(n){
+  const s=effStatus(n);
+  if(s==="Duplicate")return"Duplicate";
+  if(s==="Not Eligible"||s==="Not Interested")return"Not Eligible";
+  if(s==="Archived")return"Archived";
+  if(s==="Joined"||s==="Completed"||s==="Offer Released")return"Joined";
+  if(s==="Rejected")return"Rejected";
+  if(s==="Result Awaited"||s==="Result Declared"||s==="Answer Key Released")return"Result";
+  if(APPLIED_STATES.has(s))return"Applied";
+  if(s==="Eligible")return"Eligible";
+  if((n.days_left!=null&&n.days_left<0)||/closed|expired|cancel/i.test(n.verification_status))
+    return"Expired";
+  return"New";
+}
+function inFolder(n){const s=stageOf(n);
+  return state.folder===""?!DEFAULT_HIDE.has(s):s===state.folder}
 
 fetch("data.json").then(r=>r.json()).then(j=>{
   DATA=j.notifications||[];
   $("updated").textContent="Last updated: "+new Date(j.generated_at).toLocaleString("en-IN")
     +" | "+DATA.length+" notifications tracked";
-  const cats=[...new Set(DATA.map(n=>n.category).filter(Boolean))];
-  cats.forEach(c=>{const o=document.createElement("option");o.textContent=c;$("fCat").appendChild(o)});
   render();
 });
 
@@ -165,17 +228,15 @@ function daysLabel(n){
   const cls=n.days_left<=3?"danger":n.days_left<=7?"warn":"ok";
   return'<span class="count '+cls+'">'+n.days_left+' day'+(n.days_left===1?"":"s")+' left</span>';
 }
-const APPLIED_STATES=new Set(["Applied","Application Submitted","Already Applied",
-"Fee Pending","Fee Paid","Exam Scheduled","Admit Card Available","Exam Completed","Result Awaited"]);
-function isAppliedStatus(s){return APPLIED_STATES.has(s)}
 function isOpen(n){return n.days_left===null||n.days_left===undefined?
   !/closed|expired|cancel/i.test(n.verification_status):n.days_left>=0}
 
 function render(){
   const q=state.q.toLowerCase();
   const inc=kwList(prefs.inc),exc=kwList(prefs.exc);
-  let rows=DATA.filter(n=>{
-    if(state.hid!==isHidden(n))return false;
+  const secSet=DATA.filter(inSection);
+  let rows=secSet.filter(n=>{
+    if(!inFolder(n))return false;
     const hay=(n.job_name+" "+n.organization+" "+n.department+" "+n.tags+" "
       +n.qualification).toLowerCase();
     if(q&&!hay.includes(q))return false;
@@ -183,14 +244,12 @@ function render(){
     if(exc.length&&exc.some(k=>hay.includes(k)))return false;
     if(state.scope==="central"&&isKarnataka(n))return false;
     if(state.scope==="karnataka"&&!isKarnataka(n))return false;
-    if(state.cat&&n.category!==state.cat)return false;
     if(state.ver==="verified"&&!/^Verified/.test(n.verification_status))return false;
     if(state.ver==="unverified"&&n.verification_status!=="Unverified")return false;
     if(state.ver==="closed"&&!/closed|expired/i.test(n.verification_status))return false;
     if(state.pri&&n.priority!==state.pri)return false;
     if(state.open&&!isOpen(n))return false;
     if(state.fav&&!favs.has(n.notification_id))return false;
-    if(state.app&&!applied.has(n.notification_id)&&!isAppliedStatus(n.status))return false;
     return true;
   });
   if(state.sort==="deadline")rows.sort((a,b)=>(a.days_left??9999)-(b.days_left??9999));
@@ -198,19 +257,33 @@ function render(){
   else if(state.sort==="priority")rows.sort((a,b)=>(PRI_ORDER[a.priority]??9)-(PRI_ORDER[b.priority]??9)
     ||(a.days_left??9999)-(b.days_left??9999));
   else if(state.sort==="name")rows.sort((a,b)=>a.job_name.localeCompare(b.job_name));
-  const st={total:DATA.length,open:DATA.filter(isOpen).length,
-    ver:DATA.filter(n=>/^Verified/.test(n.verification_status)).length,
-    urgent:DATA.filter(n=>n.days_left!==null&&n.days_left>=0&&n.days_left<=7).length,
-    applied:new Set([...DATA.filter(n=>isAppliedStatus(n.status)).map(n=>n.notification_id),...applied]).size,
+
+  // folders row with per-section counts
+  const stageCount={};secSet.forEach(n=>{const s=stageOf(n);stageCount[s]=(stageCount[s]||0)+1});
+  const activeCount=secSet.filter(n=>!DEFAULT_HIDE.has(stageOf(n))).length;
+  $("folders").innerHTML=FOLDERS.map(([k,l])=>{
+    const c=k===""?activeCount:(stageCount[k]||0);
+    return'<button class="folder'+(state.folder===k?" active":"")+'" data-folder="'+k+'">'+
+      l+'<span class="fc">'+c+'</span></button>';
+  }).join("");
+  [...document.querySelectorAll(".folder")].forEach(b=>
+    b.onclick=()=>{state.folder=b.dataset.folder;render()});
+
+  const st={
+    total:secSet.length,
+    nw:stageCount["New"]||0, elig:stageCount["Eligible"]||0,
+    app:stageCount["Applied"]||0, res:stageCount["Result"]||0,
+    urgent:secSet.filter(n=>n.days_left!=null&&n.days_left>=0&&n.days_left<=7).length,
     showing:rows.length};
   $("stats").innerHTML=
-    '<div class="stat"><b>'+st.total+'</b><i>Tracked</i></div>'+
-    '<div class="stat"><b>'+st.open+'</b><i>Open now</i></div>'+
-    '<div class="stat"><b>'+st.ver+'</b><i>Verified</i></div>'+
+    '<div class="stat"><b>'+st.total+'</b><i>In this section</i></div>'+
+    '<div class="stat"><b>'+st.nw+'</b><i>New</i></div>'+
+    '<div class="stat"><b>'+st.elig+'</b><i>Eligible</i></div>'+
+    '<div class="stat"><b style="color:var(--green)">'+st.app+'</b><i>Applied</i></div>'+
+    '<div class="stat"><b style="color:var(--green)">'+st.res+'</b><i>Results</i></div>'+
     '<div class="stat"><b style="color:var(--red)">'+st.urgent+'</b><i>Closing in 7 days</i></div>'+
-    '<div class="stat"><b style="color:var(--green)">'+st.applied+'</b><i>Applied</i></div>'+
     '<div class="stat"><b>'+st.showing+'</b><i>Showing</i></div>';
-  charts();
+  charts(secSet);
   if(state.cal){
     const withDate=rows.filter(n=>/^\d{4}-\d{2}-\d{2}$/.test(n.application_end||""));
     withDate.sort((a,b)=>a.application_end.localeCompare(b.application_end));
@@ -224,13 +297,11 @@ function render(){
     }
     if(noDate.length){html+='<div class="month-head">Date to be announced</div>'
       +noDate.map(card).join("")}
-    $("grid").innerHTML=html||'<div class="meta">Nothing matches the current filters.</div>';
+    $("grid").innerHTML=html||'<div class="meta">Nothing in this folder.</div>';
   }else{
     $("grid").innerHTML=rows.map(card).join("")||
-      '<div class="meta">Nothing matches the current filters.</div>';
+      '<div class="meta">Nothing in this folder.</div>';
   }
-  const hidCount=DATA.filter(isHidden).length;
-  $("fHid").textContent=hidCount?"Hidden ("+hidCount+")":"Hidden";
 }
 
 function barRows(counts,cls){
@@ -240,31 +311,34 @@ function barRows(counts,cls){
     '<div class="bar-fill '+(cls[k]||"")+'" style="width:'+Math.round(v/max*100)+'%"></div>'+
     '</div><b>'+v+'</b></div>').join("");
 }
-function charts(){
-  const open=DATA.filter(isOpen);
+function charts(secSet){
+  const open=secSet.filter(isOpen);
   const pri={Critical:0,High:0,Medium:0,Low:0};
   open.forEach(n=>{if(n.priority in pri)pri[n.priority]++});
   const org={};
   open.forEach(n=>{const o=n.organization||"Other";org[o]=(org[o]||0)+1});
-  const topOrg=Object.fromEntries(Object.entries(org)
-    .sort((a,b)=>b[1]-a[1]).slice(0,6));
-  const cat={};
-  open.forEach(n=>{const c=n.category||"Other";cat[c]=(cat[c]||0)+1});
+  const topOrg=Object.fromEntries(Object.entries(org).sort((a,b)=>b[1]-a[1]).slice(0,6));
+  const stg={};secSet.forEach(n=>{const s=stageOf(n);stg[s]=(stg[s]||0)+1});
   $("charts").innerHTML=
     '<div class="chart"><h4>Open by priority</h4>'+
     barRows(pri,{Critical:"r",High:"a",Medium:"",Low:"g"})+'</div>'+
     '<div class="chart"><h4>Open by organization (top 6)</h4>'+barRows(topOrg,{})+'</div>'+
-    '<div class="chart"><h4>Open by category</h4>'+barRows(cat,{})+'</div>';
+    '<div class="chart"><h4>By workflow stage</h4>'+barRows(stg,{Applied:"g",Result:"g",Expired:"a"})+'</div>';
 }
 
 function card(n){
-  const id=n.notification_id;
+  const id=n.notification_id,stg=stageOf(n);
   const ver=/^Verified/.test(n.verification_status);
+  const evs=(n.events||[]);
+  const localEv=mystat[id]?[{date:"you",label:"You set: "+mystat[id]}]:[];
+  const allEv=evs.concat(localEv);
+  const stCls="st-"+stg.replace(/\s/g,".");
   return '<div class="card">'+
     '<div style="display:flex;justify-content:space-between;gap:6px">'+
     '<h3>'+esc(n.job_name)+'</h3>'+
     '<button class="star'+(favs.has(id)?" on":"")+'" onclick="fav(\''+id+'\')">&#9733;</button></div>'+
     '<div class="badges">'+
+    '<span class="badge st '+stCls+'">'+esc(stg)+'</span>'+
     '<span class="badge '+(ver?"v":"u")+'">'+esc(n.verification_status)+'</span>'+
     (n.priority&&n.priority!=="Low"?'<span class="badge p-'+n.priority.replace(" ","")+'">'+n.priority+'</span>':"")+
     (n.category?'<span class="badge">'+esc(n.category)+'</span>':"")+
@@ -277,37 +351,39 @@ function card(n){
     (n.apply_link?'<a href="'+esc(n.apply_link)+'" target="_blank" rel="noopener">Apply / details</a>':"")+
     (n.official_pdf?'<a href="'+esc(n.official_pdf)+'" target="_blank" rel="noopener">Official PDF</a>':"")+
     (n.official_website?'<a href="'+esc(n.official_website)+'" target="_blank" rel="noopener">Official site</a>':"")+
-    '<button class="applied-btn'+(applied.has(id)||isAppliedStatus(n.status)?" on":"")+
-    '" onclick="markApplied(\''+id+'\')">'+(applied.has(id)||isAppliedStatus(n.status)?"Applied":"Mark applied")+'</button>'+
-    (isHidden(n)
-      ?'<button class="mini restore" onclick="restore(\''+id+'\')">Restore</button>'
-      :'<button class="mini" onclick="hide(\''+id+'\',\'Not interested\')">Not interested</button>'+
-       '<button class="mini" onclick="hide(\''+id+'\',\'Not eligible\')">Not eligible</button>')+
+    (allEv.length?'<button class="tl-btn" onclick="toggleTl(\''+id+'\')">Timeline ('+allEv.length+')</button>':"")+
     '</div>'+
-    (isHidden(n)&&hidden[id]?'<div class="meta">Hidden: '+esc(hidden[id])+'</div>':"")+
+    '<div style="display:flex;gap:6px;align-items:center">'+
+    '<select class="stage-sel" onchange="setStage(\''+id+'\',this.value)">'+
+    SET_OPTS.map(([v,l])=>'<option value="'+v+'"'+
+      (effStatus(n)===v?" selected":"")+'>'+l+'</option>').join("")+'</select>'+
+    '</div>'+
+    '<div class="timeline" id="tl-'+id+'" style="display:none">'+
+    allEv.map(e=>'<div class="tl-ev"><span class="tl-date">'+esc(e.date)+'</span> '+
+      esc(e.label)+'</div>').join("")+'</div>'+
     '</div>';
 }
-function hide(id,reason){hidden[id]=reason;
-  localStorage.setItem("hidden",JSON.stringify(hidden));render()}
-function restore(id){delete hidden[id];
-  localStorage.setItem("hidden",JSON.stringify(hidden));render()}
+function toggleTl(id){const d=$("tl-"+id);d.style.display=d.style.display==="none"?"":"none"}
+function setStage(id,val){
+  if(val==="New")delete mystat[id];else mystat[id]=val;
+  localStorage.setItem("mystat",JSON.stringify(mystat));render();
+}
 function esc(s){return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function fav(id){favs.has(id)?favs.delete(id):favs.add(id);
   localStorage.setItem("favs",JSON.stringify([...favs]));render()}
-function markApplied(id){applied.has(id)?applied.delete(id):applied.add(id);
-  localStorage.setItem("applied",JSON.stringify([...applied]));render()}
 
+[...document.querySelectorAll(".tab")].forEach(t=>
+  t.onclick=()=>{state.sec=t.dataset.sec;state.folder="";
+    [...document.querySelectorAll(".tab")].forEach(x=>x.classList.remove("active"));
+    t.classList.add("active");render()});
 $("q").oninput=e=>{state.q=e.target.value;render()};
-$("fCat").onchange=e=>{state.cat=e.target.value;render()};
 $("fVer").onchange=e=>{state.ver=e.target.value;render()};
 $("fPri").onchange=e=>{state.pri=e.target.value;render()};
 $("fOpen").onclick=e=>{state.open=!state.open;e.target.classList.toggle("active");render()};
 $("fFav").onclick=e=>{state.fav=!state.fav;e.target.classList.toggle("active");render()};
-$("fApp").onclick=e=>{state.app=!state.app;e.target.classList.toggle("active");render()};
 $("fSort").onchange=e=>{state.sort=e.target.value;render()};
 $("fCal").onclick=e=>{state.cal=!state.cal;e.target.classList.toggle("active");render()};
 $("fScope").onchange=e=>{state.scope=e.target.value;render()};
-$("fHid").onclick=e=>{state.hid=!state.hid;e.target.classList.toggle("active");render()};
 $("fSet").onclick=e=>{const p=$("settings");
   p.style.display=p.style.display==="none"?"":"none";e.target.classList.toggle("active")};
 $("setInc").value=prefs.inc;$("setExc").value=prefs.exc;

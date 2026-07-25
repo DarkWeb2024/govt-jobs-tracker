@@ -2,8 +2,9 @@ name: daily-tracker
 
 on:
   schedule:
-    # 23:40 IST = 18:10 UTC
-    - cron: "10 18 * * *"
+    # four runs a day, IST -> UTC (IST = UTC+5:30):
+    # 06:00 IST = 00:30 | 12:00 = 06:30 | 18:00 = 12:30 | 22:00 = 16:30
+    - cron: "30 0,6,12,16 * * *"
   workflow_dispatch:
 
 permissions:

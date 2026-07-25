@@ -17,10 +17,44 @@ TRACK_STATES = [
     "Result Awaited", "Result Declared", "Shortlisted", "Interview",
     "Document Verification", "Offer Released", "Rejected", "Completed",
     "Already Applied", "Not Interested", "Not Eligible",
+    "Eligible", "Duplicate", "Joined", "Archived",
 ]
 
 # statuses that remove a record from default views without deleting it
-HIDDEN_STATES = {"Not Interested", "Not Eligible"}
+HIDDEN_STATES = {"Not Interested", "Not Eligible", "Duplicate", "Archived"}
+
+# The workflow is a single-active-status lifecycle: each notification sits in
+# exactly ONE stage folder, derived from its status. Changing the status moves
+# it between folders - it can never be in two at once. Verification status is a
+# separate trust signal and is intentionally NOT part of this.
+STAGES = ["New", "Eligible", "Applied", "Result", "Joined", "Rejected",
+          "Expired", "Archived", "Not Eligible", "Duplicate"]
+
+
+def stage(n, today=None):
+    """Return the single workflow folder a notification belongs in."""
+    s = n.status or "Not Applied"
+    if s == "Duplicate":
+        return "Duplicate"
+    if s in ("Not Eligible", "Not Interested"):
+        return "Not Eligible"
+    if s == "Archived":
+        return "Archived"
+    if s in ("Joined", "Completed", "Offer Released"):
+        return "Joined"
+    if s == "Rejected":
+        return "Rejected"
+    if s in ("Result Awaited", "Result Declared", "Answer Key Released"):
+        return "Result"
+    if is_applied(s):
+        return "Applied"
+    if s == "Eligible":
+        return "Eligible"
+    dl = n.days_left(today)
+    if (dl is not None and dl < 0) or \
+            n.verification_status in ("Application Closed", "Expired", "Cancelled"):
+        return "Expired"
+    return "New"
 
 PRIORITIES = ["Critical", "High", "Medium", "Low"]
 
