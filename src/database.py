@@ -34,6 +34,11 @@ CREATE TABLE IF NOT EXISTS aliases (
     alias_id TEXT PRIMARY KEY,
     canonical_id TEXT NOT NULL
 );
+CREATE TABLE IF NOT EXISTS watch_snapshots (
+    notification_id TEXT PRIMARY KEY,
+    seen TEXT NOT NULL,
+    updated_at TEXT
+);
 """
 
 # fields the pipeline may not overwrite once a human set them
@@ -145,6 +150,29 @@ class Store:
         self.conn.commit()
         log.info("merged %s into %s", dup_id, keep_id)
         return True
+
+    def watch_diff(self, nid, signals):
+        """Compare the current update-signals seen on an applied record's
+        official page against what we saw before. Returns (new_signals,
+        is_first_time). First time establishes a silent baseline so we only
+        report genuinely new notices afterwards."""
+        now = datetime.now().isoformat(timespec="seconds")
+        cur = list(dict.fromkeys(signals))   # de-dup, keep order
+        row = self.conn.execute(
+            "SELECT seen FROM watch_snapshots WHERE notification_id=?", (nid,)).fetchone()
+        if row is None:
+            self.conn.execute("INSERT INTO watch_snapshots VALUES (?,?,?)",
+                              (nid, json.dumps(cur, ensure_ascii=False), now))
+            self.conn.commit()
+            return [], True
+        seen = set(json.loads(row[0]))
+        new = [s for s in cur if s not in seen]
+        if new:
+            self.conn.execute(
+                "UPDATE watch_snapshots SET seen=?, updated_at=? WHERE notification_id=?",
+                (json.dumps(sorted(seen | set(cur)), ensure_ascii=False), now, nid))
+            self.conn.commit()
+        return new, False
 
     def append_note(self, nid, note):
         """Add a dated note line (history-logged); used by the applied-updates

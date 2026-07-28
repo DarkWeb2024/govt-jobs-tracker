@@ -93,17 +93,37 @@ For records that are simply noise (not duplicates), use the site's
 
 ## Updates on applied jobs and exams
 
-Every nightly run watches all sources for announcements that mention your
-applied records - admit cards, hall tickets, results, answer keys, merit
-lists, correction windows, exam dates, interview schedules, cut-offs. A match
-is stamped into the record's notes with the date and link, appears in the
-site card, in the Excel History sheet, and in the "changes" section of the
-daily email. Nothing is overwritten automatically - when you actually download
-an admit card, promote the status yourself:
+Two mechanisms run on every pass (4x a day) for records whose status is Applied:
+
+1. **Active official-page watch** - fetches each applied record's own official
+   page and reports any NEW notice signalling an update (admit card, result,
+   answer key, correction window, exam date, cut-off...). The first visit
+   records a silent baseline, so you only hear about notices that appear
+   *after* you applied. This works even when no aggregator mentions your record.
+2. **Announcement matcher** - scans every source for update headlines and links
+   them to your applied records by organisation and exam code (so a terse
+   "SSC CGL Tier 1 Admit Card" still matches your SSC CGL application).
+
+Either way, a hit is stamped into the record's timeline with the date, shows on
+the site card's Timeline, in the Excel History sheet, and in the daily email's
+changes section. Nothing is overwritten - when you actually download an admit
+card, promote the status yourself:
 
 ```
 python main.py --status <id> "Admit Card Available"
 ```
+
+**Important - what counts as "Applied":** the watcher acts on records whose
+status is Applied *in the database*. Marking a card Applied on the website only
+saves to your browser. So when you genuinely apply to something new, set it in
+the database once so it gets watched:
+
+```
+python main.py --status <id> "Applied"
+```
+
+Your existing applications (SBI PO, SSC CGL) are already set in the database and
+are being watched.
 
 ## The daily email
 

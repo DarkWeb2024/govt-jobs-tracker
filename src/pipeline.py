@@ -67,10 +67,15 @@ def track_applied_updates(store, update_items):
                 org_tokens.add("".join(w[0] for w in org_words if w[0].isupper()).lower())
             name_tokens = {t for t in re.split(r"\W+", a.job_name.lower())
                            if len(t) > 3 and not t.isdigit()}
+            # distinctive exam codes in the applied title (CGL, NTPC, CHSL...),
+            # minus the org acronym itself
+            codes = {c.lower() for c in re.findall(r"\b[A-Z]{2,6}\b", a.job_name)}
+            codes -= org_tokens
             if not org_tokens & low_tokens:
                 continue
             overlap = sum(1 for t in name_tokens if t in low)
-            if overlap < 2:
+            code_hit = any(c in low_tokens for c in codes)
+            if overlap < 2 and not code_hit:
                 continue
             note = f"Update {today}: {item.job_name[:120]} -> {item.apply_link or item.official_website}"
             if item.job_name[:60].lower() in (a.notes or "").lower():
@@ -114,6 +119,49 @@ def build_events(store):
             events[n.notification_id].insert(0, {"date": first, "label": "First seen"})
         events[n.notification_id] = events.get(n.notification_id, [])[:25]
     return events
+
+
+def track_official_pages(store):
+    """The strong applied-tracking mechanism: for every record the user has
+    applied to, fetch its own official page each run and report any NEW notice
+    whose text signals an update (admit card, result, answer key, correction
+    window, exam date, ...). The first visit records a silent baseline so only
+    genuinely new notices are reported afterwards. Works even when no aggregator
+    happens to mention the record."""
+    from .models import is_applied
+    from .scrapers.base import soup, clean
+    applied = [n for n in store.all() if is_applied(n.status)]
+    today = datetime.now().strftime("%Y-%m-%d")
+    hits = 0
+    for a in applied:
+        url = a.official_website or a.apply_link
+        if not url or not url.startswith("http"):
+            continue
+        try:
+            page = soup(url)
+        except Exception as e:
+            log.warning("official-page watch: %s failed: %s", url, e)
+            page = None
+        if page is None:
+            continue
+        signals = []
+        for link in page.select("a[href]"):
+            t = clean(link.get_text())
+            if 6 < len(t) < 140 and UPDATE_PAT.search(t):
+                signals.append(t)
+        new, first = store.watch_diff(a.notification_id, signals)
+        if first:
+            store.append_note(a.notification_id,
+                              f"Now watching official page {today}: "
+                              f"{len(signals)} notice(s) on {url}")
+            log.info("official-page watch armed for %s (%d notices)",
+                     a.job_name[:40], len(signals))
+            continue
+        for s in new:
+            store.append_note(a.notification_id, f"Official page update {today}: {s}")
+            log.info("official-page UPDATE for %s: %s", a.job_name[:40], s[:70])
+            hits += 1
+    return hits
 
 
 def update_org_registry(notifications, path="data/organizations.json"):
@@ -173,6 +221,8 @@ def run(cfg_path="config/config.yaml"):
     update_items = [n for n in raw if UPDATE_PAT.search(n.job_name)]
     raw = [n for n in raw if not UPDATE_PAT.search(n.job_name)]
     matched_updates = track_applied_updates(store, update_items)
+    # plus actively re-check each applied record's own official page
+    matched_updates += track_official_pages(store)
 
     new = updated = 0
     for n in raw:

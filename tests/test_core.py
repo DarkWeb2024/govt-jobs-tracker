@@ -254,6 +254,42 @@ class TestAppliedUpdates(unittest.TestCase):
                    organization="UPSC")
         self.assertEqual(track_applied_updates(store, [upd]), 0)
 
+    def test_short_admit_card_title_matches_by_exam_code(self):
+        # the real-world failure: a terse "SSC CGL Tier 1 Admit Card" shares too
+        # few words, but the exam code CGL should still link it
+        from src.pipeline import track_applied_updates
+        tmp = tempfile.mkdtemp()
+        store = Store(os.path.join(tmp, "t.db"))
+        a = note(job_name="SSC CGL 2026 - Combined Graduate Level (12,256 posts)",
+                 organization="Staff Selection Commission")
+        store.upsert(a)
+        store.set_status(a.notification_id, "Applied")
+        upd = note(job_name="SSC CGL 2026 Tier 1 Admit Card Released",
+                   organization="SSC")
+        self.assertEqual(track_applied_updates(store, [upd]), 1)
+        self.assertIn("Admit Card", store.get(a.notification_id).notes)
+
+
+class TestWatchSnapshot(unittest.TestCase):
+    def setUp(self):
+        self.store = Store(os.path.join(tempfile.mkdtemp(), "t.db"))
+
+    def test_baseline_then_new_notice(self):
+        nid = "abc123"
+        # first visit: baseline, nothing "new"
+        new, first = self.store.watch_diff(nid, ["Prelims Admit Card 2026"])
+        self.assertTrue(first)
+        self.assertEqual(new, [])
+        # unchanged page: still nothing new
+        new, first = self.store.watch_diff(nid, ["Prelims Admit Card 2026"])
+        self.assertFalse(first)
+        self.assertEqual(new, [])
+        # a fresh notice appears
+        new, first = self.store.watch_diff(
+            nid, ["Prelims Admit Card 2026", "Final Result 2026 Declared"])
+        self.assertFalse(first)
+        self.assertEqual(new, ["Final Result 2026 Declared"])
+
 
 if __name__ == "__main__":
     unittest.main()
